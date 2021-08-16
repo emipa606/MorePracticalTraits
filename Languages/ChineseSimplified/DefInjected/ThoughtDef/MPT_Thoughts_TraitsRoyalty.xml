@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- PTD02sw Thoughts_Situation_MusicalInstruments -->
+  <PTD02swListeningToHarp.stages.0.label>…</PTD02swListeningToHarp.stages.0.label>
+  <PTD02swListeningToHarp.stages.0.description>…</PTD02swListeningToHarp.stages.0.description>
+  <PTD02swListeningToHarpsichord.stages.0.label>……</PTD02swListeningToHarpsichord.stages.0.label>
+  <PTD02swListeningToHarpsichord.stages.0.description>……</PTD02swListeningToHarpsichord.stages.0.description>
+  <PTD02swListeningToPiano.stages.0.label>………</PTD02swListeningToPiano.stages.0.label>
+  <PTD02swListeningToPiano.stages.0.description>………</PTD02swListeningToPiano.stages.0.description>
+</LanguageData>

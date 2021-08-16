@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Practical Traits</name>
+  <url>
+  </url>
+  <author>BOXrsxx, Vaniat, LingLuo</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>BOXrsxx.MorePracticalTraits</packageId>
+  <description>
+
+
+Thanks: user19990313, RicoFox233, BiscuitMiner
+
+version：1158
+
+compatibility:1.0, 1.1, Royalty
+
+This mod was made to commemorate Gaoshi.
+
+The mod adds some practical traits to the game. Different colors indicate the strength of the traits.
+&lt;color=#DCDCDC&gt;[gray]&lt;/color&gt;: These traits are neutral or negative.
+&lt;color=#33ff00&gt;[green]&lt;/color&gt;:These traits have some gain effects and the strength is comparable to "fast walker".
+&lt;color=#66ccff&gt;[blue]&lt;/color&gt;:These traits have some good gain effects and the strength is comparable to "hard worker".
+&lt;color=#cc33cc&gt;[violet]&lt;/color&gt;:These traits have some excellent gain effects so that they have a great advantage in a certain field. The strength is comparable to "industrious".
+&lt;color=#ff99ff&gt;[pink]&lt;/color&gt;:Moe traits.These traits have some unique social effects.The strength is comparable to "hard worker".
+&lt;color=#F08080&gt;[light red]&lt;/color&gt;:The traits of "Gaoshi". These traits come from game videos made by an intriguing(irritating...) Chinese anchor. The strength is comparable to "hard worker".
+&lt;color=#FF3030&gt;[red]&lt;/color&gt;:The advanced traits of "Gaoshi". These traits come from game videos made by an intriguing(irritating...) Chinese anchor. 
+&lt;color=#FFCC66&gt;&lt;b&gt;[golden]&lt;/b&gt;&lt;/color&gt;:Custom traits. These traits make your character unique. You almost only get the traits with "EdB Prepare Carefully".
+The strength of the traits is inversely proportional to the rate of occurrence. It means that you will hardly meet a person with golden traits during normal game time.
+
+内容：
+增加更多特性
+→ 负面特性：灰色。整体为负面效果
+→ 基础特性：绿色。效果期望与原版普通正面属性相当（对比参考：疾行者）
+→ 进阶特性：蓝色。效果期望介于原版普通和优秀正面属性之间（对比参考：工作勤奋）
+→ 专业特性：紫色。效果期望和原版正面优秀属性相当（对比参考：工作狂，极端神经质）
+→ 特殊特性：
+粉色。萌属性相关特性。以改善人际关系为主，效果期望介于原版普通和优秀正面属性之间
+浅红。以营造背景的正常特性。效果期望介于原版普通和优秀正面属性之间
+红色。营造背景的强力特性，综合效果和原版正面优秀属性相当
+→ 定制特性：金色。营造背景的极佳特性，某领域的极端强化
+正常游戏状态下，各特性有相关参数控制出现率，不会出现优秀特性泛滥的情况，可安心使用。
+
+
+
+更新内容：
+1.1
+→ 兼容1.0,1.1，皇权
+→ 增加大量新特性
+→ 原有特性的平衡性调整
+→ 增加皇权DLC的相关特性（可在没有该DLC的情况下正常使用）
+→ 增加只狼，Kenshi相关话题
+
+1.0
+→ 增加太吾绘卷相关话题
+→ 平衡性调整
+
+
+B19
+→ 增加支持英语和繁体中文（感谢user19990313和脆饼提供大力协助）
+→ 增加搞事系列相关特性
+→ 增加未来科技全系列相关话题
+→ 增加部分特性
+→ 增加部分特性的社交特效
+→ 取消美观度属性
+→ 平衡性调整
+→ 整合LingLuo的相关特性
+
+
+B18
+→ 平衡性调整
+→ 增加部分特性
+
+
+A17 1.04
+1.整合Vaniat的相关特性
+2.调整A16和整合特性效果、出现率
+3.原A16特性“石工”取消
+4.增加部分特性
+5.增加显示特效
+6.优化兼容性和读取速度
+
+
+A16
+1.原A15特性“友善”,由于原版增加特性，改名为“热情”
+2.调整部分A15特性效果和出现率
+3.增加部分特性
+4.增加定制特性
+5.去掉Gaoshi相关特性，增加以其命名的高级特性
+</description>
+</ModMetaData>

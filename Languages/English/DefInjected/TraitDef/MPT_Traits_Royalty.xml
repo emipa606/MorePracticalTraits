@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 皇权相关特性 royalty traits -->
+  <PTR01sl.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Snobbish&lt;/color&gt;</PTR01sl.degreeDatas.0.label>
+  <PTR01sl.degreeDatas.0.description>[PAWN_nameDef] loves power. [PAWN_pronoun] is always chasing higher noble titles. </PTR01sl.degreeDatas.0.description>
+  <PTR02qg.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Lofty&lt;/color&gt;</PTR02qg.degreeDatas.0.label>
+  <PTR02qg.degreeDatas.0.description>[PAWN_nameDef] ignores power. [PAWN_pronoun] hates the title of nobility.</PTR02qg.degreeDatas.0.description>
+</LanguageData>

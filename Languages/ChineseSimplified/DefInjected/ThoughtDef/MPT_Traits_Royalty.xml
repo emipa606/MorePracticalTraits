@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 皇权相关想法 royalty thoughts -->
+  <MoodOffsetPTR01sl.stages.0.label>势利</MoodOffsetPTR01sl.stages.0.label>
+  <MoodOffsetPTR01sl.stages.0.description>「势利」特性带来的心情变化。</MoodOffsetPTR01sl.stages.0.description>
+  <MoodOffsetPTR02qg.stages.0.label>清高</MoodOffsetPTR02qg.stages.0.label>
+  <MoodOffsetPTR02qg.stages.0.description>「清高」特性带来的心情变化。</MoodOffsetPTR02qg.stages.0.description>
+</LanguageData>

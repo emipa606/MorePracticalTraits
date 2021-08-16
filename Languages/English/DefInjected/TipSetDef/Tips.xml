@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Better traits always appear less often in the game. -->
+  <MPT_Tips.tips.0>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Better traits always appear less often in the game.</MPT_Tips.tips.0>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Skill interest, skill level and traits are equally important. -->
+  <MPT_Tips.tips.1>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Skill interest, skill level and traits are equally important.</MPT_Tips.tips.1>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The armor value in trait protects all parts of the body, including fingers and toes. -->
+  <MPT_Tips.tips.2>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The armor value in trait protects all parts of the body, including fingers and toes.</MPT_Tips.tips.2>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with higher skill levels are often better in the early stages than those with the directional traits. -->
+  <MPT_Tips.tips.3>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with higher skill levels are often better in the early stages than those with the directional traits.</MPT_Tips.tips.3>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Please use psychic shock lance to catch the enemy with excellent traits. -->
+  <MPT_Tips.tips.4>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Please use psychic shock lance to catch the enemy with excellent traits.</MPT_Tips.tips.4>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Excellent traits will help you a lot in difficult times. -->
+  <MPT_Tips.tips.5>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Excellent traits will help you a lot in difficult times.</MPT_Tips.tips.5>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Even if the colonists had excellent traits, they could not be invincible. -->
+  <MPT_Tips.tips.6>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Even if the colonists had excellent traits, they could not be invincible.</MPT_Tips.tips.6>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Take advantage of MPT traits, otherwise vanilla traits will surpass them. -->
+  <MPT_Tips.tips.7>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Take advantage of MPT traits, otherwise vanilla traits will surpass them.</MPT_Tips.tips.7>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The colors represent their intensity. -->
+  <MPT_Tips.tips.8>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The colors represent their intensity.</MPT_Tips.tips.8>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Some original MPT traits have changed in version 1.1. -->
+  <MPT_Tips.tips.9>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Some original MPT traits have changed in version 1.1.</MPT_Tips.tips.9>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  '&lt;color=#66ccff&gt;Nomadic hunter&lt;/color&gt;' or '&lt;color=#cc33cc&gt;King of beasts&lt;/color&gt;' are better at traveling. -->
+  <MPT_Tips.tips.10>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  '&lt;color=#66ccff&gt;Nomadic hunter&lt;/color&gt;' or '&lt;color=#cc33cc&gt;King of beasts&lt;/color&gt;' are better at traveling.</MPT_Tips.tips.10>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  '&lt;color=#66ccff&gt;Ranger&lt;/color&gt;' or '&lt;color=#cc33cc&gt;Punisher&lt;/color&gt;' are better at field operations. -->
+  <MPT_Tips.tips.11>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  '&lt;color=#66ccff&gt;Ranger&lt;/color&gt;' or '&lt;color=#cc33cc&gt;Punisher&lt;/color&gt;' are better at field operations.</MPT_Tips.tips.11>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#33ff00&gt;Show moe&lt;/color&gt;' have high speed and defense but can't do any work. -->
+  <MPT_Tips.tips.12>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#33ff00&gt;Show moe&lt;/color&gt;' have high speed and defense but can't do any work.</MPT_Tips.tips.12>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#FFCC66&gt;&lt;i&gt;Born leader&lt;/i&gt;&lt;/color&gt;' can help teammates who are in a bad mood. -->
+  <MPT_Tips.tips.13>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#FFCC66&gt;&lt;i&gt;Born leader&lt;/i&gt;&lt;/color&gt;' can help teammates who are in a bad mood.</MPT_Tips.tips.13>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#66ccff&gt;Priest&lt;/color&gt;' can improve relationships with others by discussing faith. -->
+  <MPT_Tips.tips.14>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with '&lt;color=#66ccff&gt;Priest&lt;/color&gt;' can improve relationships with others by discussing faith.</MPT_Tips.tips.14>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists who have both '&lt;color=#33ff00&gt;Miner&lt;/color&gt;' and '&lt;color=#66ccff&gt;Explorer&lt;/color&gt;' are better at mining. -->
+  <MPT_Tips.tips.15>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists who have both '&lt;color=#33ff00&gt;Miner&lt;/color&gt;' and '&lt;color=#66ccff&gt;Explorer&lt;/color&gt;' are better at mining.</MPT_Tips.tips.15>
+</LanguageData>

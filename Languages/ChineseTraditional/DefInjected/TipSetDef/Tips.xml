@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Better traits always appear less often in the game. -->
+  <MPT_Tips.tips.0>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]更好的特性在游戏里往往更少见。</MPT_Tips.tips.0>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Skill interest, skill level and traits are equally important. -->
+  <MPT_Tips.tips.1>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]技能兴趣，技能等级与特性同样重要。</MPT_Tips.tips.1>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The armor value in trait protects all parts of the body, including fingers and toes. -->
+  <MPT_Tips.tips.2>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]特性提供的护甲值作用范围为全身，包括手指和脚趾。</MPT_Tips.tips.2>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with higher skill levels are often better in the early stages than those with the directional traits. -->
+  <MPT_Tips.tips.3>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]高技能等级的殖民者在初期大部分情况要比拥有对应特性的殖民者表现更好。</MPT_Tips.tips.3>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Please use psychic shock lance to catch the enemy with excellent traits. -->
+  <MPT_Tips.tips.4>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]请使用心灵冲击枪捕捉那些拥有好特性的敌人。</MPT_Tips.tips.4>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Excellent traits will help you a lot in difficult times. -->
+  <MPT_Tips.tips.5>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]优秀的特性能在危难时刻为你带来巨大帮助。</MPT_Tips.tips.5>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Even if the colonists had excellent traits, they could not be invincible. -->
+  <MPT_Tips.tips.6>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]即使殖民者拥有很多优秀特性，他们也不能变得无敌。</MPT_Tips.tips.6>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Take advantage of MPT traits, otherwise vanilla traits will surpass them. -->
+  <MPT_Tips.tips.7>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]善用MPT特性，否则原版特性将比它们更有用。</MPT_Tips.tips.7>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]The colors represent their intensity. -->
+  <MPT_Tips.tips.8>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]特性的颜色基本代表强度。</MPT_Tips.tips.8>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Some original MPT traits have changed in version 1.1. -->
+  <MPT_Tips.tips.9>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]一些原有的MPT特性在v1.1有调整。</MPT_Tips.tips.9>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  「&lt;color=#66ccff&gt;Nomadic hunter&lt;/color&gt;」 or 「&lt;color=#cc33cc&gt;King of beasts&lt;/color&gt;」 are better at traveling. -->
+  <MPT_Tips.tips.10>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]「&lt;color=#66ccff&gt;游牧猎手&lt;/color&gt;」或「&lt;color=#cc33cc&gt;兽王&lt;/color&gt;」等特性的殖民者更善于远行。</MPT_Tips.tips.10>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with  「&lt;color=#66ccff&gt;Ranger&lt;/color&gt;」 or 「&lt;color=#cc33cc&gt;Punisher&lt;/color&gt;」 are better at field operations. -->
+  <MPT_Tips.tips.11>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]「&lt;color=#66ccff&gt;尖兵&lt;/color&gt;」 or 「&lt;color=#cc33cc&gt;惩戒者&lt;/color&gt;」等特性的殖民者更善于野外作战。</MPT_Tips.tips.11>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with 「&lt;color=#33ff00&gt;Show moe&lt;/color&gt;」 have high speed and defense but can't do any work. -->
+  <MPT_Tips.tips.12>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]「&lt;color=#33ff00&gt;萌混过关&lt;/color&gt;」特性的殖民者有很高的防御和速度，但什么都不会做。</MPT_Tips.tips.12>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with 「&lt;color=#FFCC66&gt;&lt;i&gt;Born leader&lt;/i&gt;&lt;/color&gt;」 can help teammates who are in a bad mood. -->
+  <MPT_Tips.tips.13>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]「&lt;color=#FFCC66&gt;&lt;i&gt;天生领袖&lt;/i&gt;&lt;/color&gt;」等特性的殖民者会帮助心情不好的队友。</MPT_Tips.tips.13>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists with 「&lt;color=#66ccff&gt;Priest&lt;/color&gt;」 can improve relationships with others by discussing faith. -->
+  <MPT_Tips.tips.14>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]「&lt;color=#66ccff&gt;祭司&lt;/color&gt;」等特性的殖民者能够通过讨论信仰和他人提高关系。</MPT_Tips.tips.14>
+  <!-- EN: [&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]Colonists who have both 「&lt;color=#33ff00&gt;Miner&lt;/color&gt;」 and 「&lt;color=#66ccff&gt;Explorer&lt;/color&gt;」 are better at mining. -->
+  <MPT_Tips.tips.15>[&lt;color=#FFCC66&gt;MPT&lt;/color&gt;]同时拥有「&lt;color=#33ff00&gt;矿工&lt;/color&gt;」和「&lt;color=#66ccff&gt;勘探家&lt;/color&gt;」特性的殖民者在采矿方面表现更佳。</MPT_Tips.tips.15>
+</LanguageData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>VanyaTB01tzzMoodOffset</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <requiredTraits>
+      <li>VanyaTB01tzz</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>the founder of tragedy</label>
+        <description>Only kindness, what can you protect?</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>VanyaTS01byIsCarryingRangedWeapon</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>VanyaTS01by</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Bear has ranged weapon</label>
+        <description>Snowhare is a good snack, and every little helps,but I got something that could help me catch much bigger game.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>VanyaTS01byDuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>VanyaTS01by</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Bear in daytime</label>
+        <description>Don't let the thrumbo go. its protein is twice as much as beef. That's what I've been looking forward to.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>VanyaTS01byDuringTheNight</defName>
+    <workerClass>ThoughtWorker_IsNightForNightOwl</workerClass>
+    <requiredTraits>
+      <li>VanyaTS01by</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Bear at night</label>
+        <description>Come on. Maybe find a single animal like muffalo, megasloth, razortooth, dinosaur, organ beast, nine-tailed fox, oni, nukos..or something else. I want to take their whole heads off..and then all of that is fine to eat.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>VanyaTC04cftsNudistNaked</defName>
+    <workerClass>ThoughtWorker_PsychologicallyNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>VanyaTC04cfts</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>body art</label>
+        <description>I feel so free and unconstrained and in touch with my surroundings!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 凌洛特性 ling traits -->
+  <ThoughtDef>
+    <defName>LingTA01haxzDuringTheNight</defName>
+    <workerClass>ThoughtWorker_IsNightForNightOwl</workerClass>
+    <requiredTraits>
+      <li>LingTA01haxz</li>
+      <li>PTB22ck</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>like the night</label>
+        <description>The night is mine.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

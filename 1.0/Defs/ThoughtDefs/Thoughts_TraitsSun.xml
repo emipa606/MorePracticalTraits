@@ -1,0 +1,1668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Thoughts_Situation -->
+  <!-- Is Carrying Ranged Weapon -->
+  <ThoughtDef>
+    <defName>SunPT_IsCarryingRangedWeapon</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTA01hlzy</li>
+      <li>PTB01jb</li>
+      <li>PTB05ll</li>
+      <li>PTE04aksndgw</li>
+      <li>PTF01hy</li>
+      <li>PTS02ss</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD04aj</li>
+      <li>PTS03tslx</li>
+      <li>VanyaTC03fwgz</li>
+      <li>VanyaTS01by</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>has ranged weapon</label>
+        <description>I am ready for the next fight.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Ease Pain -->
+  <ThoughtDef>
+    <defName>SunPT_EasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTA02gdzj</li>
+      <li>PTA14yg</li>
+      <li>PTB02tb</li>
+      <li>PTB05ll</li>
+      <li>PTD03yq</li>
+      <li>PTS01yz</li>
+      <li>VanyaTC02tsjg</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD01bj</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTE01aydzn</li>
+      <li>PTE02mdxqm</li>
+      <li>PTE03csdsc</li>
+      <li>PTE04aksndgw</li>
+      <li>PTE05kwdxd</li>
+      <li>PTE06wlkjjm</li>
+      <li>PTE07wlkjcm</li>
+      <li>PTF01hy</li>
+      <li>PTF02tyqs</li>
+      <li>PTF03mrqw</li>
+      <li>VanyaTE01gsdzf</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>strong one in minor pain</label>
+        <description>It's okay.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>strong one in serious pain</label>
+        <description>I can hold it.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>strong one in intense pain</label>
+        <description>How can I fall like that!</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>strong one in mind-shattering pain</label>
+        <description>I hope I have done some…</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SunPT2_EasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTE01aydzn</li>
+      <li>PTE02mdxqm</li>
+      <li>PTE03csdsc</li>
+      <li>PTE04aksndgw</li>
+      <li>PTE05kwdxd</li>
+      <li>PTE06wlkjjm</li>
+      <li>PTE07wlkjcm</li>
+      <li>PTF01hy</li>
+      <li>PTF03mrqw</li>
+      <li>VanyaTE01gsdzf</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD01bj</li>
+      <li>PTF02tyqs</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>believer in minor pain</label>
+        <description>It's easy compared to overtime.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in serious pain</label>
+        <description>I must be strong! Trust the chairman!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in intense pain</label>
+        <description>Don't give up! The chairman said that everyone can survive!</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in mind-shattering pain</label>
+        <description>Even if I die...lay in a grave...I still wanna shout out in corrupt voice: Follow the chairman!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Disfigured -->
+  <ThoughtDef>
+    <defName>SunPT_Disfigured</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_Disfigured</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>be kind to disfigured</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTA10zyhl</li>
+      <li>PTA20ba</li>
+      <li>PTB03yy</li>
+      <li>PTB04jy</li>
+      <li>PTC07yl</li>
+      <li>PTD03yq</li>
+      <li>PTF02tyqs</li>
+      <li>PTS01yz</li>
+      <li>PTS03tslx</li>
+      <li>VanyaTB03hj</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTB08zkw</li>
+    </nullifyingTraits>
+  </ThoughtDef>
+  <!-- PTA13rq -->
+  <ThoughtDef>
+    <defName>PTA13rqMoodOffset</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <requiredTraits>
+      <li>PTA13rq</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>be passionate to life</label>
+        <description>Open our mind. Life should be full of happiness.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTA20ba PTE01aydzn PTF02tyqs -->
+  <ThoughtDef>
+    <defName>PTA20baUgly</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_Ugly</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>ugly</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+      <li>
+        <label>staggeringly ugly</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTA20ba</li>
+      <li>PTE01aydzn</li>
+      <li>PTF02tyqs</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTA20baAnnoyingVoice</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_AnnoyingVoice</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>annoying voice</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTA20ba</li>
+      <li>PTF02tyqs</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTA20baCreepyBreathing</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_CreepyBreathing</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>creepy breathing</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTA20ba</li>
+      <li>PTF02tyqs</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <!-- PTB08zkw -->
+  <ThoughtDef>
+    <defName>PTB08zkwDisfigured</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_Disfigured</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>disfigured</label>
+        <baseOpinionOffset>20</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTB08zkwUgly</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_Ugly</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>ugly</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+      <li>
+        <label>staggeringly ugly</label>
+        <baseOpinionOffset>45</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTB08zkwAnnoyingVoice</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_AnnoyingVoice</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>annoying voice</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTB08zkwCreepyBreathing</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_CreepyBreathing</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>creepy breathing</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTB08zkwButcheredHumanlikeCorpseOpinion</defName>
+    <thoughtClass>Thought_Tale</thoughtClass>
+    <workerClass>ThoughtWorker_Tale</workerClass>
+    <taleDef>ButcheredHumanlikeCorpse</taleDef>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>butchering humanlike corpse</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+    <nullifyingOwnTales>
+      <li>ButcheredHumanlikeCorpse</li>
+      <li>AteRawHumanlikeMeat</li>
+    </nullifyingOwnTales>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTB08zkwAteRawHumanlikeMeat</defName>
+    <thoughtClass>Thought_Tale</thoughtClass>
+    <workerClass>ThoughtWorker_Tale</workerClass>
+    <taleDef>AteRawHumanlikeMeat</taleDef>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>ate raw humanlike meat</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>PTB08zkw</li>
+    </requiredTraits>
+    <nullifyingOwnTales>
+      <li>ButcheredHumanlikeCorpse</li>
+      <li>AteRawHumanlikeMeat</li>
+    </nullifyingOwnTales>
+  </ThoughtDef>
+  <!-- PTD01bj -->
+  <ThoughtDef>
+    <defName>PTD01bjDuringTheDayInv</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD01bj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Yandere</label>
+        <description>Why do we have to quarrel? Distant heart? Just dig the heart and get closer to each other. Love doesn't mind tiny flaw.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD01bjDuringTheNightInv</defName>
+    <workerClass>ThoughtWorker_IsNightForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD01bj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Yandere</label>
+        <description>Both the bad guys and love rats must be shredded. Love is the most beautiful when covered with blood. I am excited with next slaughtering spree!</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD01bjEasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTD01bj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Yandere in minor pain</label>
+        <description>Hi! Kill you.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Yandere in serious pain</label>
+        <description>Instead of confessing to the past, it's better to go forward and smash the obstacles in front of you!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Yandere in intense pain</label>
+        <description>Die! F*ck off! Go to hell!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>Yandere in mind-shattering pain</label>
+        <description>Lose love? Just kill! That can be together! Hahaha!</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD02sw -->
+  <ThoughtDef>
+    <defName>PTD02swClothedNudist</defName>
+    <workerClass>ThoughtWorker_NudistNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD02sw</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Mukuchi</label>
+        <description>...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD03yq -->
+  <ThoughtDef>
+    <defName>PTD03yqDuringTheNight</defName>
+    <workerClass>ThoughtWorker_IsNightForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD03yq</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Genkisa</label>
+        <description>Welcome a new day! Let's work hard together!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD04aj -->
+  <ThoughtDef>
+    <defName>PTD04ajDuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Tsundere</label>
+        <description>Huh?! You don't know? How can you stand here cheeky? Tut, tut, pitiful look…OK, I'll demonstrate it again. Remember it!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajDuringTheDayInv</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Tsundere</label>
+        <description>So what? I won't be happy even if be praised,hum!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajBrawlerUnhappy</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Tsundere has ranged weapon</label>
+        <description>Stupid! Shut up! Turn down! Unbelievable! You actually lost to the newfish...Well, I will help you, although it makes me consume huge.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajPyromaniacHappy</defName>
+    <workerClass>ThoughtWorker_IsCarryingIncendiaryWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Tsundere has incendiary weapon</label>
+        <description>Huh?! More fuel and torches in my hands? Why do I have to judge with the damn single? First of all, it doesn't mean I like to do it.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajProsthophileHappy</defName>
+    <workerClass>ThoughtWorker_HasAddedBodyPart</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Tsundere horrified</label>
+        <description>Wow! Take this scary thing off me!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Tsundere frustrated</label>
+        <description>This time, what? I'm tired of lies, and don't believe it's good for me.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Tsundere pleased</label>
+        <description>Also, what did you do to my body? Well... actually, I don’t really want it…I have to accept it if forced.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Tsundere quite pleased</label>
+        <description>What? Easy to use? I didn't say it. Just go, don't waste my time.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Tsundere delighted</label>
+        <description>Artificial part expert? of course! Who do you think I am? But I feel that there is a conspiracy. So, don't install anything in my body again. Hear it?</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Tsundere disgusted</label>
+        <description>You’ve gone too far! I Loathe You!</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajJealous</defName>
+    <workerClass>ThoughtWorker_BedroomJealous</workerClass>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>jealous of {0}'s bedroom</label>
+        <description>Huh?! Why other's bedroom is better than mine? Since you apologize, I will barely make up for two or three days. But I'm still angry!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajJealousBest</defName>
+    <workerClass>ThoughtWorker_BedroomJealous</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD04aj</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>proper bedroom</label>
+        <description>In fact, I don't care about the quality of the room…</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD05fh -->
+  <ThoughtDef>
+    <defName>PTD05fhDuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTD05fh</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Harakuro</label>
+        <description>…Uhm…Peace as always, is there anything pleasing?</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhDuringTheDayInv</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD05fh</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Harakuro</label>
+        <description>Oops, today is just a fluke. You may surpass me next time. Efforts will definitely pay off, heh heh!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhProsthophileHappy</defName>
+    <workerClass>ThoughtWorker_HasAddedBodyPart</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTD05fh</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Harakuro squeamish</label>
+        <description>Wow! It looks very expensive. Is it really okay to give me?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Harakuro pleased</label>
+        <description>It seems that everyone is already good enough.Thanks. I will make good use of it.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Harakuro enchanted</label>
+        <description>It seems to be very interesting. What to do next... Ah, yes, hee hee...</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhJealous</defName>
+    <workerClass>ThoughtWorker_BedroomJealous</workerClass>
+    <requiredTraits>
+      <li>PTD05fh</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>jealous of {0}'s bedroom</label>
+        <description>How beautiful is the room you assigned to me! Everyone is a good and friendly person, isn't it? heh heh... Excuse me.</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD06ds -->
+  <ThoughtDef>
+    <defName>PTD06dsDuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTD06ds</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Dokuzetu</label>
+        <description>Everyone helps each other, success and happiness together, It's just an ideal. Here, in the rimworld, if someone succeeds in holding hands, someone must be rejected. If someone becomes the core of the leader, someone must become a canned sofa or a dung.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD06dsDuringTheDayInv</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTD06ds</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>daily life of Dokuzetu</label>
+        <description>Bent on your work. If you only breathe, the horseshoes pin nail is much more useful than you.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTE04aksndgw -->
+  <ThoughtDef>
+    <defName>PTE04aksndgwMoodOffset</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <requiredTraits>
+      <li>PTE04aksndgw</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>the passing away of love</label>
+        <description>It's me. I'm first. I was first...But, why this happens...</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Praise the Sun -->
+  <ThoughtDef>
+    <defName>SunPT_PraiseSun_DuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTE08wlkjdsz</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>praise the sun</label>
+        <description>I hope that one day I will be able to be trusted and dependent, just like the dazzling knight.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SunPT_PraiseWLJ_DuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTE01aydzn</li>
+      <li>PTE02mdxqm</li>
+      <li>PTE03csdsc</li>
+      <li>PTE04aksndgw</li>
+      <li>PTE05kwdxd</li>
+      <li>PTE06wlkjjm</li>
+      <li>PTE07wlkjcm</li>
+      <li>PTF01hy</li>
+      <li>PTF03mrqw</li>
+      <li>VanyaTE01gsdzf</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTF02tyqs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>praise the chairman</label>
+        <description>That is the only lighthouse in the wilderness, the light of civilization!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTF02tyqs -->
+  <ThoughtDef>
+    <defName>PTF02tyqsDuringTheDay</defName>
+    <workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+    <requiredTraits>
+      <li>PTF02tyqs</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>praise the sun</label>
+        <description>The sun is a wondrous body. Like a magnificent father! If only I could be so grossly incandescent! </description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTF02tyqsEasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTF02tyqs</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD01bj</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>believer in minor pain</label>
+        <description>Ah, the choice is mine.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in serious pain</label>
+        <description>Don't worry. Hah hah hah!</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in intense pain</label>
+        <description>How could a Warrior of the Sun easily kneel down! Hrgraaah!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>believer in mind-shattering pain</label>
+        <description>...My sun, my dear, dear sun...</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTS02ss -->
+  <ThoughtDef>
+    <defName>PTS02ssEasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTS02ss</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD01bj</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ranged reaper in minor pain</label>
+        <description>Is the pain of death starting from here? interesting!</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>ranged reaper in serious pain</label>
+        <description>Trembling, mortal! Remember the name of death!</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+      <li>
+        <label>ranged reaper in intense pain</label>
+        <description>Hah hah hah!</description>
+        <baseMoodEffect>45</baseMoodEffect>
+      </li>
+      <li>
+        <label>ranged reaper in mind-shattering pain</label>
+        <description>Gah hah hah hah hah hah hah hah hah!</description>
+        <baseMoodEffect>80</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTS03tslx -->
+  <ThoughtDef>
+    <defName>PTS03tslxIsCarryingRangedWeapon</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTS03tslx</li>
+    </requiredTraits>
+    <nullifyingTraits>
+      <li>PTD01bj</li>
+      <li>PTS02ss</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>born leader has ranged weapon</label>
+        <description>Let's start!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTS03tslxMoodOffset</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <requiredTraits>
+      <li>PTS03tslx</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>life perpetual motion</label>
+        <description>Life is a race to encounter and solve problems, isn't it? So let's create our own miracle together.</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTS03tslxEasePain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>PTS03tslx</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>born leader in minor pain</label>
+        <description>Hold on.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>born leader in serious pain</label>
+        <description>But that is not the reason for retreating.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>born leader in intense pain</label>
+        <description>Square our shoulders and make our own history!</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>born leader in mind-shattering pain</label>
+        <description>Don't giv up..the dream...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTS06fkzs -->
+  <ThoughtDef>
+    <defName>PTS06fkzsNoProsthetic</defName>
+    <workerClass>ThoughtWorker_HasAddedBodyPart</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>PTS06fkzs</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>keep the body pure</label>
+        <description>Respect the body. Don't lose yourself in the enthusiasm for technology.</description>
+        <baseMoodEffect>33</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Thoughts_Memory -->
+  <!-- PTD01bj -->
+  <ThoughtDef>
+    <defName>PTD01bjChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1.05</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>know Yandere</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD01bjChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD01bjChitchatMood_MemorySocial</defName>
+    <durationDays>1.5</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTB08zkw</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+      <li>VanyaTS01by</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>deadly temptation</label>
+        <description>What a friendly person! Except for those weird topics.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD02sw -->
+  <ThoughtDef>
+    <defName>PTD02swChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>20</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1.1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>know Mukuchi</label>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD02swChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD02swChitchatMood_MemorySocial</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>purification of the soul</label>
+        <description>Inner peace…</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD03yq -->
+  <ThoughtDef>
+    <defName>PTD03yqChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>know Genkisa</label>
+        <baseOpinionOffset>14</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD03yqChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD03yqChitchatMood_MemorySocial</defName>
+    <durationDays>1.2</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>energetic</label>
+        <description>I feel energetic!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD03yq -->
+  <ThoughtDef>
+    <defName>PTD04ajChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>35</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.95</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>know Tsundere</label>
+        <baseOpinionOffset>6</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD04ajChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajChitchatMood_MemorySocial</defName>
+    <durationDays>1.5</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTD04aj</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>awkward</label>
+        <description>That's really a trouble…</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajDeepTalk_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>50</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>understand Tsundere</label>
+        <baseOpinionOffset>12</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD04ajDeepTalkMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD04ajDeepTalkMood_MemorySocial</defName>
+    <durationDays>1.8</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTD04aj</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>feel helpless</label>
+        <description>What a good person. The only drawback is not being frank.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD05fh -->
+  <ThoughtDef>
+    <defName>PTD05fhChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD05fh</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>know Harakuro</label>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD05fhChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhChitchatMood_MemorySocial</defName>
+    <durationDays>2.5</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTD05fh</li>
+      <li>PTD06ds</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>admiration and jealousy</label>
+        <description>What a perfect person!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhDeepTalk_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>50</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD05fh</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>understand Harakuro</label>
+        <baseOpinionOffset>7</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD05fhDeepTalkMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD05fhDeepTalkMood_MemorySocial</defName>
+    <durationDays>1.2</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTD05fh</li>
+      <li>PTD06ds</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>be manipulated</label>
+        <description>I was surprised that my friend had such a hobby. Alas...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTD06ds -->
+  <ThoughtDef>
+    <defName>PTD06dsChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD06ds</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>know Dokuzetu</label>
+        <baseOpinionOffset>-4</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD06dsChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD06dsChitchatMood_MemorySocial</defName>
+    <durationDays>1.2</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTD05fh</li>
+      <li>PTD06ds</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+      <li>VanyaTB03hj</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>be hard hit</label>
+        <description>Damn! I have no idea to refute the comment！</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD06dsDeepTalk_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>50</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>20</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.95</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD06ds</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>understand Dokuzetu</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTD06dsDeepTalkMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTD06dsDeepTalkMood_MemorySocial</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTD05fh</li>
+      <li>PTD06ds</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+      <li>VanyaTB03hj</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>immune to eloquence</label>
+        <description>I'm speechless. But it seems that there is no need to refute...</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTE06wlkjjm -->
+  <ThoughtDef>
+    <defName>PTE06wlkjjmChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>20</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTE08wlkjdsz</li>
+      <li>PTF02tyqs</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>both admire the chairman</label>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTE06wlkjjmChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTE06wlkjjmChitchatMood_MemorySocial</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+      <li>PTE08wlkjdsz</li>
+      <li>PTF02tyqs</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>nostalgia</label>
+        <description>The happiness and bitterness will always be treasured in my heart.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTF02tyqs -->
+  <ThoughtDef>
+    <defName>PTF02tyqsChitchat_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>20</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>know the brilliance of the Sun</label>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTF02tyqsChitchatMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTF02tyqsChitchatMood_MemorySocial</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+      <li>PTF02tyqs</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>radiance of the sun</label>
+        <description>Bringing warmth to others without hesitation, what a noble character！</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- PTS03tslx -->
+  <ThoughtDef>
+    <defName>PTS03tslxDeepTalk_MemorySocial</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>50</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.85</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>admire the guide</label>
+        <baseOpinionOffset>12</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PTS03tslxDeepTalkMood_MemorySocial</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PTS03tslxDeepTalkMood_MemorySocial</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>timely help</label>
+        <description>What a loving person!The road ahead of me is clearer. I have to cheer up!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ThoughtWorker_MPTSpecial -->
+  <!-- PTC01jzds -->
+  <ThoughtDef>
+    <defName>PTC01jzds_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>skill expert</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <sameFactionOnly>true</sameFactionOnly>
+        <validWithDisfigured>true</validWithDisfigured>
+        <triggerTraits>
+          <li>PTC01jzds</li>
+          <li>PTC02wjj</li>
+          <li>PTC03cs</li>
+          <li>PTC04smcbz</li>
+          <li>PTC05sw</li>
+          <li>PTC06jj</li>
+          <li>PTC07yl</li>
+          <li>PTC08sk</li>
+          <li>PTC09tc</li>
+          <li>VanyaTC04cfts</li>
+          <li>VanyaTS01by</li>
+          <li>PTS04zrzz</li>
+          <li>PTS05jf</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- VanyaTC03fwgz -->
+  <ThoughtDef>
+    <defName>VanyaTC03fwgz_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>combat expert</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <sameFactionOnly>true</sameFactionOnly>
+        <validWithDisfigured>true</validWithDisfigured>
+        <triggerTraits>
+          <li>PTF01hy</li>
+          <li>PTF02tyqs</li>
+          <li>PTF03mrqw</li>
+          <li>PTS01yz</li>
+          <li>PTS02ss</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTC03fwgz</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTS03tslx -->
+  <ThoughtDef>
+    <defName>PTS03tslx_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>key person</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <sameFactionOnly>true</sameFactionOnly>
+        <validWithDisfigured>true</validWithDisfigured>
+        <triggerTraits>
+          <li>PTE08wlkjdsz</li>
+          <li>PTS03tslx</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- VanyaTA01mhgg -->
+  <ThoughtDef>
+    <defName>VanyaTA01mhgg_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>mascot</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <sameFactionOnly>true</sameFactionOnly>
+        <validWithDisfigured>true</validWithDisfigured>
+        <triggerTraits>
+          <li>VanyaTA01mhgg</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTA22mmdsy -->
+  <ThoughtDef>
+    <defName>PTA22mmdsy_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>nice voice</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <validWithDisfigured>true</validWithDisfigured>
+        <requireCapacityOfPawn>Hearing</requireCapacityOfPawn>
+        <requireCapacityOfOther>Talking</requireCapacityOfOther>
+        <triggerTraits>
+          <li>PTA22mmdsy</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTA23hsc -->
+  <ThoughtDef>
+    <defName>PTA23hsc_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>nice body</label>
+        <baseOpinionOffset>18</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <validWithDisfigured>true</validWithDisfigured>
+        <requireCapacityOfPawn>Sight</requireCapacityOfPawn>
+        <triggerTraits>
+          <li>PTA23hsc</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTB09qgqc -->
+  <ThoughtDef>
+    <defName>PTB09qgqc_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>drop dead gorgeous</label>
+        <baseOpinionOffset>60</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <requireCapacityOfPawn>Sight</requireCapacityOfPawn>
+        <triggerTraits>
+          <li>PTB09qgqc</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTB10tlzy -->
+  <ThoughtDef>
+    <defName>PTB10tlzy_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>sound of nature</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <validWithDisfigured>true</validWithDisfigured>
+        <requireCapacityOfPawn>Hearing</requireCapacityOfPawn>
+        <requireCapacityOfOther>Talking</requireCapacityOfOther>
+        <triggerTraits>
+          <li>PTB10tlzy</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTB11mgsc -->
+  <ThoughtDef>
+    <defName>PTB11mgsc_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>PTS06fkzs</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>killer body</label>
+        <baseOpinionOffset>35</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <validWithDisfigured>true</validWithDisfigured>
+        <requireCapacityOfPawn>Sight</requireCapacityOfPawn>
+        <triggerTraits>
+          <li>PTB11mgsc</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+  <!-- PTE01aydzn -->
+  <ThoughtDef>
+    <defName>PTE01aydzn_ThoughtWorker_MPTSpecial</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>MorePracticalTraits.ThoughtWorker_MPTSpecial</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>PTB06lc</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>poor taste</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="MorePracticalTraits.MPTModExtension">
+        <requireCapacityOfPawn>Sight</requireCapacityOfPawn>
+        <triggerTraits>
+          <li>PTE01aydzn</li>
+        </triggerTraits>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+</Defs>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Is Carrying Ranged Weapon -->
+  <SunPT_IsCarryingRangedWeapon.stages.0.label>has ranged weapon</SunPT_IsCarryingRangedWeapon.stages.0.label>
+  <SunPT_IsCarryingRangedWeapon.stages.0.description>I am ready for the next fight.</SunPT_IsCarryingRangedWeapon.stages.0.description>
+  <!-- Ease Pain -->
+  <SunPT_EasePain.stages.0.label>strong one in minor pain</SunPT_EasePain.stages.0.label>
+  <SunPT_EasePain.stages.0.description>It's okay.</SunPT_EasePain.stages.0.description>
+  <SunPT_EasePain.stages.1.label>strong one in serious pain</SunPT_EasePain.stages.1.label>
+  <SunPT_EasePain.stages.1.description>I can hold it.</SunPT_EasePain.stages.1.description>
+  <SunPT_EasePain.stages.2.label>strong one in intense pain</SunPT_EasePain.stages.2.label>
+  <SunPT_EasePain.stages.2.description>How can I fall like that!</SunPT_EasePain.stages.2.description>
+  <SunPT_EasePain.stages.3.label>strong one in mind-shattering pain</SunPT_EasePain.stages.3.label>
+  <SunPT_EasePain.stages.3.description>I hope I have done some…</SunPT_EasePain.stages.3.description>
+  <SunPT2_EasePain.stages.0.label>believer in minor pain</SunPT2_EasePain.stages.0.label>
+  <SunPT2_EasePain.stages.0.description>It's easy compared to overtime.</SunPT2_EasePain.stages.0.description>
+  <SunPT2_EasePain.stages.1.label>believer in serious pain</SunPT2_EasePain.stages.1.label>
+  <SunPT2_EasePain.stages.1.description>I must be strong! Trust the chairman!</SunPT2_EasePain.stages.1.description>
+  <SunPT2_EasePain.stages.2.label>believer in intense pain</SunPT2_EasePain.stages.2.label>
+  <SunPT2_EasePain.stages.2.description>Don't give up! The chairman said that everyone can survive!</SunPT2_EasePain.stages.2.description>
+  <SunPT2_EasePain.stages.3.label>believer in mind-shattering pain</SunPT2_EasePain.stages.3.label>
+  <SunPT2_EasePain.stages.3.description>Even if I die...lay in a grave...I still wanna shout out in corrupt voice: Follow the chairman!</SunPT2_EasePain.stages.3.description>
+  <!-- Disfigured -->
+  <SunPT_Disfigured.stages.0.label>be kind to disfigured</SunPT_Disfigured.stages.0.label>
+  <!-- PTA13rq -->
+  <PTA13rqMoodOffset.stages.0.label>be passionate to life</PTA13rqMoodOffset.stages.0.label>
+  <PTA13rqMoodOffset.stages.0.description>Open our mind. Life should be full of happiness.</PTA13rqMoodOffset.stages.0.description>
+  <!-- PTA20ba PTE01aydzn PTF02tyqs -->
+  <PTA20baUgly.stages.0.label>ugly</PTA20baUgly.stages.0.label>
+  <PTA20baUgly.stages.1.label>staggeringly ugly</PTA20baUgly.stages.1.label>
+  <PTA20baAnnoyingVoice.stages.0.label>annoying voice</PTA20baAnnoyingVoice.stages.0.label>
+  <PTA20baCreepyBreathing.stages.0.label>creepy breathing</PTA20baCreepyBreathing.stages.0.label>
+  <!-- PTB08zkw -->
+  <PTB08zkwDisfigured.stages.0.label>disfigured</PTB08zkwDisfigured.stages.0.label>
+  <PTB08zkwUgly.stages.0.label>ugly</PTB08zkwUgly.stages.0.label>
+  <PTB08zkwUgly.stages.1.label>staggeringly ugly</PTB08zkwUgly.stages.1.label>
+  <PTB08zkwAnnoyingVoice.stages.0.label>annoying voice</PTB08zkwAnnoyingVoice.stages.0.label>
+  <PTB08zkwCreepyBreathing.stages.0.label>creepy breathing</PTB08zkwCreepyBreathing.stages.0.label>
+  <PTB08zkwButcheredHumanlikeCorpseOpinion.stages.0.label>butchering humanlike corpse</PTB08zkwButcheredHumanlikeCorpseOpinion.stages.0.label>
+  <PTB08zkwAteRawHumanlikeMeat.stages.0.label>ate raw humanlike meat</PTB08zkwAteRawHumanlikeMeat.stages.0.label>
+  <!-- PTD01bj -->
+  <PTD01bjDuringTheDayInv.stages.0.label>daily life of Yandere</PTD01bjDuringTheDayInv.stages.0.label>
+  <PTD01bjDuringTheDayInv.stages.0.description>Why do we have to quarrel? Distant heart? Just dig the heart and get closer to each other. Love doesn't mind tiny flaw.</PTD01bjDuringTheDayInv.stages.0.description>
+  <PTD01bjDuringTheNightInv.stages.0.label>daily life of Yandere</PTD01bjDuringTheNightInv.stages.0.label>
+  <PTD01bjDuringTheNightInv.stages.0.description>Both the bad guys and love rats must be shredded. Love is the most beautiful when covered with blood. I am excited with next slaughtering spree!</PTD01bjDuringTheNightInv.stages.0.description>
+  <PTD01bjEasePain.stages.0.label>Yandere in minor pain</PTD01bjEasePain.stages.0.label>
+  <PTD01bjEasePain.stages.0.description>Hi! Kill you.</PTD01bjEasePain.stages.0.description>
+  <PTD01bjEasePain.stages.1.label>Yandere in serious pain</PTD01bjEasePain.stages.1.label>
+  <PTD01bjEasePain.stages.1.description>Instead of confessing to the past, it's better to go forward and smash the obstacles in front of you!</PTD01bjEasePain.stages.1.description>
+  <PTD01bjEasePain.stages.2.label>Yandere in intense pain</PTD01bjEasePain.stages.2.label>
+  <PTD01bjEasePain.stages.2.description>Die! F*ck off! Go to hell!</PTD01bjEasePain.stages.2.description>
+  <PTD01bjEasePain.stages.3.label>Yandere in mind-shattering pain</PTD01bjEasePain.stages.3.label>
+  <PTD01bjEasePain.stages.3.description>Lose love? Just kill! That can be together! Hahaha!</PTD01bjEasePain.stages.3.description>
+  <!-- PTD02sw -->
+  <PTD02swClothedNudist.stages.0.label>daily life of Mukuchi</PTD02swClothedNudist.stages.0.label>
+  <PTD02swClothedNudist.stages.0.description>...</PTD02swClothedNudist.stages.0.description>
+  <!-- PTD03yq -->
+  <PTD03yqDuringTheNight.stages.0.label>daily life of Genkisa</PTD03yqDuringTheNight.stages.0.label>
+  <PTD03yqDuringTheNight.stages.0.description>Welcome a new day! Let's work hard together!</PTD03yqDuringTheNight.stages.0.description>
+  <!-- PTD04aj -->
+  <PTD04ajDuringTheDay.stages.0.label>daily life of Tsundere</PTD04ajDuringTheDay.stages.0.label>
+  <PTD04ajDuringTheDay.stages.0.description>Huh?! You don't know? How can you stand here cheeky? Tut, tut, pitiful look…OK, I'll demonstrate it again. Remember it!</PTD04ajDuringTheDay.stages.0.description>
+  <PTD04ajDuringTheDayInv.stages.0.label>daily life of Tsundere</PTD04ajDuringTheDayInv.stages.0.label>
+  <PTD04ajDuringTheDayInv.stages.0.description>So what? I won't be happy even if be praised,hum!</PTD04ajDuringTheDayInv.stages.0.description>
+  <PTD04ajBrawlerUnhappy.stages.0.label>Tsundere has ranged weapon</PTD04ajBrawlerUnhappy.stages.0.label>
+  <PTD04ajBrawlerUnhappy.stages.0.description>Stupid! Shut up! Turn down! Unbelievable! You actually lost to the newfish...Well, I will help you, although it makes me consume huge.</PTD04ajBrawlerUnhappy.stages.0.description>
+  <PTD04ajPyromaniacHappy.stages.0.label>Tsundere has incendiary weapon</PTD04ajPyromaniacHappy.stages.0.label>
+  <PTD04ajPyromaniacHappy.stages.0.description>Huh?! More fuel and torches in my hands? Why do I have to judge with the damn single? First of all, it doesn't mean I like to do it.</PTD04ajPyromaniacHappy.stages.0.description>
+  <PTD04ajProsthophileHappy.stages.0.label>Tsundere horrified</PTD04ajProsthophileHappy.stages.0.label>
+  <PTD04ajProsthophileHappy.stages.0.description>Wow! Take this scary thing off me!</PTD04ajProsthophileHappy.stages.0.description>
+  <PTD04ajProsthophileHappy.stages.1.label>Tsundere frustrated</PTD04ajProsthophileHappy.stages.1.label>
+  <PTD04ajProsthophileHappy.stages.1.description>This time, what? I'm tired of lies, and don't believe it's good for me.</PTD04ajProsthophileHappy.stages.1.description>
+  <PTD04ajProsthophileHappy.stages.2.label>Tsundere pleased</PTD04ajProsthophileHappy.stages.2.label>
+  <PTD04ajProsthophileHappy.stages.2.description>Also, what did you do to my body? Well... actually, I don’t really want it…I have to accept it if forced.</PTD04ajProsthophileHappy.stages.2.description>
+  <PTD04ajProsthophileHappy.stages.3.label>Tsundere quite pleased</PTD04ajProsthophileHappy.stages.3.label>
+  <PTD04ajProsthophileHappy.stages.3.description>What? Easy to use? I didn't say it. Just go, don't waste my time.</PTD04ajProsthophileHappy.stages.3.description>
+  <PTD04ajProsthophileHappy.stages.4.label>Tsundere delighted</PTD04ajProsthophileHappy.stages.4.label>
+  <PTD04ajProsthophileHappy.stages.4.description>Artificial part expert? of course! Who do you think I am? But I feel that there is a conspiracy. So, don't install anything in my body again. Hear it?</PTD04ajProsthophileHappy.stages.4.description>
+  <PTD04ajProsthophileHappy.stages.5.label>Tsundere disgusted</PTD04ajProsthophileHappy.stages.5.label>
+  <PTD04ajProsthophileHappy.stages.5.description>You’ve gone too far! I Loathe You!</PTD04ajProsthophileHappy.stages.5.description>
+  <PTD04ajJealous.stages.0.label>jealous of {0}'s bedroom</PTD04ajJealous.stages.0.label>
+  <PTD04ajJealous.stages.0.description>Huh?! Why other's bedroom is better than mine? Since you apologize, I will barely make up for two or three days. But I'm still angry!</PTD04ajJealous.stages.0.description>
+  <PTD04ajJealousBest.stages.0.label>proper bedroom</PTD04ajJealousBest.stages.0.label>
+  <PTD04ajJealousBest.stages.0.description>In fact, I don't care about the quality of the room…</PTD04ajJealousBest.stages.0.description>
+  <!-- PTD05fh -->
+  <PTD05fhDuringTheDay.stages.0.label>daily life of Harakuro</PTD05fhDuringTheDay.stages.0.label>
+  <PTD05fhDuringTheDay.stages.0.description>…Uhm…Peace as always, is there anything pleasing?</PTD05fhDuringTheDay.stages.0.description>
+  <PTD05fhDuringTheDayInv.stages.0.label>daily life of Harakuro</PTD05fhDuringTheDayInv.stages.0.label>
+  <PTD05fhDuringTheDayInv.stages.0.description>Oops, today is just a fluke. You may surpass me next time. Efforts will definitely pay off, heh heh!</PTD05fhDuringTheDayInv.stages.0.description>
+  <PTD05fhProsthophileHappy.stages.0.label>Harakuro squeamish</PTD05fhProsthophileHappy.stages.0.label>
+  <PTD05fhProsthophileHappy.stages.0.description>Wow! It looks very expensive. Is it really okay to give me?</PTD05fhProsthophileHappy.stages.0.description>
+  <PTD05fhProsthophileHappy.stages.1.label>Harakuro pleased</PTD05fhProsthophileHappy.stages.1.label>
+  <PTD05fhProsthophileHappy.stages.1.description>It seems that everyone is already good enough.Thanks. I will make good use of it.</PTD05fhProsthophileHappy.stages.1.description>
+  <PTD05fhProsthophileHappy.stages.2.label>Harakuro enchanted</PTD05fhProsthophileHappy.stages.2.label>
+  <PTD05fhProsthophileHappy.stages.2.description>It seems to be very interesting. What to do next... Ah, yes, hee hee...</PTD05fhProsthophileHappy.stages.2.description>
+  <PTD05fhJealous.stages.0.label>jealous of {0}'s bedroom</PTD05fhJealous.stages.0.label>
+  <PTD05fhJealous.stages.0.description>How beautiful is the room you assigned to me! Everyone is a good and friendly person, isn't it? heh heh... Excuse me.</PTD05fhJealous.stages.0.description>
+  <!-- PTD06ds -->
+  <PTD06dsDuringTheDay.stages.0.label>daily life of Dokuzetu</PTD06dsDuringTheDay.stages.0.label>
+  <PTD06dsDuringTheDay.stages.0.description>Everyone helps each other, success and happiness together, It's just an ideal. Here, in the rimworld, if someone succeeds in holding hands, someone must be rejected. If someone becomes the core of the leader, someone must become a canned sofa or a dung.</PTD06dsDuringTheDay.stages.0.description>
+  <PTD06dsDuringTheDayInv.stages.0.label>daily life of Dokuzetu</PTD06dsDuringTheDayInv.stages.0.label>
+  <PTD06dsDuringTheDayInv.stages.0.description>Bent on your work. If you only breathe, the horseshoes pin nail is much more useful than you.</PTD06dsDuringTheDayInv.stages.0.description>
+  <!-- PTE04aksndgw -->
+  <PTE04aksndgwMoodOffset.stages.0.label>the passing away of love</PTE04aksndgwMoodOffset.stages.0.label>
+  <PTE04aksndgwMoodOffset.stages.0.description>It's me. I'm first. I was first...But, why this happens...</PTE04aksndgwMoodOffset.stages.0.description>
+  <!-- Praise the Sun -->
+  <SunPT_PraiseSun_DuringTheDay.stages.0.label>praise the sun</SunPT_PraiseSun_DuringTheDay.stages.0.label>
+  <SunPT_PraiseSun_DuringTheDay.stages.0.description>I hope that one day I will be able to be trusted and dependent, just like the dazzling knight.</SunPT_PraiseSun_DuringTheDay.stages.0.description>
+  <SunPT_PraiseWLJ_DuringTheDay.stages.0.label>praise the chairman</SunPT_PraiseWLJ_DuringTheDay.stages.0.label>
+  <SunPT_PraiseWLJ_DuringTheDay.stages.0.description>That is the only lighthouse in the wilderness, the light of civilization!</SunPT_PraiseWLJ_DuringTheDay.stages.0.description>
+  <!-- PTF02tyqs -->
+  <PTF02tyqsDuringTheDay.stages.0.label>praise the sun</PTF02tyqsDuringTheDay.stages.0.label>
+  <PTF02tyqsDuringTheDay.stages.0.description>The sun is a wondrous body. Like a magnificent father! If only I could be so grossly incandescent! </PTF02tyqsDuringTheDay.stages.0.description>
+  <PTF02tyqsEasePain.stages.0.label>believer in minor pain</PTF02tyqsEasePain.stages.0.label>
+  <PTF02tyqsEasePain.stages.0.description>Ah, the choice is mine.</PTF02tyqsEasePain.stages.0.description>
+  <PTF02tyqsEasePain.stages.1.label>believer in serious pain</PTF02tyqsEasePain.stages.1.label>
+  <PTF02tyqsEasePain.stages.1.description>Don't worry. Hah hah hah!</PTF02tyqsEasePain.stages.1.description>
+  <PTF02tyqsEasePain.stages.2.label>believer in intense pain</PTF02tyqsEasePain.stages.2.label>
+  <PTF02tyqsEasePain.stages.2.description>How could a Warrior of the Sun easily kneel down! Hrgraaah!</PTF02tyqsEasePain.stages.2.description>
+  <PTF02tyqsEasePain.stages.3.label>believer in mind-shattering pain</PTF02tyqsEasePain.stages.3.label>
+  <PTF02tyqsEasePain.stages.3.description>...My sun, my dear, dear sun...</PTF02tyqsEasePain.stages.3.description>
+  <!-- PTS02ss -->
+  <PTS02ssEasePain.stages.0.label>ranged reaper in minor pain</PTS02ssEasePain.stages.0.label>
+  <PTS02ssEasePain.stages.0.description>Is the pain of death starting from here? interesting!</PTS02ssEasePain.stages.0.description>
+  <PTS02ssEasePain.stages.1.label>ranged reaper in serious pain</PTS02ssEasePain.stages.1.label>
+  <PTS02ssEasePain.stages.1.description>Trembling, mortal! Remember the name of death!</PTS02ssEasePain.stages.1.description>
+  <PTS02ssEasePain.stages.2.label>ranged reaper in intense pain</PTS02ssEasePain.stages.2.label>
+  <PTS02ssEasePain.stages.2.description>Hah hah hah!</PTS02ssEasePain.stages.2.description>
+  <PTS02ssEasePain.stages.3.label>ranged reaper in mind-shattering pain</PTS02ssEasePain.stages.3.label>
+  <PTS02ssEasePain.stages.3.description>Gah hah hah hah hah hah hah hah hah!</PTS02ssEasePain.stages.3.description>
+  <!-- PTS03tslx -->
+  <PTS03tslxIsCarryingRangedWeapon.stages.0.label>born leader has ranged weapon</PTS03tslxIsCarryingRangedWeapon.stages.0.label>
+  <PTS03tslxIsCarryingRangedWeapon.stages.0.description>Let's start!</PTS03tslxIsCarryingRangedWeapon.stages.0.description>
+  <PTS03tslxMoodOffset.stages.0.label>life perpetual motion</PTS03tslxMoodOffset.stages.0.label>
+  <PTS03tslxMoodOffset.stages.0.description>Life is a race to encounter and solve problems, isn't it? So let's create our own miracle together.</PTS03tslxMoodOffset.stages.0.description>
+  <PTS03tslxEasePain.stages.0.label>born leader in minor pain</PTS03tslxEasePain.stages.0.label>
+  <PTS03tslxEasePain.stages.0.description>Hold on.</PTS03tslxEasePain.stages.0.description>
+  <PTS03tslxEasePain.stages.1.label>born leader in serious pain</PTS03tslxEasePain.stages.1.label>
+  <PTS03tslxEasePain.stages.1.description>But that is not the reason for retreating.</PTS03tslxEasePain.stages.1.description>
+  <PTS03tslxEasePain.stages.2.label>born leader in intense pain</PTS03tslxEasePain.stages.2.label>
+  <PTS03tslxEasePain.stages.2.description>Square our shoulders and make our own history!</PTS03tslxEasePain.stages.2.description>
+  <PTS03tslxEasePain.stages.3.label>born leader in mind-shattering pain</PTS03tslxEasePain.stages.3.label>
+  <PTS03tslxEasePain.stages.3.description>Don't giv up..the dream...</PTS03tslxEasePain.stages.3.description>
+  <!-- PTS06fkzs -->
+  <PTS06fkzsNoProsthetic.stages.0.label>keep the body pure</PTS06fkzsNoProsthetic.stages.0.label>
+  <PTS06fkzsNoProsthetic.stages.0.description>Respect the body. Don't lose yourself in the enthusiasm for technology.</PTS06fkzsNoProsthetic.stages.0.description>
+  <!-- PTD01bj -->
+  <PTD01bjChitchat_MemorySocial.stages.0.label>know Yandere</PTD01bjChitchat_MemorySocial.stages.0.label>
+  <PTD01bjChitchatMood_MemorySocial.stages.0.label>deadly temptation</PTD01bjChitchatMood_MemorySocial.stages.0.label>
+  <PTD01bjChitchatMood_MemorySocial.stages.0.description>What a friendly person! Except for those weird topics.</PTD01bjChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTD02sw -->
+  <PTD02swChitchat_MemorySocial.stages.0.label>know Mukuchi</PTD02swChitchat_MemorySocial.stages.0.label>
+  <PTD02swChitchatMood_MemorySocial.stages.0.label>purification of the soul</PTD02swChitchatMood_MemorySocial.stages.0.label>
+  <PTD02swChitchatMood_MemorySocial.stages.0.description>Inner peace…</PTD02swChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTD03yq -->
+  <PTD03yqChitchat_MemorySocial.stages.0.label>know Genkisa</PTD03yqChitchat_MemorySocial.stages.0.label>
+  <PTD03yqChitchatMood_MemorySocial.stages.0.label>energetic</PTD03yqChitchatMood_MemorySocial.stages.0.label>
+  <PTD03yqChitchatMood_MemorySocial.stages.0.description>I feel energetic!</PTD03yqChitchatMood_MemorySocial.stages.0.description>
+  <PTD04ajChitchat_MemorySocial.stages.0.label>know Tsundere</PTD04ajChitchat_MemorySocial.stages.0.label>
+  <PTD04ajChitchatMood_MemorySocial.stages.0.label>awkward</PTD04ajChitchatMood_MemorySocial.stages.0.label>
+  <PTD04ajChitchatMood_MemorySocial.stages.0.description>That's really a trouble…</PTD04ajChitchatMood_MemorySocial.stages.0.description>
+  <PTD04ajDeepTalk_MemorySocial.stages.0.label>understand Tsundere</PTD04ajDeepTalk_MemorySocial.stages.0.label>
+  <PTD04ajDeepTalkMood_MemorySocial.stages.0.label>feel helpless</PTD04ajDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD04ajDeepTalkMood_MemorySocial.stages.0.description>What a good person. The only drawback is not being frank.</PTD04ajDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTD05fh -->
+  <PTD05fhChitchat_MemorySocial.stages.0.label>know Harakuro</PTD05fhChitchat_MemorySocial.stages.0.label>
+  <PTD05fhChitchatMood_MemorySocial.stages.0.label>admiration and jealousy</PTD05fhChitchatMood_MemorySocial.stages.0.label>
+  <PTD05fhChitchatMood_MemorySocial.stages.0.description>What a perfect person!</PTD05fhChitchatMood_MemorySocial.stages.0.description>
+  <PTD05fhDeepTalk_MemorySocial.stages.0.label>understand Harakuro</PTD05fhDeepTalk_MemorySocial.stages.0.label>
+  <PTD05fhDeepTalkMood_MemorySocial.stages.0.label>be manipulated</PTD05fhDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD05fhDeepTalkMood_MemorySocial.stages.0.description>I was surprised that my friend had such a hobby. Alas...</PTD05fhDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTD06ds -->
+  <PTD06dsChitchat_MemorySocial.stages.0.label>know Dokuzetu</PTD06dsChitchat_MemorySocial.stages.0.label>
+  <PTD06dsChitchatMood_MemorySocial.stages.0.label>be hard hit</PTD06dsChitchatMood_MemorySocial.stages.0.label>
+  <PTD06dsChitchatMood_MemorySocial.stages.0.description>Damn! I have no idea to refute the comment！</PTD06dsChitchatMood_MemorySocial.stages.0.description>
+  <PTD06dsDeepTalk_MemorySocial.stages.0.label>understand Dokuzetu</PTD06dsDeepTalk_MemorySocial.stages.0.label>
+  <PTD06dsDeepTalkMood_MemorySocial.stages.0.label>immune to eloquence</PTD06dsDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD06dsDeepTalkMood_MemorySocial.stages.0.description>I'm speechless. But it seems that there is no need to refute...</PTD06dsDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTE06wlkjjm -->
+  <PTE06wlkjjmChitchat_MemorySocial.stages.0.label>both admire the chairman</PTE06wlkjjmChitchat_MemorySocial.stages.0.label>
+  <PTE06wlkjjmChitchatMood_MemorySocial.stages.0.label>nostalgia</PTE06wlkjjmChitchatMood_MemorySocial.stages.0.label>
+  <PTE06wlkjjmChitchatMood_MemorySocial.stages.0.description>The happiness and bitterness will always be treasured in my heart.</PTE06wlkjjmChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTF02tyqs -->
+  <PTF02tyqsChitchat_MemorySocial.stages.0.label>know the brilliance of the Sun</PTF02tyqsChitchat_MemorySocial.stages.0.label>
+  <PTF02tyqsChitchatMood_MemorySocial.stages.0.label>radiance of the sun</PTF02tyqsChitchatMood_MemorySocial.stages.0.label>
+  <PTF02tyqsChitchatMood_MemorySocial.stages.0.description>Bringing warmth to others without hesitation, what a noble character！</PTF02tyqsChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTS03tslx -->
+  <PTS03tslxDeepTalk_MemorySocial.stages.0.label>admire the guide</PTS03tslxDeepTalk_MemorySocial.stages.0.label>
+  <PTS03tslxDeepTalkMood_MemorySocial.stages.0.label>timely help</PTS03tslxDeepTalkMood_MemorySocial.stages.0.label>
+  <PTS03tslxDeepTalkMood_MemorySocial.stages.0.description>What a loving person! The road ahead of me is clearer. I have to cheer up!</PTS03tslxDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTC01jzds -->
+  <PTC01jzds_ThoughtWorker_MPTSpecial.stages.0.label>skill expert</PTC01jzds_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- VanyaTC03fwgz -->
+  <VanyaTC03fwgz_ThoughtWorker_MPTSpecial.stages.0.label>combat expert</VanyaTC03fwgz_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTS03tslx -->
+  <PTS03tslx_ThoughtWorker_MPTSpecial.stages.0.label>pillar of faith</PTS03tslx_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- VanyaTA01mhgg -->
+  <VanyaTA01mhgg_ThoughtWorker_MPTSpecial.stages.0.label>mascot</VanyaTA01mhgg_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA22mmdsy -->
+  <PTA22mmdsy_ThoughtWorker_MPTSpecial.stages.0.label>nice voice</PTA22mmdsy_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA23hsc -->
+  <PTA23hsc_ThoughtWorker_MPTSpecial.stages.0.label>nice body</PTA23hsc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB09qgqc -->
+  <PTB09qgqc_ThoughtWorker_MPTSpecial.stages.0.label>drop dead gorgeous</PTB09qgqc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB10tlzy -->
+  <PTB10tlzy_ThoughtWorker_MPTSpecial.stages.0.label>sound of nature</PTB10tlzy_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB11mgsc -->
+  <PTB11mgsc_ThoughtWorker_MPTSpecial.stages.0.label>killer body</PTB11mgsc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTE01aydzn -->
+  <PTE01aydzn_ThoughtWorker_MPTSpecial.stages.0.label>poor taste</PTE01aydzn_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA24lr UndergrounderOutdoors -->
+  <PTA24lrUndergrounderOutdoors.stages.0.label>like outdoors</PTA24lrUndergrounderOutdoors.stages.0.label>
+  <PTA24lrUndergrounderOutdoors.stages.0.description>I like being outside.</PTA24lrUndergrounderOutdoors.stages.0.description>
+  <!-- PTZ11ybz UndergrounderIndoors -->
+  <PTZ11ybzUndergrounderIndoors.stages.0.label>dislike indoors</PTZ11ybzUndergrounderIndoors.stages.0.label>
+  <PTZ11ybzUndergrounderIndoors.stages.0.description>I don't like working or simply being indoors.</PTZ11ybzUndergrounderIndoors.stages.0.description>
+  <PTZ11ybzUndergrounderUnderground.stages.0.label>dislike underground</PTZ11ybzUndergrounderUnderground.stages.0.label>
+  <PTZ11ybzUndergrounderUnderground.stages.0.description>I am afraid to work or live in the underground.</PTZ11ybzUndergrounderUnderground.stages.0.description>
+  <!-- PTZ12bzdl wearing {0} apparel -->
+  <PTZ12bzdlWrongApparelGender.stages.0.label>like {0} apparel</PTZ12bzdlWrongApparelGender.stages.0.label>
+  <PTZ12bzdlWrongApparelGender.stages.0.description>Oh. Is this apparel made for {0}? That's great! I like it!</PTZ12bzdlWrongApparelGender.stages.0.description>
+  <!-- PTE09gdxwlb PraiseSun_DuringTheDay -->
+  <PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.label>owner and victim</PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.label>
+  <PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.description>Welcome.</PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.description>
+  <PTE09gdxwlbDuringTheNight.stages.0.label>owner and booty</PTE09gdxwlbDuringTheNight.stages.0.label>
+  <PTE09gdxwlbDuringTheNight.stages.0.description>Illegal goods? No problem!</PTE09gdxwlbDuringTheNight.stages.0.description>
+  <!-- PTF04skjs PraiseSun_DuringTheDay -->
+  <PTF04skjsPraiseSun_DuringTheDay.stages.0.label>glory belongs to the born warrior</PTF04skjsPraiseSun_DuringTheDay.stages.0.label>
+  <PTF04skjsPraiseSun_DuringTheDay.stages.0.description>Glory belongs to the born warrior, A-Fei!</PTF04skjsPraiseSun_DuringTheDay.stages.0.description>
+  <PTF04skjsUndergrounderOutdoors.stages.0.label>flat skin</PTF04skjsUndergrounderOutdoors.stages.0.label>
+  <PTF04skjsUndergrounderOutdoors.stages.0.description>Hi！You! Flat skin! Drug bust! Open your bag!</PTF04skjsUndergrounderOutdoors.stages.0.description>
+  <!-- believer Ease Pain -->
+  <PTB20js_EasePain.stages.0.label>believer in minor pain</PTB20js_EasePain.stages.0.label>
+  <PTB20js_EasePain.stages.0.description>I confess.</PTB20js_EasePain.stages.0.description>
+  <PTB20js_EasePain.stages.1.label>believer in serious pain</PTB20js_EasePain.stages.1.label>
+  <PTB20js_EasePain.stages.1.description>Please forgive me.</PTB20js_EasePain.stages.1.description>
+  <PTB20js_EasePain.stages.2.label>believer in intense pain</PTB20js_EasePain.stages.2.label>
+  <PTB20js_EasePain.stages.2.description>This must be a punishment from heaven.</PTB20js_EasePain.stages.2.description>
+  <PTB20js_EasePain.stages.3.label>believer in mind-shattering pain</PTB20js_EasePain.stages.3.label>
+  <PTB20js_EasePain.stages.3.description>God forgive me, for all my sins.</PTB20js_EasePain.stages.3.description>
+  <!-- daily life of god believer -->
+  <PTB20jsMoodOffset.stages.0.label>faith</PTB20jsMoodOffset.stages.0.label>
+  <PTB20jsMoodOffset.stages.0.description>God bless us.</PTB20jsMoodOffset.stages.0.description>
+  <!-- daily life of natural believer -->
+  <PTB21smDuringTheNight.stages.0.label>believer</PTB21smDuringTheNight.stages.0.label>
+  <PTB21smDuringTheNight.stages.0.description>Nature is eternal.</PTB21smDuringTheNight.stages.0.description>
+  <!-- PTB20js believer deep talk -->
+  <PTB20jsDeepTalk_MemorySocial.stages.0.label>both have faith</PTB20jsDeepTalk_MemorySocial.stages.0.label>
+  <PTB20jsDeepTalkMood_MemorySocial.stages.0.label>power of faith</PTB20jsDeepTalkMood_MemorySocial.stages.0.label>
+  <PTB20jsDeepTalkMood_MemorySocial.stages.0.description>I feel I have the courage to face difficulties again.</PTB20jsDeepTalkMood_MemorySocial.stages.0.description>
+</LanguageData>

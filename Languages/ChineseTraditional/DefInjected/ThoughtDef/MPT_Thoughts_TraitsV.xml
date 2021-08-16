@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VanyaTB01tzzMoodOffset.stages.0.label>悲剧的缔造者</VanyaTB01tzzMoodOffset.stages.0.label>
+  <VanyaTB01tzzMoodOffset.stages.0.description>你以为只凭善良能保护得了什么？</VanyaTB01tzzMoodOffset.stages.0.description>
+  <VanyaTS01byIsCarryingRangedWeapon.stages.0.label>持有远程武器（贝爷）</VanyaTS01byIsCarryingRangedWeapon.stages.0.label>
+  <VanyaTS01byIsCarryingRangedWeapon.stages.0.description>雪兔是可口的小零食，也算小有帮助，但我得到了一些武器可以帮助我抓住更大的猎物。 </VanyaTS01byIsCarryingRangedWeapon.stages.0.description>
+  <VanyaTS01byDuringTheDay.stages.0.label>吃货的时间（白天）</VanyaTS01byDuringTheDay.stages.0.label>
+  <VanyaTS01byDuringTheDay.stages.0.description>别放走敲击兽，它的蛋白质是牛肉的两倍！那才是我期待的美食。</VanyaTS01byDuringTheDay.stages.0.description>
+  <VanyaTS01byDuringTheNight.stages.0.label>吃货的时间（晚上）</VanyaTS01byDuringTheNight.stages.0.label>
+  <VanyaTS01byDuringTheNight.stages.0.description>走吧，说不定会发现落单的野牦牛、巨懒、利齿兽、恐龙、器官兽、九尾狐、奥妮、猫娘，或是别的什么。只要去掉头...都可以吃。</VanyaTS01byDuringTheNight.stages.0.description>
+  <VanyaTC04cftsNudistNaked.stages.0.label>裸体的艺术</VanyaTC04cftsNudistNaked.stages.0.label>
+  <VanyaTC04cftsNudistNaked.stages.0.description>我感到如此的自由和不受约束，感受到与四周环境的紧密结合！</VanyaTC04cftsNudistNaked.stages.0.description>
+  <!-- 凌洛特性 ling traits -->
+  <LingTA01haxzDuringTheNight.stages.0.label>喜欢夜晚</LingTA01haxzDuringTheNight.stages.0.label>
+  <LingTA01haxzDuringTheNight.stages.0.description>这是属于我的时间。</LingTA01haxzDuringTheNight.stages.0.description>
+</LanguageData>

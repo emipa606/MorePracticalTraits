@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Is Carrying Ranged Weapon -->
+  <SunPT_IsCarryingRangedWeapon.stages.0.label>持有远程武器</SunPT_IsCarryingRangedWeapon.stages.0.label>
+  <SunPT_IsCarryingRangedWeapon.stages.0.description>我已经准备好迎接战斗。</SunPT_IsCarryingRangedWeapon.stages.0.description>
+  <!-- Ease Pain -->
+  <SunPT_EasePain.stages.0.label>身上有点疼（坚强）</SunPT_EasePain.stages.0.label>
+  <SunPT_EasePain.stages.0.description>这算不了什么。</SunPT_EasePain.stages.0.description>
+  <SunPT_EasePain.stages.1.label>身上比较疼（坚强）</SunPT_EasePain.stages.1.label>
+  <SunPT_EasePain.stages.1.description>撑得住！</SunPT_EasePain.stages.1.description>
+  <SunPT_EasePain.stages.2.label>身上非常疼（坚强）</SunPT_EasePain.stages.2.label>
+  <SunPT_EasePain.stages.2.description>我怎么能就这样倒下！</SunPT_EasePain.stages.2.description>
+  <SunPT_EasePain.stages.3.label>疼得要晕厥了（坚强）</SunPT_EasePain.stages.3.label>
+  <SunPT_EasePain.stages.3.description>希望做了些什么...</SunPT_EasePain.stages.3.description>
+  <SunPT2_EasePain.stages.0.label>身上有点疼（信仰）</SunPT2_EasePain.stages.0.label>
+  <SunPT2_EasePain.stages.0.description>和加班相比，这算不了什么。</SunPT2_EasePain.stages.0.description>
+  <SunPT2_EasePain.stages.1.label>身上比较疼（信仰）</SunPT2_EasePain.stages.1.label>
+  <SunPT2_EasePain.stages.1.description>必须坚强！相信董事长！</SunPT2_EasePain.stages.1.description>
+  <SunPT2_EasePain.stages.2.label>身上非常疼（信仰）</SunPT2_EasePain.stages.2.label>
+  <SunPT2_EasePain.stages.2.description>别放弃希望！董事长说过，所有人都能活下去！</SunPT2_EasePain.stages.2.description>
+  <SunPT2_EasePain.stages.3.label>疼得要晕厥了（信仰）</SunPT2_EasePain.stages.3.label>
+  <SunPT2_EasePain.stages.3.description>就算死了...被钉在棺材里...我，也要用腐朽的声带，喊出...永远追随董事长！</SunPT2_EasePain.stages.3.description>
+  <!-- Disfigured -->
+  <SunPT_Disfigured.stages.0.label>善待毁容</SunPT_Disfigured.stages.0.label>
+  <!-- PTA13rq -->
+  <PTA13rqMoodOffset.stages.0.label>热情似火</PTA13rqMoodOffset.stages.0.label>
+  <PTA13rqMoodOffset.stages.0.description>敞开心扉，生活就应该开开心心。</PTA13rqMoodOffset.stages.0.description>
+  <!-- PTA20ba PTE01aydzn PTF02tyqs -->
+  <PTA20baUgly.stages.0.label>善待丑陋</PTA20baUgly.stages.0.label>
+  <PTA20baUgly.stages.1.label>善待丑绝人寰</PTA20baUgly.stages.1.label>
+  <PTA20baAnnoyingVoice.stages.0.label>善待烦人的声音</PTA20baAnnoyingVoice.stages.0.label>
+  <PTA20baCreepyBreathing.stages.0.label>善待恶心的呼吸声</PTA20baCreepyBreathing.stages.0.label>
+  <!-- PTB08zkw -->
+  <PTB08zkwDisfigured.stages.0.label>痴迷于毁容</PTB08zkwDisfigured.stages.0.label>
+  <PTB08zkwUgly.stages.0.label>痴迷于丑陋</PTB08zkwUgly.stages.0.label>
+  <PTB08zkwUgly.stages.1.label>痴迷于丑绝人寰</PTB08zkwUgly.stages.1.label>
+  <PTB08zkwAnnoyingVoice.stages.0.label>痴迷于烦人的声音</PTB08zkwAnnoyingVoice.stages.0.label>
+  <PTB08zkwCreepyBreathing.stages.0.label>痴迷于恶心的呼吸声</PTB08zkwCreepyBreathing.stages.0.label>
+  <PTB08zkwButcheredHumanlikeCorpseOpinion.stages.0.label>为屠宰过人类而点赞</PTB08zkwButcheredHumanlikeCorpseOpinion.stages.0.label>
+  <PTB08zkwAteRawHumanlikeMeat.stages.0.label>为生吃过人肉而点赞</PTB08zkwAteRawHumanlikeMeat.stages.0.label>
+  <!-- PTD01bj -->
+  <PTD01bjDuringTheDayInv.stages.0.label>病娇日常</PTD01bjDuringTheDayInv.stages.0.label>
+  <PTD01bjDuringTheDayInv.stages.0.description>为什么要争吵呢？疏远的话，就把心挖出来缩短彼此的距离吧~爱是不会在乎瑕疵的...</PTD01bjDuringTheDayInv.stages.0.description>
+  <PTD01bjDuringTheNightInv.stages.0.label>病娇日常</PTD01bjDuringTheNightInv.stages.0.label>
+  <PTD01bjDuringTheNightInv.stages.0.description>坏人和背叛者都要被切碎哦~爱只有在染满鲜血时才是最美丽的呀，一想到接下来的厮杀就兴奋起来！</PTD01bjDuringTheNightInv.stages.0.description>
+  <PTD01bjEasePain.stages.0.label>身上有点疼（病娇）</PTD01bjEasePain.stages.0.label>
+  <PTD01bjEasePain.stages.0.description>杀了你哟。</PTD01bjEasePain.stages.0.description>
+  <PTD01bjEasePain.stages.1.label>身上比较疼（病娇）</PTD01bjEasePain.stages.1.label>
+  <PTD01bjEasePain.stages.1.description>与其懊悔过去,还不如勇往直前,将挡在面前的阻碍统统踏碎斩杀！</PTD01bjEasePain.stages.1.description>
+  <PTD01bjEasePain.stages.2.label>身上非常疼（病娇）</PTD01bjEasePain.stages.2.label>
+  <PTD01bjEasePain.stages.2.description>去死！去死！都去死吧！</PTD01bjEasePain.stages.2.description>
+  <PTD01bjEasePain.stages.3.label>疼得要晕厥了（病娇）</PTD01bjEasePain.stages.3.label>
+  <PTD01bjEasePain.stages.3.description>不喜欢就杀死吧！那样就可以在一起了！哈哈哈！</PTD01bjEasePain.stages.3.description>
+  <!-- PTD02sw -->
+  <PTD02swClothedNudist.stages.0.label>三无日常</PTD02swClothedNudist.stages.0.label>
+  <PTD02swClothedNudist.stages.0.description>……</PTD02swClothedNudist.stages.0.description>
+  <!-- PTD03yq -->
+  <PTD03yqDuringTheNight.stages.0.label>元气日常</PTD03yqDuringTheNight.stages.0.label>
+  <PTD03yqDuringTheNight.stages.0.description>新的一天开始了，今天也要加倍努力！</PTD03yqDuringTheNight.stages.0.description>
+  <!-- PTD04aj -->
+  <PTD04ajDuringTheDay.stages.0.label>傲娇日常</PTD04ajDuringTheDay.stages.0.label>
+  <PTD04ajDuringTheDay.stages.0.description>哈？！这都不会还有脸站在殖民地里？啧啧，可怜兮兮的样子...那我就勉为其难示范一遍吧，给我用心记住！</PTD04ajDuringTheDay.stages.0.description>
+  <PTD04ajDuringTheDayInv.stages.0.label>傲娇日常</PTD04ajDuringTheDayInv.stages.0.label>
+  <PTD04ajDuringTheDayInv.stages.0.description>什么嘛......就算夸我也不会高兴，哼~</PTD04ajDuringTheDayInv.stages.0.description>
+  <PTD04ajBrawlerUnhappy.stages.0.label>傲娇持有远程武器</PTD04ajBrawlerUnhappy.stages.0.label>
+  <PTD04ajBrawlerUnhappy.stages.0.description>笨蛋！住嘴！反对驳回！没想到这么菜啊，几只杂鱼也要我出马...那我就大发慈悲带带你们吧，真受不了！</PTD04ajBrawlerUnhappy.stages.0.description>
+  <PTD04ajPyromaniacHappy.stages.0.label>傲娇持有燃烧武器</PTD04ajPyromaniacHappy.stages.0.label>
+  <PTD04ajPyromaniacHappy.stages.0.description>哈？！手里多了化合燃料和火把？为什么我必须要和单身狗一起审判异端啊？先说好，我可不是因为喜欢才这样做的哦~</PTD04ajPyromaniacHappy.stages.0.description>
+  <PTD04ajProsthophileHappy.stages.0.label>傲娇拥有假体</PTD04ajProsthophileHappy.stages.0.label>
+  <PTD04ajProsthophileHappy.stages.0.description>哇！快把这吓人的东西给我取下来！</PTD04ajProsthophileHappy.stages.0.description>
+  <PTD04ajProsthophileHappy.stages.1.label>傲娇拥有假体×2</PTD04ajProsthophileHappy.stages.1.label>
+  <PTD04ajProsthophileHappy.stages.1.description>又装了什么？谎言已经听够了，才不相信是为我好呢。</PTD04ajProsthophileHappy.stages.1.description>
+  <PTD04ajProsthophileHappy.stages.2.label>傲娇拥有假体×3</PTD04ajProsthophileHappy.stages.2.label>
+  <PTD04ajProsthophileHappy.stages.2.description>又，又对我的身体做了什么啊？嘛...其实我也不是很想要......如果硬要给我，那我就勉为其难收下了...</PTD04ajProsthophileHappy.stages.2.description>
+  <PTD04ajProsthophileHappy.stages.3.label>傲娇拥有假体×4</PTD04ajProsthophileHappy.stages.3.label>
+  <PTD04ajProsthophileHappy.stages.3.description>什么？好用？我没说。别妨碍工作，走开。</PTD04ajProsthophileHappy.stages.3.description>
+  <PTD04ajProsthophileHappy.stages.4.label>傲娇拥有假体×5</PTD04ajProsthophileHappy.stages.4.label>
+  <PTD04ajProsthophileHappy.stages.4.description>熟练使用？那当然！你以为我是谁。不过感觉有阴谋，总之别再动我的身体，听见没有。</PTD04ajProsthophileHappy.stages.4.description>
+  <PTD04ajProsthophileHappy.stages.5.label>傲娇拥有多个假体</PTD04ajProsthophileHappy.stages.5.label>
+  <PTD04ajProsthophileHappy.stages.5.description>随！便！乱！动！别！人！身！体！的！家！伙！最！讨！厌！了！</PTD04ajProsthophileHappy.stages.5.description>
+  <PTD04ajJealous.stages.0.label>嫉妒{0}的卧室（傲娇）</PTD04ajJealous.stages.0.label>
+  <PTD04ajJealous.stages.0.description>哈？！为什么别人卧室会比我的好啊！在小看我吗！......既，既然都这么说了，那就勉强凑合两天...不过我可没消气！</PTD04ajJealous.stages.0.description>
+  <PTD04ajJealousBest.stages.0.label>恰当的卧室（傲娇）</PTD04ajJealousBest.stages.0.label>
+  <PTD04ajJealousBest.stages.0.description>房间什么的，也不是特别在意呢......</PTD04ajJealousBest.stages.0.description>
+  <!-- PTD05fh -->
+  <PTD05fhDuringTheDay.stages.0.label>腹黑日常</PTD05fhDuringTheDay.stages.0.label>
+  <PTD05fhDuringTheDay.stages.0.description>哎...一如既往的和平呢，没有什么令人愉悦的事情吗？</PTD05fhDuringTheDay.stages.0.description>
+  <PTD05fhDuringTheDayInv.stages.0.label>腹黑日常</PTD05fhDuringTheDayInv.stages.0.label>
+  <PTD05fhDuringTheDayInv.stages.0.description>哎呀，今天只是侥幸呢，下次各位或许会超过我呢，努力肯定会有回报的，呵呵呵~</PTD05fhDuringTheDayInv.stages.0.description>
+  <PTD05fhProsthophileHappy.stages.0.label>腹黑拥有假体</PTD05fhProsthophileHappy.stages.0.label>
+  <PTD05fhProsthophileHappy.stages.0.description>诶，看上去很贵重的东西给我真的没关系吗？受宠若惊...</PTD05fhProsthophileHappy.stages.0.description>
+  <PTD05fhProsthophileHappy.stages.1.label>腹黑拥有假体×2</PTD05fhProsthophileHappy.stages.1.label>
+  <PTD05fhProsthophileHappy.stages.1.description>真是过意不去呢，看来各位已经足够优秀了呢，我会好好利用的。</PTD05fhProsthophileHappy.stages.1.description>
+  <PTD05fhProsthophileHappy.stages.2.label>腹黑拥有多个假体</PTD05fhProsthophileHappy.stages.2.label>
+  <PTD05fhProsthophileHappy.stages.2.description>事情好像变得很有趣了，接下来要怎么...啊，对了，嘿嘿嘿...</PTD05fhProsthophileHappy.stages.2.description>
+  <PTD05fhJealous.stages.0.label>嫉妒{0}的卧室（腹黑）</PTD05fhJealous.stages.0.label>
+  <PTD05fhJealous.stages.0.description>多么体贴的房间分配，谁会有意见呢？大家都十分和善友爱，不是吗？呵呵呵...那么失陪了。</PTD05fhJealous.stages.0.description>
+  <!-- PTD06ds -->
+  <PTD06dsDuringTheDay.stages.0.label>毒舌日常</PTD06dsDuringTheDay.stages.0.label>
+  <PTD06dsDuringTheDay.stages.0.description>大家互相帮助，一同成功和幸福什么的，那不过是理想。在这里，有人成功牵手，就必定有人告白被拒，有人成为领袖核心，就必须有人变成罐头沙发，或是化为粪土。</PTD06dsDuringTheDay.stages.0.description>
+  <PTD06dsDuringTheDayInv.stages.0.label>毒舌日常</PTD06dsDuringTheDayInv.stages.0.label>
+  <PTD06dsDuringTheDayInv.stages.0.description>不工作吗？如果你只会吸气呼气，旁边的马蹄钉都比你有用得多。</PTD06dsDuringTheDayInv.stages.0.description>
+  <!-- PTE04aksndgw -->
+  <PTE04aksndgwMoodOffset.stages.0.label>逝去的爱情</PTE04aksndgwMoodOffset.stages.0.label>
+  <PTE04aksndgwMoodOffset.stages.0.description>是我，是我先，明明都是我先来的...为什么会变成这样呢...</PTE04aksndgwMoodOffset.stages.0.description>
+  <!-- Praise the Sun -->
+  <SunPT_PraiseSun_DuringTheDay.stages.0.label>赞美太阳（白天）</SunPT_PraiseSun_DuringTheDay.stages.0.label>
+  <SunPT_PraiseSun_DuringTheDay.stages.0.description>希望有一天我也能像那位耀眼的骑士一样，成为可以被信任和依赖的存在。</SunPT_PraiseSun_DuringTheDay.stages.0.description>
+  <SunPT_PraiseWLJ_DuringTheDay.stages.0.label>赞美董事长（白天）</SunPT_PraiseWLJ_DuringTheDay.stages.0.label>
+  <SunPT_PraiseWLJ_DuringTheDay.stages.0.description>那就是荒原之中唯一的灯塔，文明之光！</SunPT_PraiseWLJ_DuringTheDay.stages.0.description>
+  <!-- PTF02tyqs -->
+  <PTF02tyqsDuringTheDay.stages.0.label>赞美太阳（白天）</PTF02tyqsDuringTheDay.stages.0.label>
+  <PTF02tyqsDuringTheDay.stages.0.description>太阳真是伟大啊！宛如一位超凡的父亲。真希望有一天我也能像太阳一样，巨大又充满热力......</PTF02tyqsDuringTheDay.stages.0.description>
+  <PTF02tyqsEasePain.stages.0.label>身上有点疼（信仰）</PTF02tyqsEasePain.stages.0.label>
+  <PTF02tyqsEasePain.stages.0.description>喔，选择权在我的手中。</PTF02tyqsEasePain.stages.0.description>
+  <PTF02tyqsEasePain.stages.1.label>身上比较疼（信仰）</PTF02tyqsEasePain.stages.1.label>
+  <PTF02tyqsEasePain.stages.1.description>别担心。 哇哈哈哈！</PTF02tyqsEasePain.stages.1.description>
+  <PTF02tyqsEasePain.stages.2.label>身上非常疼（信仰）</PTF02tyqsEasePain.stages.2.label>
+  <PTF02tyqsEasePain.stages.2.description>太阳的信徒怎能轻易倒下！喝呀！！</PTF02tyqsEasePain.stages.2.description>
+  <PTF02tyqsEasePain.stages.3.label>疼得要晕厥了（信仰）</PTF02tyqsEasePain.stages.3.label>
+  <PTF02tyqsEasePain.stages.3.description>......太阳，我的太阳啊......</PTF02tyqsEasePain.stages.3.description>
+  <!-- PTS02ss -->
+  <PTS02ssEasePain.stages.0.label>身上有点疼（死神）</PTS02ssEasePain.stages.0.label>
+  <PTS02ssEasePain.stages.0.description>死亡的痛苦就是从这里开始的吧？有意思！</PTS02ssEasePain.stages.0.description>
+  <PTS02ssEasePain.stages.1.label>身上比较疼（死神）</PTS02ssEasePain.stages.1.label>
+  <PTS02ssEasePain.stages.1.description>颤抖吧，凡人！记住死亡的名字吧！</PTS02ssEasePain.stages.1.description>
+  <PTS02ssEasePain.stages.2.label>身上非常疼（死神）</PTS02ssEasePain.stages.2.label>
+  <PTS02ssEasePain.stages.2.description>哈哈哈啊哈哈哈哈啊哈哈！</PTS02ssEasePain.stages.2.description>
+  <PTS02ssEasePain.stages.3.label>疼得要晕厥了（死神）</PTS02ssEasePain.stages.3.label>
+  <PTS02ssEasePain.stages.3.description>哈哈哈啊哈哈哈哈啊哈哈哈哈哈啊哈哈哈哈啊哈哈！</PTS02ssEasePain.stages.3.description>
+  <!-- PTS03tslx -->
+  <PTS03tslxIsCarryingRangedWeapon.stages.0.label>持有远程武器（领袖）</PTS03tslxIsCarryingRangedWeapon.stages.0.label>
+  <PTS03tslxIsCarryingRangedWeapon.stages.0.description>让我们行动起来！</PTS03tslxIsCarryingRangedWeapon.stages.0.description>
+  <PTS03tslxMoodOffset.stages.0.label>生命永动机</PTS03tslxMoodOffset.stages.0.label>
+  <PTS03tslxMoodOffset.stages.0.description>人生不就是遇到并解决困难的竞赛吗？那么一起创造属于自己的奇迹吧。</PTS03tslxMoodOffset.stages.0.description>
+  <PTS03tslxEasePain.stages.0.label>身上有点疼（领袖）</PTS03tslxEasePain.stages.0.label>
+  <PTS03tslxEasePain.stages.0.description>坚持。</PTS03tslxEasePain.stages.0.description>
+  <PTS03tslxEasePain.stages.1.label>身上比较疼（领袖）</PTS03tslxEasePain.stages.1.label>
+  <PTS03tslxEasePain.stages.1.description>但这可不是退缩的理由啊。</PTS03tslxEasePain.stages.1.description>
+  <PTS03tslxEasePain.stages.2.label>身上非常疼（领袖）</PTS03tslxEasePain.stages.2.label>
+  <PTS03tslxEasePain.stages.2.description>拿出勇气！创造属于我们的壮丽篇章！</PTS03tslxEasePain.stages.2.description>
+  <PTS03tslxEasePain.stages.3.label>疼得要晕厥了（领袖）</PTS03tslxEasePain.stages.3.label>
+  <PTS03tslxEasePain.stages.3.description>永远不要放弃...梦想......</PTS03tslxEasePain.stages.3.description>
+  <!-- PTS06fkzs -->
+  <PTS06fkzsNoProsthetic.stages.0.label>保持身体纯粹（超凡）</PTS06fkzsNoProsthetic.stages.0.label>
+  <PTS06fkzsNoProsthetic.stages.0.description>敬畏身体，尊重本源，不要因对科技的狂热而迷失自我。</PTS06fkzsNoProsthetic.stages.0.description>
+  <!-- PTD01bj -->
+  <PTD01bjChitchat_MemorySocial.stages.0.label>亲近病娇</PTD01bjChitchat_MemorySocial.stages.0.label>
+  <PTD01bjChitchatMood_MemorySocial.stages.0.label>致命的诱惑力</PTD01bjChitchatMood_MemorySocial.stages.0.label>
+  <PTD01bjChitchatMood_MemorySocial.stages.0.description>多么友好的人啊！虽然喜欢的话题有些奇怪。</PTD01bjChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTD02sw -->
+  <PTD02swChitchat_MemorySocial.stages.0.label>亲近三无</PTD02swChitchat_MemorySocial.stages.0.label>
+  <PTD02swChitchatMood_MemorySocial.stages.0.label>心灵净化</PTD02swChitchatMood_MemorySocial.stages.0.label>
+  <PTD02swChitchatMood_MemorySocial.stages.0.description>内心变得平静......</PTD02swChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTD03yq -->
+  <PTD03yqChitchat_MemorySocial.stages.0.label>亲近元气</PTD03yqChitchat_MemorySocial.stages.0.label>
+  <PTD03yqChitchatMood_MemorySocial.stages.0.label>充满活力</PTD03yqChitchatMood_MemorySocial.stages.0.label>
+  <PTD03yqChitchatMood_MemorySocial.stages.0.description>我感觉自己也充满活力！</PTD03yqChitchatMood_MemorySocial.stages.0.description>
+  <PTD04ajChitchat_MemorySocial.stages.0.label>亲近傲娇</PTD04ajChitchat_MemorySocial.stages.0.label>
+  <PTD04ajChitchatMood_MemorySocial.stages.0.label>气氛尴尬</PTD04ajChitchatMood_MemorySocial.stages.0.label>
+  <PTD04ajChitchatMood_MemorySocial.stages.0.description>那不坦率的样子还真伤脑筋......</PTD04ajChitchatMood_MemorySocial.stages.0.description>
+  <PTD04ajDeepTalk_MemorySocial.stages.0.label>深入了解傲娇</PTD04ajDeepTalk_MemorySocial.stages.0.label>
+  <PTD04ajDeepTalkMood_MemorySocial.stages.0.label>无可奈何</PTD04ajDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD04ajDeepTalkMood_MemorySocial.stages.0.description>是个非常不错的人，除了不坦率......</PTD04ajDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTD05fh -->
+  <PTD05fhChitchat_MemorySocial.stages.0.label>亲近腹黑</PTD05fhChitchat_MemorySocial.stages.0.label>
+  <PTD05fhChitchatMood_MemorySocial.stages.0.label>敬佩与羡慕</PTD05fhChitchatMood_MemorySocial.stages.0.label>
+  <PTD05fhChitchatMood_MemorySocial.stages.0.description>真是个完美的人。</PTD05fhChitchatMood_MemorySocial.stages.0.description>
+  <PTD05fhDeepTalk_MemorySocial.stages.0.label>深入了解腹黑</PTD05fhDeepTalk_MemorySocial.stages.0.label>
+  <PTD05fhDeepTalkMood_MemorySocial.stages.0.label>被玩弄于鼓掌</PTD05fhDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD05fhDeepTalkMood_MemorySocial.stages.0.description>没想到竟然有这样的趣味，交友不慎，哎...</PTD05fhDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTD06ds -->
+  <PTD06dsChitchat_MemorySocial.stages.0.label>惧怕毒舌</PTD06dsChitchat_MemorySocial.stages.0.label>
+  <PTD06dsChitchatMood_MemorySocial.stages.0.label>深受打击</PTD06dsChitchatMood_MemorySocial.stages.0.label>
+  <PTD06dsChitchatMood_MemorySocial.stages.0.description>真可恶！偏偏还没有理由反驳！</PTD06dsChitchatMood_MemorySocial.stages.0.description>
+  <PTD06dsDeepTalk_MemorySocial.stages.0.label>深入了解毒舌</PTD06dsDeepTalk_MemorySocial.stages.0.label>
+  <PTD06dsDeepTalkMood_MemorySocial.stages.0.label>适应伶牙俐齿</PTD06dsDeepTalkMood_MemorySocial.stages.0.label>
+  <PTD06dsDeepTalkMood_MemorySocial.stages.0.description>找不到理由，不过好像也没必要反驳...</PTD06dsDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTE06wlkjjm -->
+  <PTE06wlkjjmChitchat_MemorySocial.stages.0.label>因董事长而志同道合</PTE06wlkjjmChitchat_MemorySocial.stages.0.label>
+  <PTE06wlkjjmChitchatMood_MemorySocial.stages.0.label>缅怀岁月</PTE06wlkjjmChitchatMood_MemorySocial.stages.0.label>
+  <PTE06wlkjjmChitchatMood_MemorySocial.stages.0.description>那段酸甜苦辣会永远珍藏在心中。</PTE06wlkjjmChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTF02tyqs -->
+  <PTF02tyqsChitchat_MemorySocial.stages.0.label>被太阳骑士感化</PTF02tyqsChitchat_MemorySocial.stages.0.label>
+  <PTF02tyqsChitchatMood_MemorySocial.stages.0.label>太阳的英姿</PTF02tyqsChitchatMood_MemorySocial.stages.0.label>
+  <PTF02tyqsChitchatMood_MemorySocial.stages.0.description>将温暖毫不吝惜地带给他人，多么崇高的品格与心境。</PTF02tyqsChitchatMood_MemorySocial.stages.0.description>
+  <!-- PTS03tslx -->
+  <PTS03tslxDeepTalk_MemorySocial.stages.0.label>敬仰指引者</PTS03tslxDeepTalk_MemorySocial.stages.0.label>
+  <PTS03tslxDeepTalkMood_MemorySocial.stages.0.label>雪中送炭</PTS03tslxDeepTalkMood_MemorySocial.stages.0.label>
+  <PTS03tslxDeepTalkMood_MemorySocial.stages.0.description>多么慈爱的人啊！为迷失的我照亮前方。我怎能不坚强起来？</PTS03tslxDeepTalkMood_MemorySocial.stages.0.description>
+  <!-- PTC01jzds -->
+  <PTC01jzds_ThoughtWorker_MPTSpecial.stages.0.label>技能专家</PTC01jzds_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- VanyaTC03fwgz -->
+  <VanyaTC03fwgz_ThoughtWorker_MPTSpecial.stages.0.label>战斗专家</VanyaTC03fwgz_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTS03tslx -->
+  <PTS03tslx_ThoughtWorker_MPTSpecial.stages.0.label>信仰支柱</PTS03tslx_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- VanyaTA01mhgg -->
+  <VanyaTA01mhgg_ThoughtWorker_MPTSpecial.stages.0.label>吉祥物</VanyaTA01mhgg_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA22mmdsy -->
+  <PTA22mmdsy_ThoughtWorker_MPTSpecial.stages.0.label>好声音</PTA22mmdsy_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA23hsc -->
+  <PTA23hsc_ThoughtWorker_MPTSpecial.stages.0.label>好身材</PTA23hsc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB09qgqc -->
+  <PTB09qgqc_ThoughtWorker_MPTSpecial.stages.0.label>倾国倾城</PTB09qgqc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB10tlzy -->
+  <PTB10tlzy_ThoughtWorker_MPTSpecial.stages.0.label>天籁之音</PTB10tlzy_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTB11mgsc -->
+  <PTB11mgsc_ThoughtWorker_MPTSpecial.stages.0.label>魔鬼身材</PTB11mgsc_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTE01aydzn -->
+  <PTE01aydzn_ThoughtWorker_MPTSpecial.stages.0.label>着装品味差</PTE01aydzn_ThoughtWorker_MPTSpecial.stages.0.label>
+  <!-- PTA24lr UndergrounderOutdoors -->
+  <PTA24lrUndergrounderOutdoors.stages.0.label>喜欢室外</PTA24lrUndergrounderOutdoors.stages.0.label>
+  <PTA24lrUndergrounderOutdoors.stages.0.description>我喜欢呆在室外。</PTA24lrUndergrounderOutdoors.stages.0.description>
+  <!-- PTZ11ybz UndergrounderIndoors -->
+  <PTZ11ybzUndergrounderIndoors.stages.0.label>不喜欢室内</PTZ11ybzUndergrounderIndoors.stages.0.label>
+  <PTZ11ybzUndergrounderIndoors.stages.0.description>我不喜欢在室内工作和生活。</PTZ11ybzUndergrounderIndoors.stages.0.description>
+  <PTZ11ybzUndergrounderUnderground.stages.0.label>不喜欢地下</PTZ11ybzUndergrounderUnderground.stages.0.label>
+  <PTZ11ybzUndergrounderUnderground.stages.0.description>我害怕在地下工作和生活。</PTZ11ybzUndergrounderUnderground.stages.0.description>
+  <!-- PTZ12bzdl wearing {0} apparel -->
+  <PTZ12bzdlWrongApparelGender.stages.0.label>喜欢{0}服装</PTZ12bzdlWrongApparelGender.stages.0.label>
+  <PTZ12bzdlWrongApparelGender.stages.0.description>哇哦，这是为{0}准备的服装？那太棒了！这正是我喜欢的！</PTZ12bzdlWrongApparelGender.stages.0.description>
+  <!-- PTE09gdxwlb PraiseSun_DuringTheDay -->
+  <PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.label>老板与受难者</PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.label>
+  <PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.description>进来随便看看吧。</PTE09gdxwlbPraiseSun_DuringTheDay.stages.0.description>
+  <PTE09gdxwlbDuringTheNight.stages.0.label>老板与赃物</PTE09gdxwlbDuringTheNight.stages.0.label>
+  <PTE09gdxwlbDuringTheNight.stages.0.description>赃物？没问题！</PTE09gdxwlbDuringTheNight.stages.0.description>
+  <!-- PTF04skjs PraiseSun_DuringTheDay -->
+  <PTF04skjsPraiseSun_DuringTheDay.stages.0.label>荣耀属于天生战狂</PTF04skjsPraiseSun_DuringTheDay.stages.0.label>
+  <PTF04skjsPraiseSun_DuringTheDay.stages.0.description>荣耀属于天生战狂！阿飞万岁！</PTF04skjsPraiseSun_DuringTheDay.stages.0.description>
+  <PTF04skjsUndergrounderOutdoors.stages.0.label>平皮人</PTF04skjsUndergrounderOutdoors.stages.0.label>
+  <PTF04skjsUndergrounderOutdoors.stages.0.description>嘿！说你呢！小嫩皮！违禁品检查！打开你的背包！</PTF04skjsUndergrounderOutdoors.stages.0.description>
+  <!-- believer Ease Pain -->
+  <PTB20js_EasePain.stages.0.label>身上有点疼（信仰）</PTB20js_EasePain.stages.0.label>
+  <PTB20js_EasePain.stages.0.description>我忏悔。</PTB20js_EasePain.stages.0.description>
+  <PTB20js_EasePain.stages.1.label>身上比较疼（信仰）</PTB20js_EasePain.stages.1.label>
+  <PTB20js_EasePain.stages.1.description>请宽恕我。</PTB20js_EasePain.stages.1.description>
+  <PTB20js_EasePain.stages.2.label>身上非常疼（信仰）</PTB20js_EasePain.stages.2.label>
+  <PTB20js_EasePain.stages.2.description>啊！这一定是来自上天的惩罚。</PTB20js_EasePain.stages.2.description>
+  <PTB20js_EasePain.stages.3.label>疼得要晕厥了（信仰）</PTB20js_EasePain.stages.3.label>
+  <PTB20js_EasePain.stages.3.description>神啊！请原谅我，和我曾犯下的所有罪过…</PTB20js_EasePain.stages.3.description>
+  <!-- daily life of god believer -->
+  <PTB20jsMoodOffset.stages.0.label>神之信徒</PTB20jsMoodOffset.stages.0.label>
+  <PTB20jsMoodOffset.stages.0.description>愿神赐福于我们。</PTB20jsMoodOffset.stages.0.description>
+  <!-- daily life of natural believer -->
+  <PTB21smDuringTheNight.stages.0.label>自然之信徒</PTB21smDuringTheNight.stages.0.label>
+  <PTB21smDuringTheNight.stages.0.description>大自然是永恒的。</PTB21smDuringTheNight.stages.0.description>
+  <!-- PTB20js believer deep talk -->
+  <PTB20jsDeepTalk_MemorySocial.stages.0.label>因信仰而志同道合</PTB20jsDeepTalk_MemorySocial.stages.0.label>
+  <PTB20jsDeepTalkMood_MemorySocial.stages.0.label>信仰的力量</PTB20jsDeepTalkMood_MemorySocial.stages.0.label>
+  <PTB20jsDeepTalkMood_MemorySocial.stages.0.description>我感到自己又有了面对困难的勇气。</PTB20jsDeepTalkMood_MemorySocial.stages.0.description>
+</LanguageData>

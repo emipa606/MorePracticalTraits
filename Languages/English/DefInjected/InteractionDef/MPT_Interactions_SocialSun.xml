@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- PTD01bj social interactions -->
+  <PTD01bjChitchat.label>Yandere chitchat</PTD01bjChitchat.label>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] the fun of slaughtering a [gamePTD01bj] with [RECIPIENT_nameDef].</PTD01bjChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] how to cook [subjectPTD01bj].</PTD01bjChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] showed a strong interest in [Weapon] when [RECIPIENT_nameDef] and [INITIATOR_pronoun] were talking about [TalkTopicLight].</PTD01bjChitchat.logRulesInitiator.rulesStrings.2>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.3>talkedabout(p=4)-&gt;chatted about</PTD01bjChitchat.logRulesInitiator.rulesStrings.3>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.4>talkedabout-&gt;shared a word about</PTD01bjChitchat.logRulesInitiator.rulesStrings.4>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.5>talkedabout-&gt;spoke about</PTD01bjChitchat.logRulesInitiator.rulesStrings.5>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.6>talkedabout-&gt;gabbed about</PTD01bjChitchat.logRulesInitiator.rulesStrings.6>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.7>talkedabout-&gt;talked about</PTD01bjChitchat.logRulesInitiator.rulesStrings.7>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.8>talkedabout-&gt;joked about</PTD01bjChitchat.logRulesInitiator.rulesStrings.8>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.9>talkedabout-&gt;quipped about</PTD01bjChitchat.logRulesInitiator.rulesStrings.9>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.10>gamePTD01bj(p=3)-&gt;traitor</PTD01bjChitchat.logRulesInitiator.rulesStrings.10>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.11>gamePTD01bj-&gt;love rat</PTD01bjChitchat.logRulesInitiator.rulesStrings.11>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.12>gamePTD01bj-&gt;heartless person</PTD01bjChitchat.logRulesInitiator.rulesStrings.12>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.13>gamePTD01bj-&gt;pirate</PTD01bjChitchat.logRulesInitiator.rulesStrings.13>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.14>gamePTD01bj-&gt;raider</PTD01bjChitchat.logRulesInitiator.rulesStrings.14>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.15>gamePTD01bj-&gt;mistress</PTD01bjChitchat.logRulesInitiator.rulesStrings.15>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.16>subjectPTD01bj(p=4)-&gt;the [Animal]</PTD01bjChitchat.logRulesInitiator.rulesStrings.16>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.17>subjectPTD01bj-&gt;the genuine Chinese food</PTD01bjChitchat.logRulesInitiator.rulesStrings.17>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.18>subjectPTD01bj-&gt;the perfect turkey</PTD01bjChitchat.logRulesInitiator.rulesStrings.18>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.19>subjectPTD01bj-&gt;the breakfast</PTD01bjChitchat.logRulesInitiator.rulesStrings.19>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.20>subjectPTD01bj-&gt;the dinner for lover</PTD01bjChitchat.logRulesInitiator.rulesStrings.20>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.21>subjectPTD01bj-&gt;with the campfire</PTD01bjChitchat.logRulesInitiator.rulesStrings.21>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.22>subjectPTD01bj-&gt;a [Enemy]</PTD01bjChitchat.logRulesInitiator.rulesStrings.22>
+  <PTD01bjChitchat.logRulesInitiator.rulesStrings.23>gamePTD01bj-&gt;[Enemy]</PTD01bjChitchat.logRulesInitiator.rulesStrings.23>
+  <!-- PTD02sw social interactions -->
+  <PTD02swChitchat.label>Mukuchi chitchat</PTD02swChitchat.label>
+  <PTD02swChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[RECIPIENT_nameDef] has got the peace of mind beside [INITIATOR_nameDef].</PTD02swChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD02swChitchat.logRulesInitiator.rulesStrings.1>r_logentry(p=3)-&gt;[RECIPIENT_nameDef] tried to talk about [TalkTopicLight]. [INITIATOR_nameDef] seemed to listen quietly without speaking.</PTD02swChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD02swChitchat.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] listened to [RECIPIENT_nameDef] talking about [TalkTopicLight], and said nothing.</PTD02swChitchat.logRulesInitiator.rulesStrings.2>
+  <!-- PTD03yq social interactions -->
+  <PTD03yqChitchat.label>Genkisa chitchat</PTD03yqChitchat.label>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] [helloPTD03yq] to [RECIPIENT_nameDef] with a big smile.</PTD03yqChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</PTD03yqChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.2>talkedabout(p=2)-&gt;were happy to talk about</PTD03yqChitchat.logRulesInitiator.rulesStrings.2>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.3>talkedabout-&gt;shared a word about</PTD03yqChitchat.logRulesInitiator.rulesStrings.3>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.4>talkedabout-&gt;joked about</PTD03yqChitchat.logRulesInitiator.rulesStrings.4>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.5>helloPTD03yq(p=2)-&gt;said hello</PTD03yqChitchat.logRulesInitiator.rulesStrings.5>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.6>helloPTD03yq-&gt;said a word</PTD03yqChitchat.logRulesInitiator.rulesStrings.6>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.7>helloPTD03yq-&gt;told a joke about [TalkTopicLight]</PTD03yqChitchat.logRulesInitiator.rulesStrings.7>
+  <PTD03yqChitchat.logRulesInitiator.rulesStrings.8>helloPTD03yq-&gt;exchanged ideas about [TalkTopicLight]</PTD03yqChitchat.logRulesInitiator.rulesStrings.8>
+  <!-- PTD04aj social interactions -->
+  <PTD04ajChitchat.label>Tsundere chitchat</PTD04ajChitchat.label>
+  <PTD04ajChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] made [INITIATOR_possessive] own opinions on [TalkTopicLight] and ignored [RECIPIENT_nameDef].</PTD04ajChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD04ajChitchat.logRulesInitiator.rulesStrings.1>r_logentry(p=3)-&gt;[INITIATOR_nameDef] had the same view of [gamePTD04aj] as [RECIPIENT_nameDef], but [INITIATOR_pronoun] denied it.</PTD04ajChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD04ajChitchat.logRulesInitiator.rulesStrings.2>gamePTD04aj(p=3)-&gt;[TalkTopicLight]</PTD04ajChitchat.logRulesInitiator.rulesStrings.2>
+  <PTD04ajChitchat.logRulesInitiator.rulesStrings.3>gamePTD04aj-&gt;the [NaturalObject]</PTD04ajChitchat.logRulesInitiator.rulesStrings.3>
+  <PTD04ajChitchat.logRulesInitiator.rulesStrings.4>gamePTD04aj-&gt;the [Animal]</PTD04ajChitchat.logRulesInitiator.rulesStrings.4>
+  <PTD04ajDeepTalk.label>Tsundere deep talk</PTD04ajDeepTalk.label>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] made [INITIATOR_possessive] own opinions on [TalkTopicHeavy], [RECIPIENT_nameDef] was used to [INITIATOR_objective] and echoed [INITIATOR_possessive] words.</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.0>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.1>r_logentry(p=3)-&gt;[INITIATOR_nameDef] had the same view of [gamePTD04aj] as [RECIPIENT_nameDef], but [INITIATOR_pronoun] denied it.</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.1>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.2>gamePTD04aj(p=3)-&gt;[TalkTopicHeavy]</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.2>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.3>gamePTD04aj-&gt;love</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.3>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.4>gamePTD04aj-&gt;lover</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.4>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.5>gamePTD04aj-&gt;romantic</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.5>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.6>gamePTD04aj-&gt;[NaturalObject]</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.6>
+  <PTD04ajDeepTalk.logRulesInitiator.rulesStrings.7>gamePTD04aj-&gt;sweetheart</PTD04ajDeepTalk.logRulesInitiator.rulesStrings.7>
+  <!-- PTD05fh social interactions -->
+  <PTD05fhChitchat.label>Harakuro chitchat</PTD05fhChitchat.label>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef] with a smile.</PTD05fhChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.1>r_logentry(p=4)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight] in a friendly way.</PTD05fhChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.2>commentedabout-&gt;said something about</PTD05fhChitchat.logRulesInitiator.rulesStrings.2>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.3>commentedabout-&gt;said a word about</PTD05fhChitchat.logRulesInitiator.rulesStrings.3>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.4>commentedabout-&gt;made a comment about</PTD05fhChitchat.logRulesInitiator.rulesStrings.4>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.5>commentedabout-&gt;commented about</PTD05fhChitchat.logRulesInitiator.rulesStrings.5>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.6>commentedabout-&gt;told a joke about</PTD05fhChitchat.logRulesInitiator.rulesStrings.6>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.7>talkedabout(p=4)-&gt;chatted about</PTD05fhChitchat.logRulesInitiator.rulesStrings.7>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.8>talkedabout-&gt;shared a word about</PTD05fhChitchat.logRulesInitiator.rulesStrings.8>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.9>talkedabout-&gt;spoke about</PTD05fhChitchat.logRulesInitiator.rulesStrings.9>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.10>talkedabout-&gt;gabbed about</PTD05fhChitchat.logRulesInitiator.rulesStrings.10>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.11>talkedabout-&gt;talked about</PTD05fhChitchat.logRulesInitiator.rulesStrings.11>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.12>talkedabout-&gt;joked about</PTD05fhChitchat.logRulesInitiator.rulesStrings.12>
+  <PTD05fhChitchat.logRulesInitiator.rulesStrings.13>talkedabout-&gt;quipped about</PTD05fhChitchat.logRulesInitiator.rulesStrings.13>
+  <PTD05fhDeepTalk.label>Harakuro deep talk</PTD05fhDeepTalk.label>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[RECIPIENT_nameDef] embarrassed because [RECIPIENT_pronoun] accidentally entered the trap. Then [RECIPIENT_nameDef] saw the smiling face of [INITIATOR_nameDef].</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.0>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.1>r_logentry(p=4)-&gt;The two were [talkingabout] [TalkTopicHeavy]. [INITIATOR_nameDef] suddenly gave a signature smile, and [RECIPIENT_nameDef] felt a cold back.</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.1>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.2>talkingabout(p=4)-&gt;chatting about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.2>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.3>talkingabout-&gt;sharing a word about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.3>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.4>talkingabout-&gt;speaking about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.4>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.5>talkingabout-&gt;gabbing about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.5>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.6>talkingabout-&gt;talking about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.6>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.7>talkingabout-&gt;joking about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.7>
+  <PTD05fhDeepTalk.logRulesInitiator.rulesStrings.8>talkingabout-&gt;quipping about</PTD05fhDeepTalk.logRulesInitiator.rulesStrings.8>
+  <!-- PTD06ds social interactions -->
+  <PTD06dsChitchat.label>Dokuzetu chitchat</PTD06dsChitchat.label>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] made a sharp opinion on [TalkTopicLight] and ignored [RECIPIENT_nameDef].</PTD06dsChitchat.logRulesInitiator.rulesStrings.0>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] gave a sharp comment on [target]'s [subjectPTD06ds], leaving [RECIPIENT_nameDef] speechless.</PTD06dsChitchat.logRulesInitiator.rulesStrings.1>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] despised [RECIPIENT_nameDef]'s view of [TalkTopicLight].</PTD06dsChitchat.logRulesInitiator.rulesStrings.2>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.3>target(p=4)-&gt;[RECIPIENT_nameDef]</PTD06dsChitchat.logRulesInitiator.rulesStrings.3>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.4>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</PTD06dsChitchat.logRulesInitiator.rulesStrings.4>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.5>subjectPTD06ds(p=4)-&gt;shortcomings</PTD06dsChitchat.logRulesInitiator.rulesStrings.5>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.6>subjectPTD06ds-&gt;weaknesses</PTD06dsChitchat.logRulesInitiator.rulesStrings.6>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.7>subjectPTD06ds-&gt;family background</PTD06dsChitchat.logRulesInitiator.rulesStrings.7>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.8>subjectPTD06ds-&gt;problem</PTD06dsChitchat.logRulesInitiator.rulesStrings.8>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.9>subjectPTD06ds-&gt;figure</PTD06dsChitchat.logRulesInitiator.rulesStrings.9>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.10>subjectPTD06ds-&gt;appearance</PTD06dsChitchat.logRulesInitiator.rulesStrings.10>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.11>subjectPTD06ds-&gt;pets</PTD06dsChitchat.logRulesInitiator.rulesStrings.11>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.12>subjectPTD06ds-&gt;bad habits</PTD06dsChitchat.logRulesInitiator.rulesStrings.12>
+  <PTD06dsChitchat.logRulesInitiator.rulesStrings.13>subjectPTD06ds-&gt;[PersonalCharacteristic]</PTD06dsChitchat.logRulesInitiator.rulesStrings.13>
+  <PTD06dsDeepTalk.label>Dokuzetu deep talk</PTD06dsDeepTalk.label>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] made a sharp opinion on [TalkTopicHeavy], [RECIPIENT_nameDef] was used to [INITIATOR_objective] and echoed [INITIATOR_possessive] words.</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.0>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] gave a sharp and helpful comment on [target]'s [subjectPTD06ds], [RECIPIENT_nameDef] accepted it.</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.1>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] ignored [RECIPIENT_nameDef]'s view of [TalkTopicHeavy], but [INITIATOR_pronoun] looked a little happy.</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.2>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.3>target(p=4)-&gt;[RECIPIENT_nameDef]</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.3>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.4>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.4>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.5>subjectPTD06ds(p=4)-&gt;shortcomings</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.5>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.6>subjectPTD06ds-&gt;weaknesses</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.6>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.7>subjectPTD06ds-&gt;family background</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.7>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.8>subjectPTD06ds-&gt;problem</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.8>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.9>subjectPTD06ds-&gt;figure</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.9>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.10>subjectPTD06ds-&gt;appearance</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.10>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.11>subjectPTD06ds-&gt;pets</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.11>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.12>subjectPTD06ds-&gt;bad habits</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.12>
+  <PTD06dsDeepTalk.logRulesInitiator.rulesStrings.13>subjectPTD06ds-&gt;[PersonalCharacteristic]</PTD06dsDeepTalk.logRulesInitiator.rulesStrings.13>
+  <!-- PTE06wlkjjm social interactions -->
+  <PTE06wlkjjmChitchat.label>future technology pariah chitchat</PTE06wlkjjmChitchat.label>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.0>r_logentry(p=12)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subjectPTE06wlkjjm].</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.0>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] said that [INITIATOR_pronoun] helped a [jobPTE06wlkjjm] [placePTE06wlkjjm], and [RECIPIENT_nameDef] showed a look of admiration.</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.1>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.2>talkedabout(p=4)-&gt;chatted about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.2>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.3>talkedabout-&gt;shared a word about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.3>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.4>talkedabout-&gt;spoke about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.4>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.5>talkedabout-&gt;gabbed about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.5>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.6>talkedabout-&gt;talked about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.6>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.7>talkedabout-&gt;joked about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.7>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.8>talkedabout-&gt;quipped about</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.8>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.9>jobPTE06wlkjjm-&gt;guarder</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.9>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.10>jobPTE06wlkjjm-&gt;guard</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.10>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.11>jobPTE06wlkjjm-&gt;repairman</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.11>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.12>jobPTE06wlkjjm-&gt;chef</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.12>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.13>jobPTE06wlkjjm-&gt;cleaner</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.13>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.14>jobPTE06wlkjjm-&gt;doctor</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.14>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.15>jobPTE06wlkjjm-&gt;technician</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.15>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.16>jobPTE06wlkjjm-&gt;soldier</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.16>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.17>jobPTE06wlkjjm-&gt;manager</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.17>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.18>jobPTE06wlkjjm-&gt;young person</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.18>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.19>jobPTE06wlkjjm-&gt;old person</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.19>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.20>placePTE06wlkjjm-&gt;in the Sun Prison</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.20>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.21>placePTE06wlkjjm-&gt;in the Sun Empire</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.21>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.22>placePTE06wlkjjm-&gt;in the First Fleet of the Sun Empire</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.22>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.23>placePTE06wlkjjm-&gt;in the 7th Fleet of the Sun Empire</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.23>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.24>placePTE06wlkjjm-&gt;of the Sun Empire expedition</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.24>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.25>placePTE06wlkjjm-&gt;in the Future Technology company</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.25>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.26>placePTE06wlkjjm-&gt;at the doomsday camp</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.26>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.27>placePTE06wlkjjm-&gt;of the doomsday camp expedition</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.27>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.28>placePTE06wlkjjm-&gt;at the Future Technology hotpot restaurant</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.28>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.29>placePTE06wlkjjm-&gt;in the Future Technology pirate fleet</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.29>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.30>placePTE06wlkjjm-&gt;at the Future Technology shelter</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.30>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.31>placePTE06wlkjjm-&gt;at the Future Technology colony</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.31>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.32>subjectPTE06wlkjjm-&gt;a dog named KB</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.32>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.33>subjectPTE06wlkjjm-&gt;a dog named Boogie</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.33>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.34>subjectPTE06wlkjjm-&gt;a wolf named Timofei</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.34>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.35>subjectPTE06wlkjjm-&gt;a young lady with a indecent name</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.35>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.36>subjectPTE06wlkjjm-&gt;a one-eyed lady named Cella</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.36>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.37>subjectPTE06wlkjjm-&gt;a disabled surgeon named Toni</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.37>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.38>subjectPTE06wlkjjm-&gt;Yeye,a barkeep with dementia</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.38>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.39>subjectPTE06wlkjjm-&gt;a one-armed healer named Anna</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.39>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.40>subjectPTE06wlkjjm-&gt;a scout named Jocko</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.40>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.41>subjectPTE06wlkjjm-&gt;a person named [namePTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.41>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.42>subjectPTE06wlkjjm-&gt;a person named [nametwPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.42>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.43>subjectPTE06wlkjjm-&gt;a faction named "Professor of the plain"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.43>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.44>subjectPTE06wlkjjm-&gt;that the chairman accidentally removed Anna's right foot during spinal surgery</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.44>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.45>subjectPTE06wlkjjm-&gt;that the chairman issued the last law before the hurricane</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.45>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.46>subjectPTE06wlkjjm-&gt;that the chairman had to let some people die to keep the shelter</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.46>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.47>subjectPTE06wlkjjm-&gt;a prison break in the Sun Prison</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.47>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.48>subjectPTE06wlkjjm-&gt;a riot in the Sun Prison</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.48>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.49>subjectPTE06wlkjjm-&gt;using the toilet in the cafeteria of the Sun Prison</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.49>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.50>subjectPTE06wlkjjm-&gt;that the chairman used the big bomb of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.50>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.51>subjectPTE06wlkjjm-&gt;that the chairman used the shuriken of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.51>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.52>subjectPTE06wlkjjm-&gt;that the chairman used Backstab of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.52>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.53>subjectPTE06wlkjjm-&gt;that the chairman threw out the stone of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.53>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.54>subjectPTE06wlkjjm-&gt;the cowl of the spoils</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.54>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.55>subjectPTE06wlkjjm-&gt;[TalkTopicLight]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.55>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.56>subjectPTE06wlkjjm-&gt;the wonderful sermon</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.56>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.57>subjectPTE06wlkjjm-&gt;the wonderful sermons by the chairman</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.57>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.58>subjectPTE06wlkjjm-&gt;a young lady named Fire Keeper</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.58>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.59>subjectPTE06wlkjjm-&gt;how to cook [foodPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.59>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.60>subjectPTE06wlkjjm-&gt;a paradise named Taiwu Village</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.60>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.61>subjectPTE06wlkjjm-&gt;a legendary woman named Xiang Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.61>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.62>subjectPTE06wlkjjm-&gt;a lovely girl named Qidiao Chan, who was the owner of the Shixiang Sect</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.62>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.63>subjectPTE06wlkjjm-&gt;a legendary woman named Xiang Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.63>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.64>subjectPTE06wlkjjm-&gt;an ordinary village girl named Ning Shuning</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.64>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.65>subjectPTE06wlkjjm-&gt;a Taiwu Warrior named Lei Dongxuan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.65>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.66>subjectPTE06wlkjjm-&gt;a young Taiwu Warrior named Yin Ziwen</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.66>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.67>subjectPTE06wlkjjm-&gt;a Shaolin abbot named Jianren Master</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.67>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.68>subjectPTE06wlkjjm-&gt;a Shaolin abbot named Jiandun Master</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.68>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.69>subjectPTE06wlkjjm-&gt;a Shaolin monk named Xinchi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.69>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.70>subjectPTE06wlkjjm-&gt;a Shaolin traitor named Xinchuang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.70>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.71>subjectPTE06wlkjjm-&gt;a sword mausoleum named [swordmausoleumPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.71>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.72>subjectPTE06wlkjjm-&gt;a soul named [incarnationPTE06wlkjjm], who was the incarnation of Xiangshu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.72>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.73>subjectPTE06wlkjjm-&gt;the martial arts called [martialartsPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.73>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.74>subjectPTE06wlkjjm-&gt;the battle between Xiang Dangdang and [incarnationPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.74>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.75>subjectPTE06wlkjjm-&gt;the battle between Qidiao Chan and [incarnationPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.75>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.76>subjectPTE06wlkjjm-&gt;the battle between Yin Ziwen and [incarnationPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.76>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.77>subjectPTE06wlkjjm-&gt;the world-famous battle between Lei Dongxuan and Yiyihou</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.77>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.78>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the [martialartsPTE06wlkjjm] while fighting [incarnationPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.78>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.79>subjectPTE06wlkjjm-&gt;that Xiang Lei Dongxuan used Immortal Blood Soul while fighting Yiyihou</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.79>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.80>subjectPTE06wlkjjm-&gt;that Qidiao Chan gave the [giftPTE06wlkjjm] as a gift to Ning Shuning and received the [giftPTE06wlkjjm] as a gift from her</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.80>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.81>subjectPTE06wlkjjm-&gt;the world-famous battle between Lei Dongxuan and Yiyihou</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.81>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.82>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used Wisdom King's Pyroblast of justice in the battle with Shufang, but failed and died</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.82>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.83>subjectPTE06wlkjjm-&gt;that Xiang Dangdang asked the creator (game author) before she died, and finally knew that the martial art was not installed</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.83>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.84>subjectPTE06wlkjjm-&gt;that Xiang Dangdang was rescued by Ning Shuning in Taiwu Village and be friends with her</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.84>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.85>subjectPTE06wlkjjm-&gt;that how bald Dangdang was wearing the Magpie Beak hairpin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.85>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.86>subjectPTE06wlkjjm-&gt;the relationship between Dangdang and many Shaolin monks</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.86>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.87>subjectPTE06wlkjjm-&gt;the relationship between Dangdang and many Shaolin monks. Later generations called her Shaolin Bus</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.87>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.88>subjectPTE06wlkjjm-&gt;that Xiang Dangdang reborn and her reincarnation was Yong Junxia</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.88>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.89>subjectPTE06wlkjjm-&gt;that Dangdang gave the book of Shaolin Liuhe cudgel play to Jianren Master</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.89>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.90>subjectPTE06wlkjjm-&gt;that Dangdang learned a lot of Shaolin martial arts from Jiandun Master</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.90>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.91>subjectPTE06wlkjjm-&gt;that Dangdang's appearance was like a male but very attractive</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.91>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.92>subjectPTE06wlkjjm-&gt;that Dangdang is almost everyone's dream lover, even if her appearance is like a man</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.92>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.93>subjectPTE06wlkjjm-&gt;that Dangdang kidnapped young Qidiao Chan with despicable means</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.93>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.94>subjectPTE06wlkjjm-&gt;that Dangdang made Chan very sad with despicable means, such as ordering her to carry something heavy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.94>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.95>subjectPTE06wlkjjm-&gt;that Dangdang used despicable means to learn martial arts from Chan, such as feeding her with [foodPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.95>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.96>subjectPTE06wlkjjm-&gt;that Xinchi treated the wounds of Dangdang with the Zijin Black Pills</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.96>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.97>subjectPTE06wlkjjm-&gt;that island master Long Qin gave her slave Xuan Lvluo to Xiang Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.97>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.98>subjectPTE06wlkjjm-&gt;that Dangdang asked island master Long Qin for cooking</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.98>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.99>subjectPTE06wlkjjm-&gt;that Dangdang wanted to kidnap Long Qin, but she gave up the plan because her strength was not as good as her opponent</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.99>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.100>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] and [nametwPTE06wlkjjm] took a duel in arts about [skillPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.100>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.101>subjectPTE06wlkjjm-&gt;that Dangdang fell in love with Sangjiewangdui, who was already a husband</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.101>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.102>subjectPTE06wlkjjm-&gt;that Dangdang defeated Basang and forced her to work in the brothel while getting her husband Sangjiewangdui</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.102>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.103>subjectPTE06wlkjjm-&gt;that Dangdang was upset because Sangjiewangdui didn't have sex with her</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.103>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.104>subjectPTE06wlkjjm-&gt;that Dangdang fell in love with Chan's younger brother Qidiao Dun</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.104>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.105>subjectPTE06wlkjjm-&gt;that Dangdang married Chan's younger brother Qidiao Dun</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.105>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.106>subjectPTE06wlkjjm-&gt;that Tu Liangmeng went to Fulong forum to study cooking at Dangdang's request</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.106>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.107>subjectPTE06wlkjjm-&gt;that The [foodPTE06wlkjjm] cooked by Dangdang was very delicious, and the neighbor's child cried in order to eat it</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.107>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.108>subjectPTE06wlkjjm-&gt;that Dangdang was pregnant because of Dun's love</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.108>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.109>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun during her pregnancy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.109>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.110>subjectPTE06wlkjjm-&gt;that Dangdang gave birth to a boy named Qidiao Xiangshu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.110>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.111>subjectPTE06wlkjjm-&gt;that Dangdang gave birth to a girl named Qidiao Mengnan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.111>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.112>subjectPTE06wlkjjm-&gt;that Dangdang forced Xinchuang to take the poison and let him go</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.112>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.113>subjectPTE06wlkjjm-&gt;that Xinchuang was treated as a Shaolin traitor because someone wanted to get his weapon</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.113>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.114>subjectPTE06wlkjjm-&gt;that Xiang Dangdang married Qidiao Dun. It is said that "乾坤浩浩黑白乱, 天地昭昭正邪分, 妖女祸世舞苍穹, 一日夫妻百日恩"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.114>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.115>subjectPTE06wlkjjm-&gt;that Dangdang swindled other people's martial arts with her beauty and food, then she took the food back and used it again</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.115>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.116>subjectPTE06wlkjjm-&gt;that Qidiao Xiangshu was the reincarnation of Jianren Master and the child of Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.116>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.117>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the Wisdom King's Pyroblast of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.117>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.118>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the poison of justice in the duel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.118>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.119>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun in the forest</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.119>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.120>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun, and a group of monks watched beside them</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.120>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.121>subjectPTE06wlkjjm-&gt;that Dangdang bought the [giftPTE06wlkjjm] from the Wuhu merchants</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.121>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.122>subjectPTE06wlkjjm-&gt;that Xiang Dangdang took Qidiao Chan's body before she died</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.122>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.123>subjectPTE06wlkjjm-&gt;that Chan was well versed in cooking, who had Dangdang's memory</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.123>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.124>subjectPTE06wlkjjm-&gt;that Jiandun Master's reincarnation is called Gu Yuankui</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.124>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.125>subjectPTE06wlkjjm-&gt;that Xiang Dangdang made love with Ji Feiyi. The girls were intertwined</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.125>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.126>subjectPTE06wlkjjm-&gt;that Basang was very sad because of several miscarriages, which led her to be controlled by Xiangshu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.126>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.127>subjectPTE06wlkjjm-&gt;that Xiang Dangdang defeated Basang, who was controlled by Xiangshu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.127>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.128>subjectPTE06wlkjjm-&gt;that Sangjiewangdui married his mistress and abandoned his ex-wife Basang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.128>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.129>subjectPTE06wlkjjm-&gt;that Laba refused Sangjiewangdui's proposal</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.129>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.130>subjectPTE06wlkjjm-&gt;that Basang was forced by Xiang Dangdang to work in the brothel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.130>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.131>subjectPTE06wlkjjm-&gt;that Ning Shuning saved Xiang Dangdang in Taiwu Village when she was a girl</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.131>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.132>subjectPTE06wlkjjm-&gt;that Shuning's relationships didn't go well because of her ordinary appearance</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.132>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.133>subjectPTE06wlkjjm-&gt;that Dangdang told Shuning about the sinister society</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.133>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.134>subjectPTE06wlkjjm-&gt;that Dangdang bought a mule for Shuning</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.134>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.135>subjectPTE06wlkjjm-&gt;that Dangdang sent Shuning to Shaolin Temple to study. In fact, Dangdang planned to upgrade her to the abbot</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.135>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.136>subjectPTE06wlkjjm-&gt;that Shuning gave up the identity of the monk and rejoined the team of Dangdang.</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.136>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.137>subjectPTE06wlkjjm-&gt;that Dangdang bought the [giftPTE06wlkjjm] for Shuning</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.137>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.138>subjectPTE06wlkjjm-&gt;that Chan bought the [giftPTE06wlkjjm] for Shuning</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.138>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.139>subjectPTE06wlkjjm-&gt;that Ning Shuning married her favorite Lou Zhilai</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.139>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.140>subjectPTE06wlkjjm-&gt;that Shuning was pregnant shortly after she got married</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.140>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.141>subjectPTE06wlkjjm-&gt;that Shuning gave birth to a boy named Lou Chuanying</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.141>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.142>subjectPTE06wlkjjm-&gt;that Ning Shuning was married to Lou Zhilai, who was eighteen years younger than her</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.142>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.143>subjectPTE06wlkjjm-&gt;that Shuning and Chan were the best friends</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.143>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.144>subjectPTE06wlkjjm-&gt;that Shuning and Feiyi were the best friends</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.144>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.145>subjectPTE06wlkjjm-&gt;that Shuning took the secret medicine and extended her life</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.145>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.146>subjectPTE06wlkjjm-&gt;that Shuning and Chan took a duel in arts about [skillPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.146>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.147>subjectPTE06wlkjjm-&gt;that Qidiao Chan was always around Ning Shuning and finally cured her poisoning. Later generations commented "身前身后事茫茫, 欲话因缘恐断肠, 吴越山川寻己遍, 却回烟棹上瞿塘"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.147>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.148>subjectPTE06wlkjjm-&gt;that Qidiao Chan used to be a kind and innocent girl</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.148>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.149>subjectPTE06wlkjjm-&gt;that Chan was madly courted by her mom, but she turned a blind eye</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.149>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.150>subjectPTE06wlkjjm-&gt;that Ji Feiyi had a big crash on Qidiao Chan, who was Chan's mother</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.150>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.151>subjectPTE06wlkjjm-&gt;that Chan’s martial arts potential is extremely high</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.151>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.152>subjectPTE06wlkjjm-&gt;that Yu Shijun committed suicide by accepting Qidiao Chan's entrustment</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.152>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.153>subjectPTE06wlkjjm-&gt;that Yu Shijun was the Jieqing Gate's boss</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.153>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.154>subjectPTE06wlkjjm-&gt;that people in the Jieqing Gate were very dedicated in assassination</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.154>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.155>subjectPTE06wlkjjm-&gt;that Qidiao Chan worked in the brothel</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.155>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.156>subjectPTE06wlkjjm-&gt;that Qidiao Chan gave all the money to her brother</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.156>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.157>subjectPTE06wlkjjm-&gt;that Chan was robbed by her brother Dun and lost the [giftPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.157>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.158>subjectPTE06wlkjjm-&gt;that Chan sent the [giftPTE06wlkjjm] to her brother Dun</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.158>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.159>subjectPTE06wlkjjm-&gt;that Chan and her mom were the best friends</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.159>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.160>subjectPTE06wlkjjm-&gt;that Chan missed her dead father and went to his grave to worship</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.160>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.161>subjectPTE06wlkjjm-&gt;that Qidiao Chan was taken away by Xiang Dangdang and lost her memory</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.161>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.162>subjectPTE06wlkjjm-&gt;that Chan became a cunning and ruthless woman after she had the memory of Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.162>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.163>subjectPTE06wlkjjm-&gt;that Qidiao Chan severely injured Lou Zhilai's wife because of jealousy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.163>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.164>subjectPTE06wlkjjm-&gt;that Bai Ping died after being injured by Qidiao Chan, and her husband Lou Zhilai was heartbroken</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.164>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.165>subjectPTE06wlkjjm-&gt;that Yin Mingjiao was killed by the killer of Jieqing Gate. They were hired by Qidiao Chan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.165>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.166>subjectPTE06wlkjjm-&gt;that Qidiao Chan severely injured Yin Mingjiao's son</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.166>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.167>subjectPTE06wlkjjm-&gt;that the young Yin Ziwen was the leader of Xuehou Sect after his father died</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.167>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.168>subjectPTE06wlkjjm-&gt;that Qidiao Chan defeated Shufang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.168>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.169>subjectPTE06wlkjjm-&gt;that Qidiao Chan swindled other people's martial arts with [foodPTE06wlkjjm], then she took the food back and used it again</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.169>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.170>subjectPTE06wlkjjm-&gt;that Qidiao Chan was deliberately controlled by Xiangshu in order to let the successors learn advanced martial arts</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.170>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.171>subjectPTE06wlkjjm-&gt;that Qidiao Chan was already proficient in how to be controlled by Xiangshu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.171>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.172>subjectPTE06wlkjjm-&gt;that Lei Dongxuan accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.172>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.173>subjectPTE06wlkjjm-&gt;that Mao Cuihua accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.173>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.174>subjectPTE06wlkjjm-&gt;that Lei Dongxuan was a rich businessmann</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.174>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.175>subjectPTE06wlkjjm-&gt;that Lei Dongxuan learned the advanced martial arts called Immortal Blood Soul</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.175>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.176>subjectPTE06wlkjjm-&gt;that Lei Dongxuan was seriously injured by Yiyihou, but still insisted on fighting</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.176>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.177>subjectPTE06wlkjjm-&gt;that Lei Dongxuan died after defeating Yiyihou. The man at the time made a poem to praise him: "无功无名驻凡尘, 临终托付不死身, 骨碎肉腐徒十日, 此生唯报知音人"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.177>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.178>subjectPTE06wlkjjm-&gt;that Cao Ruojin was the leader of Kongsang Sect and her daughter was Yong Junxia</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.178>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.179>subjectPTE06wlkjjm-&gt;that Yong Junxia accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.179>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.180>subjectPTE06wlkjjm-&gt;that Qidiao Dun married Yin Ziwen's teacher</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.180>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.181>subjectPTE06wlkjjm-&gt;that Qidiao Dun was the leader of Xuehou Sect after Yin Ziwen's death</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.181>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.182>subjectPTE06wlkjjm-&gt;that Qidiao Chan kidnapped young Yin Ziwen with despicable means</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.182>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.183>subjectPTE06wlkjjm-&gt;that Qidiao Chan made Yin Ziwen very sad with despicable means, such as ordering him to carry something heavy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.183>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.184>subjectPTE06wlkjjm-&gt;that Yin Ziwen was a peerless genius</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.184>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.185>subjectPTE06wlkjjm-&gt;that Yin Ziwen learned the advanced martial arts called Whitewater Immortal Technique</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.185>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.186>subjectPTE06wlkjjm-&gt;that Yin Ziwen was seriously injured by Weiqi, but still insisted on fighting</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.186>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.187>subjectPTE06wlkjjm-&gt;that Yin Ziwen died after defeating Weiqi. The man at the time made a poem to praise him: "尹徇师令, 身膏齐斧, 人之云亡, 贞节克举"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.187>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.188>subjectPTE06wlkjjm-&gt;that Qidiao Chan’s caravan returned to Taiwu Village after defeating Weiqi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.188>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.189>subjectPTE06wlkjjm-&gt;that everyone liked cricketfight</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.189>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.190>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] took a lot of effort to catch a cricket named [cricketPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.190>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.191>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] won the game of cricketfight</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.191>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.192>subjectPTE06wlkjjm-&gt;that Qidiao Chan’s family lived peacefully in Taiwu Village. People in the world said: "扶余剑柄掌中擎, 志破相枢四方行, 善恶好歹皆历尽, 一朝又闻蛐蛐鸣"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.192>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.193>subjectPTE06wlkjjm-&gt;that Junxia caught a cricket named Stupid. It is said that "三十几年腥风血雨, 化作庐间织娘一声"</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.193>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.194>subjectPTE06wlkjjm-&gt;that Dangdang learned many other martial arts from the Shaolin abbot. Then she believed that Shaolin was a martial arts library</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.194>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.195>subjectPTE06wlkjjm-&gt;that Shuning’s poisoning had healed when Chan’s caravan arrived on Wuxian Sect</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.195>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.196>subjectPTE06wlkjjm-&gt;that the leader of Baihua Valley rescued Yin Ziwen, who was about to die</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.196>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.197>swordmausoleumPTE06wlkjjm-&gt;Fenghuangjian</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.197>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.198>swordmausoleumPTE06wlkjjm-&gt;Monvyi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.198>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.199>swordmausoleumPTE06wlkjjm-&gt;Fuxietie</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.199>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.200>swordmausoleumPTE06wlkjjm-&gt;Guishenxia</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.200>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.201>swordmausoleumPTE06wlkjjm-&gt;Fenshenlian</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.201>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.202>swordmausoleumPTE06wlkjjm-&gt;Rongchenyin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.202>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.203>swordmausoleumPTE06wlkjjm-&gt;Xielongpo</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.203>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.204>incarnationPTE06wlkjjm-&gt;Jinhuang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.204>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.205>incarnationPTE06wlkjjm-&gt;Monv</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.205>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.206>incarnationPTE06wlkjjm-&gt;Dayueyaochang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.206>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.207>incarnationPTE06wlkjjm-&gt;Shufang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.207>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.208>incarnationPTE06wlkjjm-&gt;Yiyihou</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.208>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.209>incarnationPTE06wlkjjm-&gt;Yixiang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.209>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.210>incarnationPTE06wlkjjm-&gt;Weiqi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.210>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.211>incarnationPTE06wlkjjm-&gt;sis Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.211>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.212>martialartsPTE06wlkjjm-&gt;Grandfather long fist</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.212>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.213>martialartsPTE06wlkjjm-&gt;Shaolin Liuhe cudgel play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.213>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.214>martialartsPTE06wlkjjm-&gt;Shaolin Yinyang cudgel play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.214>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.215>martialartsPTE06wlkjjm-&gt;Evil spear play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.215>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.216>martialartsPTE06wlkjjm-&gt;the Universe spear play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.216>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.217>martialartsPTE06wlkjjm-&gt;Internal Anatomy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.217>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.218>martialartsPTE06wlkjjm-&gt;Illusion</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.218>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.219>martialartsPTE06wlkjjm-&gt;Queen's powerful Kung Fu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.219>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.220>martialartsPTE06wlkjjm-&gt;Thousand Pounder</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.220>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.221>martialartsPTE06wlkjjm-&gt;Invulnerability</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.221>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.222>martialartsPTE06wlkjjm-&gt;Fly Through Air</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.222>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.223>martialartsPTE06wlkjjm-&gt;Jingang broadsword play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.223>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.224>martialartsPTE06wlkjjm-&gt;the broadsword play of Nine Bulls and Two Tigers</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.224>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.225>martialartsPTE06wlkjjm-&gt;Armor Lock</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.225>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.226>martialartsPTE06wlkjjm-&gt;Wisdom King's Pyroblast</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.226>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.227>martialartsPTE06wlkjjm-&gt;All Creatures Shocking spear play</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.227>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.228>martialartsPTE06wlkjjm-&gt;Eight Steps for Sunlight</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.228>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.229>martialartsPTE06wlkjjm-&gt;the Beginning Return</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.229>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.230>martialartsPTE06wlkjjm-&gt;Immortal Blood Soul</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.230>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.231>martialartsPTE06wlkjjm-&gt;Whitewater Immortal Technique</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.231>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.232>martialartsPTE06wlkjjm-&gt;Leap of the Clouds</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.232>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.233>giftPTE06wlkjjm-&gt;woods</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.233>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.234>giftPTE06wlkjjm-&gt;foods</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.234>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.235>giftPTE06wlkjjm-&gt;herbs</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.235>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.236>giftPTE06wlkjjm-&gt;jewels</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.236>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.237>giftPTE06wlkjjm-&gt;chocolate</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.237>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.238>giftPTE06wlkjjm-&gt;candies</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.238>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.239>giftPTE06wlkjjm-&gt;firecrackers</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.239>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.240>giftPTE06wlkjjm-&gt;flowers</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.240>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.241>giftPTE06wlkjjm-&gt;[Animal]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.241>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.242>giftPTE06wlkjjm-&gt;[Vegetable]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.242>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.243>giftPTE06wlkjjm-&gt;[foodPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.243>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.244>giftPTE06wlkjjm-&gt;[Apparel]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.244>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.245>giftPTE06wlkjjm-&gt;beautiful skirt</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.245>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.246>giftPTE06wlkjjm-&gt;seasonal skirt</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.246>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.247>giftPTE06wlkjjm-&gt;beautiful dress</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.247>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.248>giftPTE06wlkjjm-&gt;seasonal dress</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.248>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.249>giftPTE06wlkjjm-&gt;jade bracelet</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.249>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.250>giftPTE06wlkjjm-&gt;jade hairpin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.250>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.251>giftPTE06wlkjjm-&gt;hasma</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.251>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.252>foodPTE06wlkjjm(p=2)-&gt;Egg Fried Rice</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.252>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.253>foodPTE06wlkjjm-&gt;Cold Rabbit Meat</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.253>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.254>foodPTE06wlkjjm-&gt;Plain Noodles</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.254>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.255>foodPTE06wlkjjm-&gt;Four Color Steamed Bread</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.255>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.256>foodPTE06wlkjjm-&gt;Spicy-hot Rabbit</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.256>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.257>foodPTE06wlkjjm-&gt;Yangzhou Fried Rice</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.257>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.258>foodPTE06wlkjjm-&gt;Lotus-Leaf-Like Pancake</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.258>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.259>foodPTE06wlkjjm(p=2)-&gt;Special Spicy Fish</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.259>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.260>foodPTE06wlkjjm(p=3)-&gt;Yolkless Egg</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.260>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.261>foodPTE06wlkjjm(p=2)-&gt;Shadow Play Meat</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.261>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.262>foodPTE06wlkjjm-&gt;Royal Crisp Fish</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.262>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.263>foodPTE06wlkjjm(p=2)-&gt;Oyako Spring Cocoon</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.263>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.264>foodPTE06wlkjjm-&gt;Roast Duck</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.264>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.265>foodPTE06wlkjjm-&gt;Special Stewed Mutton</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.265>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.266>foodPTE06wlkjjm(p=0.2)-&gt;Universe Best Delicacy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.266>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.267>skillPTE06wlkjjm-&gt;buddhism</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.267>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.268>skillPTE06wlkjjm-&gt;mathematics</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.268>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.269>skillPTE06wlkjjm(p=2)-&gt;cooking</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.269>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.270>skillPTE06wlkjjm-&gt;music</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.270>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.271>skillPTE06wlkjjm-&gt;identifying</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.271>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.272>skillPTE06wlkjjm-&gt;medicine</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.272>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.273>skillPTE06wlkjjm-&gt;astronomy</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.273>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.274>skillPTE06wlkjjm-&gt;etiquette</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.274>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.275>cricketPTE06wlkjjm-&gt;Stupid</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.275>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.276>cricketPTE06wlkjjm-&gt;Weaver</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.276>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.277>cricketPTE06wlkjjm-&gt;Jade Tail</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.277>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.278>cricketPTE06wlkjjm-&gt;Cyan Beggar Dress</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.278>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.279>cricketPTE06wlkjjm-&gt;Red Head</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.279>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.280>cricketPTE06wlkjjm-&gt;Lavender Black Gold Wing</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.280>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.281>cricketPTE06wlkjjm-&gt;White Wing</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.281>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.282>cricketPTE06wlkjjm-&gt;White Tooth</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.282>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.283>cricketPTE06wlkjjm-&gt;Violet Head</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.283>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.284>cricketPTE06wlkjjm-&gt;Three Tails</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.284>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.285>cricketPTE06wlkjjm-&gt;Katydid</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.285>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.286>namePTE06wlkjjm-&gt;Cass's dad</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.286>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.287>namePTE06wlkjjm-&gt;Edward</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.287>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.288>namePTE06wlkjjm-&gt;Laura</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.288>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.289>namePTE06wlkjjm-&gt;Thomas</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.289>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.290>nametwPTE06wlkjjm(p=2)-&gt;Xiang Dangdang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.290>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.291>nametwPTE06wlkjjm-&gt;Ning Shuning</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.291>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.292>nametwPTE06wlkjjm-&gt;Lou Zhilai</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.292>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.293>nametwPTE06wlkjjm-&gt;Yong Junxia</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.293>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.294>nametwPTE06wlkjjm-&gt;Ji Feiyi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.294>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.295>nametwPTE06wlkjjm(p=2)-&gt;Qidiao Chan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.295>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.296>nametwPTE06wlkjjm-&gt;Qidiao Dun</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.296>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.297>nametwPTE06wlkjjm-&gt;Basang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.297>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.298>nametwPTE06wlkjjm-&gt;Xinchi</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.298>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.299>nametwPTE06wlkjjm-&gt;Xinhui</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.299>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.300>nametwPTE06wlkjjm-&gt;Yin Ziwen</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.300>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.301>nametwPTE06wlkjjm-&gt;Tu Liangmeng</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.301>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.302>r_logentry-&gt;Both [INITIATOR_nameDef] and [RECIPIENT_nameDef] agreed that cricketfight was the best pastime after working overtime. Then they talked about [TalkTopicLight].</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.302>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.303>r_logentry-&gt;[INITIATOR_nameDef] gave the [giftPTE06wlkjjm] as a gift to [RECIPIENT_nameDef].</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.303>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.304>subjectPTE06wlkjjm-&gt;the afternoon tea menus of the British nobility</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.304>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.305>subjectPTE06wlkjjm-&gt;that the chairman repaired the toilet of villa 113</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.305>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.306>jobPTE06wlkjjm-&gt;tech hunter</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.306>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.307>jobPTE06wlkjjm-&gt;merc</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.307>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.308>jobPTE06wlkjjm-&gt;flat skin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.308>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.309>jobPTE06wlkjjm-&gt;hive</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.309>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.310>jobPTE06wlkjjm-&gt;anti-slaver</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.310>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.311>jobPTE06wlkjjm-&gt;samurai</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.311>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.312>jobPTE06wlkjjm-&gt;scorchlander</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.312>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.313>jobPTE06wlkjjm-&gt;skeleton</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.313>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.314>jobPTE06wlkjjm-&gt;shek warrior</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.314>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.315>jobPTE06wlkjjm-&gt;ninja guard</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.315>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.316>jobPTE06wlkjjm-&gt;ninja</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.316>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.317>jobPTE06wlkjjm-&gt;bowman</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.317>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.318>jobPTE06wlkjjm-&gt;royal</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.318>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.319>jobPTE06wlkjjm-&gt;noble</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.319>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.320>jobPTE06wlkjjm-&gt;pariah</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.320>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.321>jobPTE06wlkjjm-&gt;utility man</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.321>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.322>jobPTE06wlkjjm-&gt;knight</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.322>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.323>placePTE06wlkjjm-&gt;in Squin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.323>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.324>placePTE06wlkjjm-&gt;at A-Fei Yoga Club</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.324>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.325>placePTE06wlkjjm-&gt;in the land of UC</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.325>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.326>placePTE06wlkjjm-&gt;in Blister Hill</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.326>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.327>placePTE06wlkjjm-&gt;in Heng</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.327>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.328>placePTE06wlkjjm-&gt;in Heft</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.328>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.329>placePTE06wlkjjm-&gt;in the land of Holy Nation</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.329>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.330>placePTE06wlkjjm-&gt;in Sniper Valley</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.330>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.331>placePTE06wlkjjm-&gt;in the Swamp</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.331>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.332>placePTE06wlkjjm-&gt;in Shem</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.332>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.333>placePTE06wlkjjm-&gt;in the land of Shak Kingdom</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.333>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.334>placePTE06wlkjjm-&gt;in the Hub</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.334>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.335>placePTE06wlkjjm-&gt;in Holy Farm</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.335>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.336>placePTE06wlkjjm-&gt;in Crab Village</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.336>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.337>placePTE06wlkjjm-&gt;in Ominous Place</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.337>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.338>placePTE06wlkjjm-&gt;in Kral's Chosen</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.338>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.339>placePTE06wlkjjm-&gt;in Mourn</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.339>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.340>placePTE06wlkjjm-&gt;in Bad Teeth</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.340>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.341>placePTE06wlkjjm-&gt;in Brink</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.341>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.342>subjectPTE06wlkjjm-&gt;a one-armed slave named Naked A-Fei</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.342>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.343>subjectPTE06wlkjjm-&gt;a shek warrior named Kang</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.343>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.344>subjectPTE06wlkjjm-&gt;a shek warrior named Rane The Giant</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.344>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.345>subjectPTE06wlkjjm-&gt;a hive prince named Zill</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.345>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.346>subjectPTE06wlkjjm-&gt;a scorchlander named Moll</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.346>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.347>subjectPTE06wlkjjm-&gt;a bowman named Rogen</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.347>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.348>subjectPTE06wlkjjm-&gt;a shek beauty named Cat</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.348>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.349>subjectPTE06wlkjjm-&gt;a garru named Steel Garru</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.349>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.350>subjectPTE06wlkjjm-&gt;a pack beast named Niuniu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.350>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.351>subjectPTE06wlkjjm-&gt;a shek Queen's daughter named Seto</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.351>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.352>subjectPTE06wlkjjm-&gt;the Holy Lord named Phoenix</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.352>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.353>subjectPTE06wlkjjm-&gt;a utility man named Khaled</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.353>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.354>subjectPTE06wlkjjm-&gt;a giant chimpanzee named King Gorillo</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.354>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.355>subjectPTE06wlkjjm-&gt;a skeleton named Sadneil</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.355>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.356>foodPTE06wlkjjm-&gt;Gohan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.356>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.357>foodPTE06wlkjjm-&gt;Meatwrap</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.357>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.358>foodPTE06wlkjjm-&gt;Ration Pack</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.358>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.359>foodPTE06wlkjjm-&gt;Dried Meat</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.359>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.360>foodPTE06wlkjjm-&gt;Beef bowl</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.360>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.361>foodPTE06wlkjjm-&gt;Dried Gristle Flaps</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.361>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.362>foodPTE06wlkjjm-&gt;Foodcube</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.362>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.363>foodPTE06wlkjjm-&gt;Chewsticks</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.363>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.364>namePTE06wlkjjm-&gt;Anai</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.364>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.365>namePTE06wlkjjm-&gt;High Inquisitor Seta</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.365>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.366>namePTE06wlkjjm-&gt;High Inquisitor Valtena</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.366>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.367>namePTE06wlkjjm-&gt;Emperor Tengu</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.367>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.368>skillPTE06wlkjjm-&gt;toughness</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.368>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.369>skillPTE06wlkjjm-&gt;thievery</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.369>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.370>skillPTE06wlkjjm-&gt;athletics</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.370>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.371>skillPTE06wlkjjm-&gt;assassination</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.371>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.372>skillPTE06wlkjjm-&gt;stealth</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.372>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.373>skillPTE06wlkjjm-&gt;buddhism</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.373>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.374>skillPTE06wlkjjm-&gt;lockpick</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.374>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.375>enemiesPTE06wlkjjm-&gt;[Enemy]s</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.375>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.376>enemiesPTE06wlkjjm-&gt;slave guard</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.376>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.377>enemiesPTE06wlkjjm-&gt;ninja guard</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.377>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.378>enemiesPTE06wlkjjm-&gt;shrieking bandit</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.378>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.379>enemiesPTE06wlkjjm-&gt;wandering assassin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.379>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.380>enemiesPTE06wlkjjm-&gt;crab raider</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.380>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.381>enemiesPTE06wlkjjm-&gt;swamp ninja chunin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.381>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.382>enemiesPTE06wlkjjm-&gt;black dragon ninja</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.382>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.383>enemiesPTE06wlkjjm-&gt;cannibal</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.383>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.384>enemiesPTE06wlkjjm-&gt;beak thing</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.384>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.385>enemiesPTE06wlkjjm-&gt;crab</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.385>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.386>enemiesPTE06wlkjjm-&gt;spider</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.386>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.387>enemiesPTE06wlkjjm-&gt;hound</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.387>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.388>subjectPTE06wlkjjm-&gt;that A-Fei I and A-Fei II died in UC</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.388>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.389>subjectPTE06wlkjjm-&gt;the legendary life of A-Fei III</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.389>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.390>subjectPTE06wlkjjm-&gt;that Naked A-Fei III is an extremely ugly slave with one arm missing</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.390>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.391>subjectPTE06wlkjjm-&gt;when A-fei was standing, his body would sink into the floor and look strange</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.391>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.392>subjectPTE06wlkjjm-&gt;that the weird pose was accepted by A-Fei's men and became a fashion</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.392>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.393>subjectPTE06wlkjjm-&gt;that A-Fei trained his [skillPTE06wlkjjm] in the cage of UC</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.393>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.394>subjectPTE06wlkjjm-&gt;that United Cities thinks money is power, but destitution is weak, and it is the weak masses that will drag the ship down into the sea</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.394>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.395>subjectPTE06wlkjjm-&gt;that A-Fei was caught by the guards of UC because of his weird pose. Then he became a slave</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.395>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.396>subjectPTE06wlkjjm-&gt;that A-Fei escaped from prison to get [foodPTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.396>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.397>subjectPTE06wlkjjm-&gt;that many prison guards treated A-fei together</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.397>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.398>subjectPTE06wlkjjm-&gt;that one-armed A-Fei trained his lockpick by prying open others' cages</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.398>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.399>subjectPTE06wlkjjm-&gt;that A-Fei was taken to the mine by slave merchants</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.399>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.400>subjectPTE06wlkjjm-&gt;that a group of tech hunters attack the mines in UC. A-Fei took the chance to get some foods and outfits</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.400>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.401>subjectPTE06wlkjjm-&gt;that A-Fei finally escaped from UC and crossed the desert. Then he was chased down by holy soldiers because of his weird pose</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.401>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.402>subjectPTE06wlkjjm-&gt;that the owner helped A-fei and didn't care about his strange pose</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.402>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.403>subjectPTE06wlkjjm-&gt;that A-Fei sold the book he picked up. Then he bought some [foodPTE06wlkjjm]s from the boss</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.403>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.404>subjectPTE06wlkjjm-&gt;that A-Fei came to Squin with his men, Rogan and Moll</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.404>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.405>subjectPTE06wlkjjm-&gt;that A-Fei named his team "The Avengers". But they are actually thieves</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.405>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.406>subjectPTE06wlkjjm-&gt;that A-Fei managed to turn himself into a criminal. His teammate got a bounty by handing him over to the police station</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.406>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.407>subjectPTE06wlkjjm-&gt;that Squin is the territory of the shek. The guards called the non-shak people "flat skin" and searched them regularly</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.407>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.408>subjectPTE06wlkjjm-&gt;that Squin's guards helped A-Fei fight off many enemies and become stronger and stronger</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.408>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.409>subjectPTE06wlkjjm-&gt;that A-Fei made money by digging and selling copper, and later he found a better way</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.409>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.410>subjectPTE06wlkjjm-&gt;that A-Fei stole Squan's stores and sold the stolen goods to the boss who had helped him before</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.410>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.411>subjectPTE06wlkjjm-&gt;that A-Fei built a base called "A-Fei Yoga Club", not far from Squan</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.411>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.412>subjectPTE06wlkjjm-&gt;that Squin's guards helped A-fei defend his enemies because his base was close to Squin</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.412>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.413>subjectPTE06wlkjjm-&gt;that the enemies who came to attack the A-Fei Yoga Club gathered in an unfinished building and looked like a group of cockroaches</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.413>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.414>subjectPTE06wlkjjm-&gt;that A-Fei developed a new stealing technique. He sneaked in and stunned the assistant, then carried them up, so that he would not be found when he stole</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.414>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.415>subjectPTE06wlkjjm-&gt;that A-Fei defeated beak things and brought them back to the base in order to train his team</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.415>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.416>subjectPTE06wlkjjm-&gt;that A-Fei stole a lot of armor from the Armour King's shop</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.416>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.417>subjectPTE06wlkjjm-&gt;that A Fei defeated many [enemiesPTE06wlkjjm] [placePTE06wlkjjm]</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.417>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.418>subjectPTE06wlkjjm-&gt;that after installing the Thief's Arm, A-Fei's stealing ability is stronger</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.418>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.419>subjectPTE06wlkjjm-&gt;that after installing the Scout Leg, Rogen ran faster</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.419>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.420>subjectPTE06wlkjjm-&gt;that A-Fei trespassed in the town without fear</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.420>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.421>subjectPTE06wlkjjm-&gt;that Holy Nation pursues xenophobia. They hate non-human races and technology</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.421>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.422>subjectPTE06wlkjjm-&gt;that A-fei hijacked Holy Lord Phoenix and escaped successfully. The guards of Blister Hill cann't stop him</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.422>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.423>subjectPTE06wlkjjm-&gt;that Phoenix was the third sandbag, and his predecessors were beak things. The first sandbag was a person without legs</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.423>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.424>subjectPTE06wlkjjm-&gt;that A-fei handed Phoenix to the Queen of Shek Kingdom. The Queen was happy and married her daughter to A-Fei. After that, A-fei stole him again</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.424>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.425>subjectPTE06wlkjjm-&gt;that A-Fei stole the sleeping queen's outfits</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.425>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.426>subjectPTE06wlkjjm-&gt;that Phoenix hates mechanical limbs. So A-fei installed them for Phoenix to humiliate him</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.426>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.427>subjectPTE06wlkjjm-&gt;that A-Fei bought some pack beasts and garrus as backpacks</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.427>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.428>subjectPTE06wlkjjm-&gt;that A-Fei was carrying garru to get more booty</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.428>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.429>subjectPTE06wlkjjm-&gt;that A-Fei developed a new stealing technique. He teleported the assistant to the roof, then stole the goods boldly</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.429>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.430>subjectPTE06wlkjjm-&gt;that A-Fei defeated beak things and rescued his teammate Khalid</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.430>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.431>subjectPTE06wlkjjm-&gt;that A-Fei built a new base called "A-Fei Crown Yoga Club" in Kral's Chosen</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.431>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.432>subjectPTE06wlkjjm-&gt;that A Fei destroy Holy Nation with his ally Shek Kingdom</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.432>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.433>subjectPTE06wlkjjm-&gt;that after a long training, Afei and his teammates became qualified Avengers. Their goal is UC</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.433>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.434>subjectPTE06wlkjjm-&gt;that Phoenix was convinced by A-fei and joined his team</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.434>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.435>subjectPTE06wlkjjm-&gt;that A-Fei and anti-slavers attacked Heft, the castle belonging to UC</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.435>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.436>subjectPTE06wlkjjm-&gt;that A-Fei destroy UC and captured their leader, Emperor Tengu. All slaves were free</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.436>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.437>subjectPTE06wlkjjm-&gt;that A-Fei returned to his life totem, the Lonely bar. He paid tribute to his boss and ordered a beef bowl</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.437>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.438>subjectPTE06wlkjjm-&gt;that Sekiro ends Genichirou Ashina with Shinobi Execution</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.438>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.439>subjectPTE06wlkjjm-&gt;that Sekiro and his master look like a pair of lovers because of strange bgm and filters</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.439>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.440>subjectPTE06wlkjjm-&gt;that Sekiro attacks his enemies with the poisonous darts of justice</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.440>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.441>subjectPTE06wlkjjm-&gt;that Sekiro was defeated by the pike samurai for not focusing enough</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.441>
+  <PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.442>subjectPTE06wlkjjm-&gt;that Sekiro ends Guardian Ape with Immortality Severed</PTE06wlkjjmChitchat.logRulesInitiator.rulesStrings.442>
+  <!-- PTF02tyqs social interactions -->
+  <PTF02tyqsChitchat.label>Warrior of the sun chitchat</PTF02tyqsChitchat.label>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.0>r_logentry(p=3)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight] in a friendly way.</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.0>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] helped [RECIPIENT_nameDef] out, then they [talkedabout] [TalkTopicLight].</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.1>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.2>talkedabout(p=4)-&gt;chatted about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.2>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.3>talkedabout-&gt;shared a word about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.3>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.4>talkedabout-&gt;spoke about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.4>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.5>talkedabout-&gt;gabbed about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.5>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.6>talkedabout-&gt;talked about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.6>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.7>talkedabout-&gt;joked about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.7>
+  <PTF02tyqsChitchat.logRulesInitiator.rulesStrings.8>talkedabout-&gt;quipped about</PTF02tyqsChitchat.logRulesInitiator.rulesStrings.8>
+  <!-- PTS03tslx social interactions -->
+  <PTS03tslxDeepTalk.label>Born Leader deep talk</PTS03tslxDeepTalk.label>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] gave a decisive comment on [RECIPIENT_nameDef]'s [subjectPTS03tslx]. [RECIPIENT_nameDef] took a tumble.</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.0>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] came to cheer [RECIPIENT_nameDef] on, then they [talkedabout] [TalkTopicHeavy].</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.1>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] used [examplePTS03tslx] as an example to help [RECIPIENT_nameDef] get [RECIPIENT_possessive] confidence back.</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.2>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.3>subjectPTS03tslx(p=3)-&gt;shortcomings</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.3>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.4>subjectPTS03tslx-&gt;weaknesses</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.4>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.5>subjectPTS03tslx-&gt;problem</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.5>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.6>subjectPTS03tslx-&gt;bad habits</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.6>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.7>subjectPTS03tslx-&gt;[PersonalCharacteristic]</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.7>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.8>talkedabout-&gt;communicated thoughts about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.8>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.9>talkedabout-&gt;exchanged thoughts about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.9>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.10>talkedabout-&gt;exchanged ideas about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.10>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.11>talkedabout-&gt;shared views on</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.11>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.12>talkedabout-&gt;shared beliefs on</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.12>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.13>talkedabout-&gt;discussed the topic of</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.13>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.14>talkedabout-&gt;had a heartfelt conversation about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.14>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.15>talkedabout-&gt;talked quietly about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.15>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.16>talkedabout-&gt;talked deeply about</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.16>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.17>talkedabout-&gt;connected on the topic of</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.17>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.18>examplePTS03tslx(p=4)-&gt;[TalkTopicHeavy]</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.18>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.19>examplePTS03tslx-&gt;the home star</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.19>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.20>examplePTS03tslx-&gt;the [TreeType] tree</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.20>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.21>examplePTS03tslx-&gt;the [NaturalObject]</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.21>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.22>examplePTS03tslx-&gt;the [TerrainFeature]</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.22>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.23>examplePTS03tslx-&gt;the typical deeds</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.23>
+  <PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.24>examplePTS03tslx-&gt;[INITIATOR_possessive] own experience</PTS03tslxDeepTalk.logRulesInitiator.rulesStrings.24>
+  <!-- PTB20js social interactions -->
+  <PTB20jsDeepTalk.label>believer deep talk</PTB20jsDeepTalk.label>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[RECIPIENT_nameDef] confessed [RECIPIENT_possessive] fault. [INITIATOR_nameDef] accepted [RECIPIENT_possessive] confession and inspired [RECIPIENT_objective] with the story of [storyPTB20js].</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.0>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] explored the relationship between faith and [storyPTB20js].</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.1>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[RECIPIENT_nameDef] showed respect to [INITIATOR_nameDef]. Then they talked about [TalkTopicLight].</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.2>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.3>r_logentry(p=0.3)-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that faith can restrict [RECIPIENT_possessive] words and deeds. Faith can also help [RECIPIENT_objective] overcome difficulties.</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.3>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.4>storyPTB20js(p=3)-&gt;[ConceptPositive]</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.4>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.5>storyPTB20js-&gt;[ConceptAngsty]</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.5>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.6>storyPTB20js(p=0.3)-&gt;[TreeType]</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.6>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.7>storyPTB20js-&gt;pray</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.7>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.8>storyPTB20js-&gt;[TerrainFeature]</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.8>
+  <PTB20jsDeepTalk.logRulesInitiator.rulesStrings.9>storyPTB20js-&gt;[Vegetable]</PTB20jsDeepTalk.logRulesInitiator.rulesStrings.9>
+</LanguageData>

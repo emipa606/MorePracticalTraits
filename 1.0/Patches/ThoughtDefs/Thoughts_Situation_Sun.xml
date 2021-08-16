@@ -1,0 +1,2671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Thoughts_Memory_Death -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowGuestExecuted"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowGuestExecuted"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowGuestExecuted"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowColonistExecuted"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistExecuted"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistExecuted"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTC05sw</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTC05sw</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowColonistDied"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistDied"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistDied"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "BondedAnimalDied"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BondedAnimalDied"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTB06lc</li>
+        <li>PTC05sw</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BondedAnimalDied"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTB06lc</li>
+          <li>PTC05sw</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PawnWithGoodOpinionDied"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PawnWithGoodOpinionDied"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PawnWithGoodOpinionDied"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PawnWithBadOpinionDied"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PawnWithBadOpinionDied"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA13rq</li>
+        <li>PTA20ba</li>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTD03yq</li>
+        <li>PTD04aj</li>
+        <li>PTD05fh</li>
+        <li>PTD06ds</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+        <li>VanyaTB03hj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PawnWithBadOpinionDied"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA13rq</li>
+          <li>PTA20ba</li>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTD03yq</li>
+          <li>PTD04aj</li>
+          <li>PTD05fh</li>
+          <li>PTD06ds</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+          <li>VanyaTB03hj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[@Name = "DeathMemory"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[@Name = "DeathMemory"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[@Name = "DeathMemory"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_Eating -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteLavishMeal"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteLavishMeal"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteLavishMeal"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteFineMeal"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteFineMeal"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteFineMeal"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteAwfulMeal"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteAwfulMeal"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>PTS03tslx</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteAwfulMeal"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>PTS03tslx</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteRawFood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteRawFood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>VanyaTC02tsjg</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteRawFood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteKibble"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteKibble"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteKibble"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteCorpse"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteCorpse"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteCorpse"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTF01hy</li>
+        <li>VanyaTE01gsdzf</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTF01hy</li>
+          <li>VanyaTE01gsdzf</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTF01hy</li>
+        <li>PTS02ss</li>
+        <li>VanyaTE01gsdzf</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTF01hy</li>
+          <li>PTS02ss</li>
+          <li>VanyaTE01gsdzf</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatDirect"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatDirect"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatDirect"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteRottenFood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteRottenFood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteRottenFood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_Gatherings -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "GotMarried"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "GotMarried"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "GotMarried"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AttendedWedding"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AttendedWedding"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AttendedWedding"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AttendedParty"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AttendedParty"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AttendedParty"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_Misc -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteWithoutTable"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteWithoutTable"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA04kg</li>
+        <li>PTA06nf</li>
+        <li>PTA07dwzy</li>
+        <li>PTA18fmg</li>
+        <li>PTA24lr</li>
+        <li>PTB05ll</li>
+        <li>PTC02wjj</li>
+        <li>PTC04smcbz</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteWithoutTable"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA04kg</li>
+          <li>PTA06nf</li>
+          <li>PTA07dwzy</li>
+          <li>PTA18fmg</li>
+          <li>PTB05ll</li>
+          <li>PTC02wjj</li>
+          <li>PTC04smcbz</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleepDisturbed"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleepDisturbed"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA07dwzy</li>
+        <li>PTB05ll</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTZ02bd</li>
+        <li>PTZ04tsz</li>
+        <li>PTF01hy</li>
+        <li>PTF02tyqs</li>
+        <li>PTF03mrqw</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleepDisturbed"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA07dwzy</li>
+          <li>PTB05ll</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTZ02bd</li>
+          <li>PTZ04tsz</li>
+          <li>PTF01hy</li>
+          <li>PTF02tyqs</li>
+          <li>PTF03mrqw</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NewColonyOptimism"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NewColonyOptimism"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NewColonyOptimism"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NewColonyHope"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NewColonyHope"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NewColonyHope"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptOutside"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptOutside"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB01jb</li>
+        <li>PTB02tb</li>
+        <li>PTB04jy</li>
+        <li>PTC05sw</li>
+        <li>PTC04smcbz</li>
+        <li>PTZ04tsz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+        <li>VanyaTB04sczj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptOutside"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB01jb</li>
+          <li>PTB02tb</li>
+          <li>PTB04jy</li>
+          <li>PTC05sw</li>
+          <li>PTC04smcbz</li>
+          <li>PTZ04tsz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTB04sczj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptOnGround"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptOnGround"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB01jb</li>
+        <li>PTB02tb</li>
+        <li>PTB04jy</li>
+        <li>PTB05ll</li>
+        <li>PTC05sw</li>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptOnGround"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB01jb</li>
+          <li>PTB02tb</li>
+          <li>PTB04jy</li>
+          <li>PTB05ll</li>
+          <li>PTC05sw</li>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptInCold"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInCold"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>VanyaTC02tsjg</li>
+        <li>VanyaTB04sczj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInCold"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>VanyaTC02tsjg</li>
+          <li>VanyaTB04sczj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptInHeat"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInHeat"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>VanyaTB04sczj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInHeat"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>VanyaTB04sczj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA20ba</li>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA20ba</li>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowGuestOrganHarvested"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowGuestOrganHarvested"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowGuestOrganHarvested"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowColonistOrganHarvested"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistOrganHarvested"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowColonistOrganHarvested"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "MyOrganHarvested"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "MyOrganHarvested"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "MyOrganHarvested"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "WasImprisoned"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WasImprisoned"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WasImprisoned"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Catharsis"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Catharsis"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Catharsis"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Nuzzled"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Nuzzled"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Nuzzled"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowBuriedInSarcophagus"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowBuriedInSarcophagus"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowBuriedInSarcophagus"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SoakingWet"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoakingWet"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA06nf</li>
+        <li>PTA18fmg</li>
+        <li>PTB05ll</li>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTB04sczj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoakingWet"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA06nf</li>
+          <li>PTA18fmg</li>
+          <li>PTB05ll</li>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTB04sczj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTF01hy</li>
+        <li>PTS02ss</li>
+        <li>VanyaTE01gsdzf</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTF01hy</li>
+          <li>PTS02ss</li>
+          <li>VanyaTE01gsdzf</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTE04aksndgw</li>
+        <li>PTF01hy</li>
+        <li>PTS02ss</li>
+        <li>VanyaTE01gsdzf</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTE04aksndgw</li>
+          <li>PTF01hy</li>
+          <li>PTS02ss</li>
+          <li>VanyaTE01gsdzf</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA10zyhl</li>
+        <li>PTB01jb</li>
+        <li>PTB02tb</li>
+        <li>PTB04jy</li>
+        <li>PTB05ll</li>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTC05sw</li>
+        <li>PTC07yl</li>
+        <li>PTD02sw</li>
+        <li>PTE04aksndgw</li>
+        <li>PTF01hy</li>
+        <li>PTF02tyqs</li>
+        <li>PTF03mrqw</li>
+        <li>PTS01yz</li>
+        <li>PTS02ss</li>
+        <li>VanyaTC02tsjg</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA10zyhl</li>
+          <li>PTB01jb</li>
+          <li>PTB02tb</li>
+          <li>PTB04jy</li>
+          <li>PTB05ll</li>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTC05sw</li>
+          <li>PTC07yl</li>
+          <li>PTD02sw</li>
+          <li>PTE04aksndgw</li>
+          <li>PTF01hy</li>
+          <li>PTF02tyqs</li>
+          <li>PTF03mrqw</li>
+          <li>PTS01yz</li>
+          <li>PTS02ss</li>
+          <li>VanyaTC02tsjg</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathAlly"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathAlly"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathAlly"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA01hlzy</li>
+        <li>PTA02gdzj</li>
+        <li>PTB01jb</li>
+        <li>PTB02tb</li>
+        <li>PTB05ll</li>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTE04aksndgw</li>
+        <li>PTF01hy</li>
+        <li>PTF02tyqs</li>
+        <li>PTF03mrqw</li>
+        <li>PTS01yz</li>
+        <li>PTS02ss</li>
+        <li>VanyaTC02tsjg</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA01hlzy</li>
+          <li>PTA02gdzj</li>
+          <li>PTB01jb</li>
+          <li>PTB02tb</li>
+          <li>PTB05ll</li>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTE04aksndgw</li>
+          <li>PTF01hy</li>
+          <li>PTF02tyqs</li>
+          <li>PTF03mrqw</li>
+          <li>PTS01yz</li>
+          <li>PTS02ss</li>
+          <li>VanyaTC02tsjg</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathFamily"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathFamily"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathFamily"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "WitnessedDeathBloodlust"]/requiredTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTE04aksndgw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "KilledHumanlikeBloodlust"]/requiredTraits</xpath>
+    <value>
+      <li>PTD01bj</li>
+      <li>PTE04aksndgw</li>
+      <li>PTS02ss</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "DefeatedHostileFactionLeader"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DefeatedHostileFactionLeader"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DefeatedHostileFactionLeader"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "ColonistBanished"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "ColonistBanishedToDie"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "PrisonerBanishedToDie"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "BondedAnimalBanished"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "FailedToRescueRelative"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedToRescueRelative"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedToRescueRelative"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RescuedRelative"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RescuedRelative"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RescuedRelative"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Rescued"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Rescued"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Rescued"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_RoomStats -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AteInImpressiveDiningRoom"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInImpressiveDiningRoom"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AteInImpressiveDiningRoom"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "JoyActivityInImpressiveRecRoom"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "JoyActivityInImpressiveRecRoom"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS04zrzz</li>
+        <li>VanyaTC02tsjg</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "JoyActivityInImpressiveRecRoom"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS04zrzz</li>
+          <li>VanyaTC02tsjg</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptInBedroom"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInBedroom"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInBedroom"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SleptInBarracks"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInBarracks"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>VanyaTB04sczj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SleptInBarracks"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>VanyaTB04sczj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_Social -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "Chitchat"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTC08sk</li>
+      <li>PTD05fh</li>
+      <li>PTD06ds</li>
+      <li>PTS06fkzs</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Slighted"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Slighted"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA13rq</li>
+        <li>PTA20ba</li>
+        <li>PTZ02bd</li>
+        <li>PTD02sw</li>
+        <li>PTD03yq</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+        <li>VanyaTB03hj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Slighted"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA13rq</li>
+          <li>PTA20ba</li>
+          <li>PTZ02bd</li>
+          <li>PTD02sw</li>
+          <li>PTD03yq</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+          <li>VanyaTB03hj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Insulted"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Insulted"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTZ02bd</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Insulted"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTZ02bd</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "InsultedMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "InsultedMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTZ02bd</li>
+        <li>PTD02sw</li>
+        <li>PTD05fh</li>
+        <li>PTD06ds</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+        <li>VanyaTB03hj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "InsultedMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTZ02bd</li>
+          <li>PTD02sw</li>
+          <li>PTD05fh</li>
+          <li>PTD06ds</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+          <li>VanyaTB03hj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "HadAngeringFight"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HadAngeringFight"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HadAngeringFight"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "HadCatharticFight"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HadCatharticFight"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HadCatharticFight"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "HarmedMe"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HarmedMe"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HarmedMe"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "BotchedMySurgery"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BotchedMySurgery"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BotchedMySurgery"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RescuedMe"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RescuedMe"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RescuedMe"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RecruitedMe"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RecruitedMe"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RecruitedMe"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "CrashedTogether"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CrashedTogether"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CrashedTogether"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SoldMyBondedAnimal"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoldMyBondedAnimal"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTB06lc</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoldMyBondedAnimal"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTB06lc</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD03yq</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD03yq</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+        <li>PTD05fh</li>
+        <li>PTD06ds</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+          <li>PTD05fh</li>
+          <li>PTD06ds</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD03yq</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD03yq</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+        <li>PTD05fh</li>
+        <li>PTD06ds</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+          <li>PTD05fh</li>
+          <li>PTD06ds</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "BrokeUpWithMeMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BrokeUpWithMeMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "BrokeUpWithMeMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "CheatedOnMeMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CheatedOnMeMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CheatedOnMeMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "DivorcedMeMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DivorcedMeMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DivorcedMeMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "RejectedMyProposalMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RejectedMyProposalMood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "RejectedMyProposalMood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "GotSomeLovin"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "GotSomeLovin"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "GotSomeLovin"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Memory_Special -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ArtifactMoodBoost"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ArtifactMoodBoost"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ArtifactMoodBoost"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!--Expectations -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "LowExpectations"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "LowExpectations"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "LowExpectations"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_Generalh -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "EnvironmentDark"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTA04kg</li>
+      <li>PTC02wjj</li>
+      <li>PTC05sw</li>
+      <li>PTD02sw</li>
+      <li>PTS02ss</li>
+      <li>VanyaTB04sczj</li>
+      <li>VanyaTC02tsjg</li>
+      <li>VanyaTC03fwgz</li>
+      <li>LingTA01haxz</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ApparelDamaged"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ApparelDamaged"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA21jj</li>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ApparelDamaged"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA21jj</li>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "DeadMansApparel"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTC05sw</li>
+      <li>PTD02sw</li>
+      <li>PTE04aksndgw</li>
+      <li>PTS02ss</li>
+      <li>VanyaTB04sczj</li>
+      <li>VanyaTC02tsjg</li>
+      <li>VanyaTS01by</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "HumanLeatherApparelSad"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTC05sw</li>
+      <li>PTD02sw</li>
+      <li>PTE04aksndgw</li>
+      <li>PTS02ss</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "HumanLeatherApparelHappy"]/requiredTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTE04aksndgw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Sick"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Sick"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTC04smcbz</li>
+        <li>PTC11bdbq</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS02ss</li>
+        <li>PTS04zrzz</li>
+        <li>PTS06fkzs</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Sick"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTC04smcbz</li>
+          <li>PTC11bdbq</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS02ss</li>
+          <li>PTS04zrzz</li>
+          <li>PTS06fkzs</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "EnvironmentCold"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "EnvironmentCold"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "EnvironmentCold"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "EnvironmentHot"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "EnvironmentHot"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "EnvironmentHot"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_Needs -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedFood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedFood"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedFood"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedRest"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedRest"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS01yz</li>
+        <li>PTS02ss</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedRest"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS01yz</li>
+          <li>PTS02ss</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedJoy"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedJoy"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS04zrzz</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedJoy"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS04zrzz</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedComfort"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedComfort"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC04smcbz</li>
+        <li>PTD02sw</li>
+        <li>PTS04zrzz</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedComfort"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC04smcbz</li>
+          <li>PTD02sw</li>
+          <li>PTS04zrzz</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedBeauty"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedBeauty"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedBeauty"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedRoomSize"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedRoomSize"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedRoomSize"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "NeedOutdoors"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedOutdoors"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTC06jj</li>
+        <li>PTC09tc</li>
+        <li>PTZ04tsz</li>
+        <li>PTD02sw</li>
+        <li>PTD05fh</li>
+        <li>PTE07wlkjcm</li>
+        <li>PTS03tslx</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "NeedOutdoors"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTC06jj</li>
+          <li>PTC09tc</li>
+          <li>PTZ04tsz</li>
+          <li>PTD02sw</li>
+          <li>PTD05fh</li>
+          <li>PTE07wlkjcm</li>
+          <li>PTS03tslx</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_RoomStats -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PrisonCell"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PrisonCell"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PrisonCell"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PrisonBarracks"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PrisonBarracks"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PrisonBarracks"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "HospitalPatientRoomStats"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HospitalPatientRoomStats"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "HospitalPatientRoomStats"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_Social -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA10zyhl</li>
+        <li>PTA13rq</li>
+        <li>PTA14yg</li>
+        <li>PTA20ba</li>
+        <li>PTB01jb</li>
+        <li>PTB02tb</li>
+        <li>PTB03yy</li>
+        <li>PTB04jy</li>
+        <li>PTB05ll</li>
+        <li>PTB08zkw</li>
+        <li>PTC07yl</li>
+        <li>PTD02sw</li>
+        <li>PTD03yq</li>
+        <li>PTD04aj</li>
+        <li>PTD06ds</li>
+        <li>PTF02tyqs</li>
+        <li>PTS01yz</li>
+        <li>PTS03tslx</li>
+        <li>VanyaTB03hj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Disfigured"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA10zyhl</li>
+          <li>PTA13rq</li>
+          <li>PTA14yg</li>
+          <li>PTA20ba</li>
+          <li>PTB01jb</li>
+          <li>PTB02tb</li>
+          <li>PTB03yy</li>
+          <li>PTB04jy</li>
+          <li>PTB05ll</li>
+          <li>PTB08zkw</li>
+          <li>PTC07yl</li>
+          <li>PTD02sw</li>
+          <li>PTD03yq</li>
+          <li>PTD04aj</li>
+          <li>PTD06ds</li>
+          <li>PTF02tyqs</li>
+          <li>PTS01yz</li>
+          <li>PTS03tslx</li>
+          <li>VanyaTB03hj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Pretty"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Pretty"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Pretty"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Ugly"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Ugly"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA20ba</li>
+        <li>PTB08zkw</li>
+        <li>PTD02sw</li>
+        <li>PTE01aydzn</li>
+        <li>PTF02tyqs</li>
+        <li>PTS02ss</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Ugly"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA20ba</li>
+          <li>PTB08zkw</li>
+          <li>PTD02sw</li>
+          <li>PTE01aydzn</li>
+          <li>PTF02tyqs</li>
+          <li>PTS02ss</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "AnnoyingVoice"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AnnoyingVoice"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA20ba</li>
+        <li>PTB08zkw</li>
+        <li>PTZ04tsz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "AnnoyingVoice"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA20ba</li>
+          <li>PTB08zkw</li>
+          <li>PTZ04tsz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "CreepyBreathing"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CreepyBreathing"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA20ba</li>
+        <li>PTB08zkw</li>
+        <li>PTZ04tsz</li>
+        <li>PTD02sw</li>
+        <li>PTF02tyqs</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "CreepyBreathing"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA20ba</li>
+          <li>PTB08zkw</li>
+          <li>PTZ04tsz</li>
+          <li>PTD02sw</li>
+          <li>PTF02tyqs</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpseOpinion"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTC05sw</li>
+      <li>PTE04aksndgw</li>
+      <li>PTF01hy</li>
+      <li>PTS02ss</li>
+      <li>VanyaTE01gsdzf</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "AteRawHumanlikeMeat"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB08zkw</li>
+      <li>PTF01hy</li>
+      <li>VanyaTE01gsdzf</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "ExecutedPrisoner"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ExecutedPrisoner"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTB08zkw</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "ExecutedPrisoner"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTB08zkw</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KilledColonist"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KilledColonist"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB06lc</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KilledColonist"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB06lc</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "KilledColonyAnimal"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KilledColonyAnimal"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTA05hcy</li>
+        <li>PTB05ll</li>
+        <li>PTB06lc</li>
+        <li>PTC03cs</li>
+        <li>PTC05sw</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS04zrzz</li>
+        <li>PTS06fkzs</li>
+        <li>VanyaTB04sczj</li>
+        <li>VanyaTS01by</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "KilledColonyAnimal"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTA05hcy</li>
+          <li>PTB05ll</li>
+          <li>PTB06lc</li>
+          <li>PTC03cs</li>
+          <li>PTC05sw</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS04zrzz</li>
+          <li>PTS06fkzs</li>
+          <li>VanyaTB04sczj</li>
+          <li>VanyaTS01by</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_Special -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "SharedBed"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SharedBed"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>PTS03tslx</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "SharedBed"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>PTS03tslx</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "ColonistLeftUnburied"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName = "Naked"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTB05ll</li>
+      <li>PTD02sw</li>
+      <li>PTS04zrzz</li>
+      <li>VanyaTC04cfts</li>
+      <li>VanyaTS01by</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName = "Pain"]/nullifyingTraits</xpath>
+    <value>
+      <li>PTA02gdzj</li>
+      <li>PTA14yg</li>
+      <li>PTB02tb</li>
+      <li>PTB05ll</li>
+      <li>PTB06lc</li>
+      <li>PTD01bj</li>
+      <li>PTD02sw</li>
+      <li>PTD03yq</li>
+      <li>PTE01aydzn</li>
+      <li>PTE02mdxqm</li>
+      <li>PTE03csdsc</li>
+      <li>PTE04aksndgw</li>
+      <li>PTE05kwdxd</li>
+      <li>PTE06wlkjjm</li>
+      <li>PTE07wlkjcm</li>
+      <li>PTF01hy</li>
+      <li>PTF02tyqs</li>
+      <li>PTF03mrqw</li>
+      <li>PTS01yz</li>
+      <li>PTS02ss</li>
+      <li>PTS03tslx</li>
+      <li>PTS06fkzs</li>
+      <li>VanyaTC02tsjg</li>
+      <li>VanyaTE01gsdzf</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PsychicEmanatorSoothe"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PsychicEmanatorSoothe"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PsychicEmanatorSoothe"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "PsychicDrone"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PsychicDrone"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "PsychicDrone"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Joywire"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Joywire"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTD01bj</li>
+        <li>PTD02sw</li>
+        <li>PTS02ss</li>
+        <li>PTS04zrzz</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Joywire"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTD01bj</li>
+          <li>PTD02sw</li>
+          <li>PTS02ss</li>
+          <li>PTS04zrzz</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "Aurora"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Aurora"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD01bj</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "Aurora"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD01bj</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName = "DoingPassionateWork"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DoingPassionateWork"]/nullifyingTraits</xpath>
+      <value>
+        <li>PTB05ll</li>
+        <li>PTD02sw</li>
+        <li>PTS06fkzs</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThoughtDef[defName = "DoingPassionateWork"]</xpath>
+      <value>
+        <nullifyingTraits>
+          <li>PTB05ll</li>
+          <li>PTD02sw</li>
+          <li>PTS06fkzs</li>
+        </nullifyingTraits>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- Thoughts_Situation_Traits -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName = "ProsthophileNoProsthetic"]/requiredTraits</xpath>
+    <value>
+      <li>PTE08wlkjdsz</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName = "ProsthophileHappy"]/requiredTraits</xpath>
+    <value>
+      <li>PTE08wlkjdsz</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName = "HappyNude"]/requiredTraits</xpath>
+    <value>
+      <li>VanyaTC04cfts</li>
+    </value>
+  </Operation>
+</Patch>

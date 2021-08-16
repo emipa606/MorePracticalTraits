@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 皇权相关特性 royalty traits -->
+  <PTR01sl.degreeDatas.0.label>&lt;color=#CDCDCD&gt;势利&lt;/color&gt;</PTR01sl.degreeDatas.0.label>
+  <PTR01sl.degreeDatas.0.description>[PAWN_nameDef]争名逐利。[PAWN_pronoun]总在追求更高的荣誉头衔，缺少头衔会不开心。</PTR01sl.degreeDatas.0.description>
+  <PTR02qg.degreeDatas.0.label>&lt;color=#CDCDCD&gt;清高&lt;/color&gt;</PTR02qg.degreeDatas.0.label>
+  <PTR02qg.degreeDatas.0.description>[PAWN_nameDef]淡泊名利。[PAWN_pronoun]不喜欢荣誉头衔，拥有头衔会不开心。</PTR02qg.degreeDatas.0.description>
+</LanguageData>

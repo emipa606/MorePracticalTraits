@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 低强度特性 base traits -->
+  <TraitDef>
+    <defName>LingTA01haxz</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#33ff00&gt;Watchman&lt;/color&gt;</label>
+        <description>[PAWN_nameDef] prefers to be up during the night. [PAWN_pronoun] gets a mood bonus if awake at night (23h-6h). [PAWN_pronoun] doesn't mind living in darkness.</description>
+        <statOffsets>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <TraitDef>
+    <defName>LingTA02jzlc</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#33ff00&gt;Invaluable&lt;/color&gt;</label>
+        <description>For some unkown reason, [PAWN_nameDef] has become a hot commodity and very expensive.</description>
+        <marketValueFactorOffset>10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <!-- 中强度特性 medium traits -->
+  <TraitDef>
+    <defName>LingTB01lth</defName>
+    <commonality>0.08</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#66ccff&gt;Lose quality&lt;/color&gt;</label>
+        <description>[PAWN_nameDef] lost [PAWN_possessive] weight in an accident. [PAWN_pronoun] hardly needs food, but [PAWN_pronoun] still will get hurt or sick.</description>
+        <statOffsets>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
+        </statOffsets>
+        <statFactors>
+          <HungerRateMultiplier>0.01</HungerRateMultiplier>
+          <Mass>0</Mass>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <!-- 负面特性 negative traits -->
+  <TraitDef>
+    <defName>LingTZ01dmyz</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#969696&gt;Low Immunity&lt;/color&gt;</label>
+        <description>[PAWN_nameDef] has congenital immunodeficiency. So it's difficult for [PAWN_objective] to fight with diseases.</description>
+        <statFactors>
+          <ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+        </statFactors>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>Immunity</li>
+    </conflictingTraits>
+  </TraitDef>
+</Defs>

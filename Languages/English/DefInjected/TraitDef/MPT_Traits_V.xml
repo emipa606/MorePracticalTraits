@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 低强度特性 base traits -->
+  <VanyaTA01mhgg.degreeDatas.0.label>&lt;color=#33ff00&gt;Show moe&lt;/color&gt;</VanyaTA01mhgg.degreeDatas.0.label>
+  <VanyaTA01mhgg.degreeDatas.0.description>La la la~ I just look around. ·ω·</VanyaTA01mhgg.degreeDatas.0.description>
+  <VanyaTA02mfsn.degreeDatas.0.label>&lt;color=#33ff00&gt;Magic girl&lt;/color&gt;</VanyaTA02mfsn.degreeDatas.0.label>
+  <VanyaTA02mfsn.degreeDatas.0.description>[PAWN_nameDef] used to be a magical girl, but [PAWN_pronoun] could not feel the power of magic on this planet.</VanyaTA02mfsn.degreeDatas.0.description>
+  <!-- 中强度特性 medium traits -->
+  <VanyaTB01tzz.degreeDatas.0.label>&lt;color=#66ccff&gt;Coordinator&lt;/color&gt;</VanyaTB01tzz.degreeDatas.0.label>
+  <VanyaTB01tzz.degreeDatas.0.description>[PAWN_nameDef] was genetically adjusted before born. [PAWN_possessive] indicators are better than ordinary people.</VanyaTB01tzz.degreeDatas.0.description>
+  <VanyaTB02cyz.degreeDatas.0.label>&lt;color=#66ccff&gt;Space-time traveler&lt;/color&gt;</VanyaTB02cyz.degreeDatas.0.label>
+  <VanyaTB02cyz.degreeDatas.0.description>[PAWN_nameDef] ran from other worlds. Everything has to start again in here, but the experience is still useful.</VanyaTB02cyz.degreeDatas.0.description>
+  <VanyaTB03hj.degreeDatas.0.label>&lt;color=#66ccff&gt;Funny&lt;/color&gt;</VanyaTB03hj.degreeDatas.0.label>
+  <VanyaTB03hj.degreeDatas.0.description>[PAWN_nameDef] is very humorous. [PAWN_possessive] jokes make everyone happy. [PAWN_pronoun] will be kind to the disfigured and tolerate unfriendly words.</VanyaTB03hj.degreeDatas.0.description>
+  <VanyaTB04sczj.degreeDatas.0.label>&lt;color=#66ccff&gt;Survival expert&lt;/color&gt;</VanyaTB04sczj.degreeDatas.0.label>
+  <VanyaTB04sczj.degreeDatas.0.description>In order to survive, [PAWN_nameDef] can endure unimaginable difficulties. [PAWN_pronoun] adapts to different harsh conditions.</VanyaTB04sczj.degreeDatas.0.description>
+  <!-- 高强度特性 advance traits -->
+  <VanyaTC01rrwg.degreeDatas.0.label>&lt;color=#cc33cc&gt;Delicate&lt;/color&gt;</VanyaTC01rrwg.degreeDatas.0.label>
+  <VanyaTC01rrwg.degreeDatas.0.description>[PAWN_nameDef] was born with a soft bone and a more dexterous body. So [PAWN_pronoun] can do most of complex work besides fighting.</VanyaTC01rrwg.degreeDatas.0.description>
+  <VanyaTC02tsjg.degreeDatas.0.label>&lt;color=#CC33CC&gt;Born warrior&lt;/color&gt;</VanyaTC02tsjg.degreeDatas.0.label>
+  <VanyaTC02tsjg.degreeDatas.0.description>[PAWN_nameDef] was born in a harsh environment. [PAWN_pronoun] is adept at fighting because of [PAWN_possessive] special physique.</VanyaTC02tsjg.degreeDatas.0.description>
+  <VanyaTC03fwgz.degreeDatas.0.label>&lt;color=#CC33CC&gt;Range telepathy&lt;/color&gt;</VanyaTC03fwgz.degreeDatas.0.label>
+  <VanyaTC03fwgz.degreeDatas.0.description>[PAWN_nameDef] was born with excellent perception.</VanyaTC03fwgz.degreeDatas.0.description>
+  <VanyaTC04cfts.degreeDatas.0.label>&lt;color=#cc33cc&gt;Extraordinary&lt;/color&gt;</VanyaTC04cfts.degreeDatas.0.label>
+  <VanyaTC04cfts.degreeDatas.0.description>[PAWN_nameDef] is a famous artist. [PAWN_pronoun] enjoys the feeling of freedom that comes from being nude.However, [PAWN_pronoun] can't endure too much pain.</VanyaTC04cfts.degreeDatas.0.description>
+  <!-- 负面特性 negative traits -->
+  <VanyaTZ01xkdns.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Death stare&lt;/color&gt;</VanyaTZ01xkdns.degreeDatas.0.label>
+  <VanyaTZ01xkdns.degreeDatas.0.description>For a long time, [PAWN_nameDef] always felt that someone was watching [PAWN_objective]. [PAWN_pronoun] thinks something is wrong.</VanyaTZ01xkdns.degreeDatas.0.description>
+  <!-- 搞事基础特性 Gaoshi base traits -->
+  <VanyaTE01gsdzf.degreeDatas.0.label>&lt;color=#F08080&gt;Gaoshi's blessing&lt;/color&gt;</VanyaTE01gsdzf.degreeDatas.0.label>
+  <VanyaTE01gsdzf.degreeDatas.0.description>One day, [PAWN_nameDef] was chosen by an unusual soul.[PAWN_pronoun] got the relevant abilities and shortcomings in this way.</VanyaTE01gsdzf.degreeDatas.0.description>
+  <!-- 订制特性 Custom traits -->
+  <VanyaTS01by.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Bear&lt;/i&gt;&lt;/color&gt;</VanyaTS01by.degreeDatas.0.label>
+  <VanyaTS01by.degreeDatas.0.description>[PAWN_nameDef] is the person on the top of the food chain. The place where ordinary people can't hold on for one day is the perfect stage for [PAWN_objective] to show [PAWN_possessive] survival techniques.</VanyaTS01by.degreeDatas.0.description>
+</LanguageData>

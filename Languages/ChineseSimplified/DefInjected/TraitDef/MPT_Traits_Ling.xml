@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 低强度特性 base traits -->
+  <LingTA01haxz.degreeDatas.0.label>&lt;color=#33ff00&gt;守夜者&lt;/color&gt;</LingTA01haxz.degreeDatas.0.label>
+  <LingTA01haxz.degreeDatas.0.description>[PAWN_nameDef]不讨厌白天，但[PAWN_pronoun]更喜欢在夜间（23时-6时）行动。[PAWN_pronoun]不介意身处黑暗。</LingTA01haxz.degreeDatas.0.description>
+  <LingTA02jzlc.degreeDatas.0.label>&lt;color=#33ff00&gt;价值连城&lt;/color&gt;</LingTA02jzlc.degreeDatas.0.label>
+  <LingTA02jzlc.degreeDatas.0.description>由于不为人知的原因，[PAWN_nameDef]成为市场上的抢手货，身价极高。</LingTA02jzlc.degreeDatas.0.description>
+  <!-- 中强度特性 medium traits -->
+  <LingTB01lth.degreeDatas.0.label>&lt;color=#66ccff&gt;灵体化&lt;/color&gt;</LingTB01lth.degreeDatas.0.label>
+  <LingTB01lth.degreeDatas.0.description>[PAWN_nameDef]因为一次意外而失去重量，[PAWN_pronoun]变得基本不需要食物，但依然会生病和受到伤害。</LingTB01lth.degreeDatas.0.description>
+  <!-- 负面特性 negative traits -->
+  <LingTZ01dmyz.degreeDatas.0.label>&lt;color=#CDCDCD&gt;低免疫者&lt;/color&gt;</LingTZ01dmyz.degreeDatas.0.label>
+  <LingTZ01dmyz.degreeDatas.0.description>[PAWN_nameDef]有先天性免疫系统缺失的情况，这使[PAWN_pronoun]很难抵抗疾病侵袭。</LingTZ01dmyz.degreeDatas.0.description>
+</LanguageData>

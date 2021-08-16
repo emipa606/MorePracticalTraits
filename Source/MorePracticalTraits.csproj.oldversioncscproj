@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01BC9788-6AE1-4DFC-B422-FF1059106406}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MorePracticalTraits</RootNamespace>
+    <AssemblyName>MorePracticalTraits</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InteractionWorker_BornLeaderDT.cs" />
+    <Compile Include="InteractionWorker_ChitChatWLKJ.cs" />
+    <Compile Include="InteractionWorker_PTB20js.cs" />
+    <Compile Include="InteractionWorker_PTD01bj.cs" />
+    <Compile Include="InteractionWorker_PTD02sw.cs" />
+    <Compile Include="InteractionWorker_PTD03yq.cs" />
+    <Compile Include="InteractionWorker_PTD04aj.cs" />
+    <Compile Include="InteractionWorker_PTD04ajDT.cs" />
+    <Compile Include="InteractionWorker_PTD05fh.cs" />
+    <Compile Include="InteractionWorker_PTD05fhDT.cs" />
+    <Compile Include="InteractionWorker_PTD06ds.cs" />
+    <Compile Include="InteractionWorker_PTD06dsDT.cs" />
+    <Compile Include="InteractionWorker_PTF02tyqs.cs" />
+    <Compile Include="MorePracticalTraitsDefOf.cs" />
+    <Compile Include="MPTModExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThoughtWorker_MPTSpecial.cs" />
+    <Compile Include="ThoughtWorker_TitleSeniority.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

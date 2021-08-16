@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 皇权相关想法 royalty thoughts -->
+  <MoodOffsetPTR01sl.stages.0.label>Snobbish</MoodOffsetPTR01sl.stages.0.label>
+  <MoodOffsetPTR01sl.stages.0.description>Natural penalty from 'Snobbish' trait.</MoodOffsetPTR01sl.stages.0.description>
+  <MoodOffsetPTR02qg.stages.0.label>Lofty</MoodOffsetPTR02qg.stages.0.label>
+  <MoodOffsetPTR02qg.stages.0.description>Natural penalty from 'Lofty' trait.</MoodOffsetPTR02qg.stages.0.description>
+</LanguageData>

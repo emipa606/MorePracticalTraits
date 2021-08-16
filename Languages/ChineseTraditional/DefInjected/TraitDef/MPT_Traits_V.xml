@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 低强度特性 base traits -->
+  <VanyaTA01mhgg.degreeDatas.0.label>&lt;color=#33ff00&gt;萌混过关&lt;/color&gt;</VanyaTA01mhgg.degreeDatas.0.label>
+  <VanyaTA01mhgg.degreeDatas.0.description>啦啦啦~ 我就来看看，什么也不干·ω· </VanyaTA01mhgg.degreeDatas.0.description>
+  <VanyaTA02mfsn.degreeDatas.0.label>&lt;color=#33ff00&gt;魔法少女&lt;/color&gt;</VanyaTA02mfsn.degreeDatas.0.label>
+  <VanyaTA02mfsn.degreeDatas.0.description>[PAWN_nameDef]曾经是一名魔法少女，但在这个星球感受不到魔法的力量。</VanyaTA02mfsn.degreeDatas.0.description>
+  <!-- 中强度特性 medium traits -->
+  <VanyaTB01tzz.degreeDatas.0.label>&lt;color=#66ccff&gt;调整者&lt;/color&gt;</VanyaTB01tzz.degreeDatas.0.label>
+  <VanyaTB01tzz.degreeDatas.0.description>[PAWN_nameDef]在出生之前经过基因调整，各方面天赋都比普通人优秀一些。</VanyaTB01tzz.degreeDatas.0.description>
+  <VanyaTB02cyz.degreeDatas.0.label>&lt;color=#66ccff&gt;穿越者&lt;/color&gt;</VanyaTB02cyz.degreeDatas.0.label>
+  <VanyaTB02cyz.degreeDatas.0.description>[PAWN_nameDef]从别的世界穿越而来，一切都要重新开始，不过以往的经验还能派上用场。</VanyaTB02cyz.degreeDatas.0.description>
+  <VanyaTB03hj.degreeDatas.0.label>&lt;color=#66ccff&gt;滑稽&lt;/color&gt;</VanyaTB03hj.degreeDatas.0.label>
+  <VanyaTB03hj.degreeDatas.0.description>[PAWN_nameDef]十分幽默，给大家带来快乐。[PAWN_pronoun]会善待毁容的人，并容忍他人不友好的话语。</VanyaTB03hj.degreeDatas.0.description>
+  <VanyaTB04sczj.degreeDatas.0.label>&lt;color=#66ccff&gt;生存专家&lt;/color&gt;</VanyaTB04sczj.degreeDatas.0.label>
+  <VanyaTB04sczj.degreeDatas.0.description>为了活下去，[PAWN_nameDef]可以忍受难以想象的困难。[PAWN_pronoun]适应极其苛刻的野外生活，不介意吃生食或饲料，穿着死人或磨损的衣物，羁绊动物死亡，安装人工部件等，能够忍受疾病折磨。</VanyaTB04sczj.degreeDatas.0.description>
+  <!-- 高强度特性 advance traits -->
+  <VanyaTC01rrwg.degreeDatas.0.label>&lt;color=#cc33cc&gt;柔弱无骨&lt;/color&gt;</VanyaTC01rrwg.degreeDatas.0.label>
+  <VanyaTC01rrwg.degreeDatas.0.description>[PAWN_nameDef]天生骨骼柔软，比其他人身体来得更加灵巧，这让[PAWN_pronoun]能够从事更加复杂的工作，但并不适合战斗。</VanyaTC01rrwg.degreeDatas.0.description>
+  <VanyaTC02tsjg.degreeDatas.0.label>&lt;color=#CC33CC&gt;天生剑骨&lt;/color&gt;</VanyaTC02tsjg.degreeDatas.0.label>
+  <VanyaTC02tsjg.degreeDatas.0.description>[PAWN_nameDef]生在环境严酷的地区。因为拥有特殊体质，[PAWN_pronoun]非常擅长战斗。[PAWN_pronoun]能适应完全的野外生活和艰苦的作战环境，不介意吃生食，穿着死人的衣物，没有对吃饭、娱乐房间的需求。</VanyaTC02tsjg.degreeDatas.0.description>
+  <VanyaTC03fwgz.degreeDatas.0.label>&lt;color=#CC33CC&gt;范围感知&lt;/color&gt;</VanyaTC03fwgz.degreeDatas.0.label>
+  <VanyaTC03fwgz.degreeDatas.0.description>[PAWN_nameDef]天生對廣闊的範圍感知力更優秀。</VanyaTC03fwgz.degreeDatas.0.description>
+  <VanyaTC04cfts.degreeDatas.0.label>&lt;color=#cc33cc&gt;超凡脱俗&lt;/color&gt;</VanyaTC04cfts.degreeDatas.0.label>
+  <VanyaTC04cfts.degreeDatas.0.description>作為知名的藝術家，[PAWN_nameDef]崇尚裸露身體，即使只露出一部分也能使[PAWN_objective]感到快樂。同時，[PAWN_pronoun]無法忍受太多疼痛。</VanyaTC04cfts.degreeDatas.0.description>
+  <!-- 负面特性 negative traits -->
+  <VanyaTZ01xkdns.degreeDatas.0.label>&lt;color=#CDCDCD&gt;虚空的凝视&lt;/color&gt;</VanyaTZ01xkdns.degreeDatas.0.label>
+  <VanyaTZ01xkdns.degreeDatas.0.description>[PAWN_nameDef]不知道一直以来被谁注视着，总觉得有些奇怪。</VanyaTZ01xkdns.degreeDatas.0.description>
+  <!-- 搞事基础特性 Gaoshi base traits -->
+  <VanyaTE01gsdzf.degreeDatas.0.label>&lt;color=#F08080&gt;搞事的祝福&lt;/color&gt;</VanyaTE01gsdzf.degreeDatas.0.label>
+  <VanyaTE01gsdzf.degreeDatas.0.description>有一天，[PAWN_nameDef]突然得到某个爱搞事的灵魂青睐。[PAWN_pronoun]因此而获得相关的能力和缺点。[PAWN_pronoun]不介意食人或屠宰人类。</VanyaTE01gsdzf.degreeDatas.0.description>
+  <!-- 订制特性 Custom traits -->
+  <VanyaTS01by.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;贝爷&lt;/i&gt;&lt;/color&gt;</VanyaTS01by.degreeDatas.0.label>
+  <VanyaTS01by.degreeDatas.0.description>[PAWN_nameDef]是站在食物链顶端的人，常人连一天都坚持不了的地方正是[PAWN_pronoun]展示求生技巧的绝佳舞台。[PAWN_pronoun]适应极其苛刻的野外生活，不介意咀嚼任何形式的食物，穿着死人或磨损的衣物，羁绊动物死亡等，能够忍受疾病折磨。持有远程武器会使[PAWN_pronoun]充满自信。</VanyaTS01by.degreeDatas.0.description>
+</LanguageData>

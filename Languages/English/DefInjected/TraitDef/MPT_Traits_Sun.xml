@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 低强度特性 base traits -->
+  <PTA01hlzy.degreeDatas.0.label>&lt;color=#33ff00&gt;Cover fire&lt;/color&gt;</PTA01hlzy.degreeDatas.0.label>
+  <PTA01hlzy.degreeDatas.0.description>[PAWN_nameDef] is good at using long-range weapons to support [PAWN_possessive] teammates. [PAWN_pronoun]'ll be confidence if asked to carry a ranged weapon.</PTA01hlzy.degreeDatas.0.description>
+  <PTA02gdzj.degreeDatas.0.label>&lt;color=#33ff00&gt;Fighter&lt;/color&gt;</PTA02gdzj.degreeDatas.0.label>
+  <PTA02gdzj.degreeDatas.0.description>[PAWN_nameDef] is so flexible that [PAWN_pronoun] fights well. [PAWN_pronoun]'ll be so brave while wounded.</PTA02gdzj.degreeDatas.0.description>
+  <PTA03nwj.degreeDatas.0.label>&lt;color=#33ff00&gt;Plasterer&lt;/color&gt;</PTA03nwj.degreeDatas.0.label>
+  <PTA03nwj.degreeDatas.0.description>[PAWN_nameDef] has the skill to build a house and can also make some furniture.</PTA03nwj.degreeDatas.0.description>
+  <PTA04kg.degreeDatas.0.label>&lt;color=#33ff00&gt;Miner&lt;/color&gt;</PTA04kg.degreeDatas.0.label>
+  <PTA04kg.degreeDatas.0.description>[PAWN_nameDef] is good at digging and drilling. [PAWN_pronoun] doesn't mind eating on the ground or living in darkness.</PTA04kg.degreeDatas.0.description>
+  <PTA05hcy.degreeDatas.0.label>&lt;color=#33ff00&gt;Good cooking&lt;/color&gt;</PTA05hcy.degreeDatas.0.label>
+  <PTA05hcy.degreeDatas.0.description>[PAWN_nameDef] is good at cooking.</PTA05hcy.degreeDatas.0.description>
+  <PTA06nf.degreeDatas.0.label>&lt;color=#33ff00&gt;Farmer&lt;/color&gt;</PTA06nf.degreeDatas.0.label>
+  <PTA06nf.degreeDatas.0.description>[PAWN_nameDef] is good at farming and harvesting crops. [PAWN_pronoun] doesn't mind eating on the ground.</PTA06nf.degreeDatas.0.description>
+  <PTA07dwzy.degreeDatas.0.label>&lt;color=#33ff00&gt;Animal friend&lt;/color&gt;</PTA07dwzy.degreeDatas.0.label>
+  <PTA07dwzy.degreeDatas.0.description>Tame and train animals is easy for [PAWN_nameDef]. [PAWN_pronoun] is also good at gathering resources from animals. [PAWN_pronoun] doesn't mind living in the wild.</PTA07dwzy.degreeDatas.0.description>
+  <PTA08tj.degreeDatas.0.label>&lt;color=#33ff00&gt;Blacksmith&lt;/color&gt;</PTA08tj.degreeDatas.0.label>
+  <PTA08tj.degreeDatas.0.description>[PAWN_nameDef] is good at making weapons and equipment.</PTA08tj.degreeDatas.0.description>
+  <PTA09dkj.degreeDatas.0.label>&lt;color=#33ff00&gt;Artist&lt;/color&gt;</PTA09dkj.degreeDatas.0.label>
+  <PTA09dkj.degreeDatas.0.description>[PAWN_nameDef] is good at artistic creation.</PTA09dkj.degreeDatas.0.description>
+  <PTA10zyhl.degreeDatas.0.label>&lt;color=#33ff00&gt;Nurse&lt;/color&gt;</PTA10zyhl.degreeDatas.0.label>
+  <PTA10zyhl.degreeDatas.0.description>[PAWN_nameDef] is good at nursing. [PAWN_pronoun] can keep calm beside the corpse.</PTA10zyhl.degreeDatas.0.description>
+  <PTA11tnjm.degreeDatas.0.label>&lt;color=#33ff00&gt;Shrewd&lt;/color&gt;</PTA11tnjm.degreeDatas.0.label>
+  <PTA11tnjm.degreeDatas.0.description>[PAWN_nameDef] is clever at understanding and making judgements about a situation. Talking is [PAWN_possessive] weapon.</PTA11tnjm.degreeDatas.0.description>
+  <PTA12fmj.degreeDatas.0.label>&lt;color=#33ff00&gt;Inventor&lt;/color&gt;</PTA12fmj.degreeDatas.0.label>
+  <PTA12fmj.degreeDatas.0.description>[PAWN_nameDef] is passionate about researching and inventing things.</PTA12fmj.degreeDatas.0.description>
+  <PTA13rq.degreeDatas.0.label>&lt;color=#33ff00&gt;Enthusiasm&lt;/color&gt;</PTA13rq.degreeDatas.0.label>
+  <PTA13rq.degreeDatas.0.description>[PAWN_nameDef] is a friendly and warm person. Everyone thinks that chatting with [PAWN_objective] is very happy.</PTA13rq.degreeDatas.0.description>
+  <PTA14yg.degreeDatas.0.label>&lt;color=#33ff00&gt;Brave&lt;/color&gt;</PTA14yg.degreeDatas.0.label>
+  <PTA14yg.degreeDatas.0.description>[PAWN_nameDef] always come forward in danger. [PAWN_pronoun]'ll be so brave while wounded or in sick.</PTA14yg.degreeDatas.0.description>
+  <PTA15qz.degreeDatas.0.label>&lt;color=#33ff00&gt;Strong&lt;/color&gt;</PTA15qz.degreeDatas.0.label>
+  <PTA15qz.degreeDatas.0.description>[PAWN_nameDef] is a strongman. [PAWN_pronoun]can carry more and recovers faster.</PTA15qz.degreeDatas.0.description>
+  <PTA16rz.degreeDatas.0.label>&lt;color=#33ff00&gt;Earnest&lt;/color&gt;</PTA16rz.degreeDatas.0.label>
+  <PTA16rz.degreeDatas.0.description>[PAWN_nameDef] is focused on [PAWN_possessive] work. [PAWN_possessive] efficiency is very high.</PTA16rz.degreeDatas.0.description>
+  <PTA17cf.degreeDatas.0.label>&lt;color=#33ff00&gt;Craftsman&lt;/color&gt;</PTA17cf.degreeDatas.0.label>
+  <PTA17cf.degreeDatas.0.description>[PAWN_nameDef] is good at crafting.</PTA17cf.degreeDatas.0.description>
+  <PTA18fmg.degreeDatas.0.label>&lt;color=#33ff00&gt;Lumberjack&lt;/color&gt;</PTA18fmg.degreeDatas.0.label>
+  <PTA18fmg.degreeDatas.0.description>[PAWN_nameDef] is good at logging and hauling. [PAWN_pronoun] doesn't mind eating on the ground.</PTA18fmg.degreeDatas.0.description>
+  <PTA19zg.degreeDatas.0.label>&lt;color=#33ff00&gt;Handyman&lt;/color&gt;</PTA19zg.degreeDatas.0.label>
+  <PTA19zg.degreeDatas.0.description>[PAWN_nameDef] is good at working in unskilled jobs.</PTA19zg.degreeDatas.0.description>
+  <PTA20ba.degreeDatas.0.label>&lt;color=#33ff00&gt;Universal love&lt;/color&gt;</PTA20ba.degreeDatas.0.label>
+  <PTA20ba.degreeDatas.0.description>[PAWN_nameDef] is friendly to people who are discriminated against.</PTA20ba.degreeDatas.0.description>
+  <PTA21jj.degreeDatas.0.label>&lt;color=#33ff00&gt;Frugal&lt;/color&gt;</PTA21jj.degreeDatas.0.label>
+  <PTA21jj.degreeDatas.0.description>[PAWN_nameDef] eats less than others. While [PAWN_pronoun] doesn't mind wearing ratty or tattered clothes.</PTA21jj.degreeDatas.0.description>
+  <PTA22mmdsy.degreeDatas.0.label>&lt;color=#33ff00&gt;Nice voice&lt;/color&gt;</PTA22mmdsy.degreeDatas.0.label>
+  <PTA22mmdsy.degreeDatas.0.description>[PAWN_nameDef]'s voice is clear and pleasant. This predisposes others to like [PAWN_objective].</PTA22mmdsy.degreeDatas.0.description>
+  <PTA23hsc.degreeDatas.0.label>&lt;color=#33ff00&gt;Nice body&lt;/color&gt;</PTA23hsc.degreeDatas.0.label>
+  <PTA23hsc.degreeDatas.0.description>[PAWN_nameDef] has an enviable body that makes [PAWN_objective] very popular.</PTA23hsc.degreeDatas.0.description>
+  <PTA24lr.degreeDatas.0.label>&lt;color=#33ff00&gt;Hunter&lt;/color&gt;</PTA24lr.degreeDatas.0.label>
+  <PTA24lr.degreeDatas.0.description>[PAWN_nameDef] is good at hunting.</PTA24lr.degreeDatas.0.description>
+  <PTA25ys.degreeDatas.0.label>&lt;color=#33ff00&gt;Doctor&lt;/color&gt;</PTA25ys.degreeDatas.0.label>
+  <PTA25ys.degreeDatas.0.description>[PAWN_nameDef] is good at healing. [PAWN_pronoun] can keep calm beside the corpse.</PTA25ys.degreeDatas.0.description>
+  <PTA26njg.degreeDatas.0.label>&lt;color=#33ff00&gt;Winemaker&lt;/color&gt;</PTA26njg.degreeDatas.0.label>
+  <PTA26njg.degreeDatas.0.description>[PAWN_nameDef] is good at winemaking.</PTA26njg.degreeDatas.0.description>
+  <PTA27yd.degreeDatas.0.label>&lt;color=#33ff00&gt;Gardener&lt;/color&gt;</PTA27yd.degreeDatas.0.label>
+  <PTA27yd.degreeDatas.0.description>[PAWN_nameDef] is good at gardening.</PTA27yd.degreeDatas.0.description>
+  <PTA28xlg.degreeDatas.0.label>&lt;color=#33ff00&gt;Repairman&lt;/color&gt;</PTA28xlg.degreeDatas.0.label>
+  <PTA28xlg.degreeDatas.0.description>[PAWN_nameDef] is good at repairing.</PTA28xlg.degreeDatas.0.description>
+  <PTA29fzz.degreeDatas.0.label>&lt;color=#33ff00&gt;Outcast&lt;/color&gt;</PTA29fzz.degreeDatas.0.label>
+  <PTA29fzz.degreeDatas.0.description>[PAWN_nameDef] was exiled by the empire, [PAWN_pronoun] has some talent in psychic.</PTA29fzz.degreeDatas.0.description>
+  <!-- 中强度特性 medium traits -->
+  <PTB01jb.degreeDatas.0.label>&lt;color=#66ccff&gt;Ranger&lt;/color&gt;</PTB01jb.degreeDatas.0.label>
+  <PTB01jb.degreeDatas.0.description>After training, [PAWN_nameDef] learned professional combat skills. [PAWN_pronoun] is the eyes and ears of the team.[PAWN_pronoun] was trained to adapt to different harsh conditions. [PAWN_pronoun]'ll be confidence if asked to carry a ranged weapon.</PTB01jb.degreeDatas.0.description>
+  <PTB02tb.degreeDatas.0.label>&lt;color=#66ccff&gt;Impregnable&lt;/color&gt;</PTB02tb.degreeDatas.0.label>
+  <PTB02tb.degreeDatas.0.description>After training, [PAWN_nameDef] got a body strong as iron. [PAWN_pronoun] is the pioneer of the team. [PAWN_pronoun] was trained to adapt to different harsh conditions. [PAWN_pronoun]'ll be so brave while wounded.</PTB02tb.degreeDatas.0.description>
+  <PTB03yy.degreeDatas.0.label>&lt;color=#66ccff&gt;Elegant&lt;/color&gt;</PTB03yy.degreeDatas.0.label>
+  <PTB03yy.degreeDatas.0.description>[PAWN_nameDef] is decent attitude always makes [PAWN_objective] a welcome one.</PTB03yy.degreeDatas.0.description>
+  <PTB04jy.degreeDatas.0.label>&lt;color=#66ccff&gt;Military surgeon&lt;/color&gt;</PTB04jy.degreeDatas.0.label>
+  <PTB04jy.degreeDatas.0.description>After training, [PAWN_nameDef] learned first aid skills. [PAWN_pronoun] was trained to adapt to different harsh conditions.</PTB04jy.degreeDatas.0.description>
+  <PTB05ll.degreeDatas.0.label>&lt;color=#66ccff&gt;Seasoned&lt;/color&gt;</PTB05ll.degreeDatas.0.label>
+  <PTB05ll.degreeDatas.0.description>After years of experience, [PAWN_nameDef] is no longer pure and arrogant, [PAWN_pronoun] can handle anything with experience.</PTB05ll.degreeDatas.0.description>
+  <PTB06lc.degreeDatas.0.label>&lt;color=#66ccff&gt;Cool headed&lt;/color&gt;</PTB06lc.degreeDatas.0.label>
+  <PTB06lc.degreeDatas.0.description>[PAWN_nameDef] is unsmiling，determined and calm. Psychic drone or the misadventures of others can't affect [PAWN_objective].</PTB06lc.degreeDatas.0.description>
+  <PTB07hy.degreeDatas.0.label>&lt;color=#66ccff&gt;Good fortune&lt;/color&gt;</PTB07hy.degreeDatas.0.label>
+  <PTB07hy.degreeDatas.0.description>[PAWN_nameDef] is the lucky one. It's hard to imagine what accident [PAWN_pronoun] will have.</PTB07hy.degreeDatas.0.description>
+  <PTB08zkw.degreeDatas.0.label>&lt;color=#66ccff&gt;Seek novelty&lt;/color&gt;</PTB08zkw.degreeDatas.0.label>
+  <PTB08zkw.degreeDatas.0.description>[PAWN_nameDef]'s preferences are different. [PAWN_pronoun] is fascinated by what others hate.</PTB08zkw.degreeDatas.0.description>
+  <PTB09qgqc.degreeDatas.0.label>&lt;color=#66ccff&gt;Drop dead gorgeous&lt;/color&gt;</PTB09qgqc.degreeDatas.0.label>
+  <PTB09qgqc.degreeDatas.0.description>[PAWN_nameDef]'s beauty is unique and could even lead to war. People are involuntarily attracted to [PAWN_objective].</PTB09qgqc.degreeDatas.0.description>
+  <PTB10tlzy.degreeDatas.0.label>&lt;color=#66ccff&gt;Sound of nature&lt;/color&gt;</PTB10tlzy.degreeDatas.0.label>
+  <PTB10tlzy.degreeDatas.0.description>[PAWN_nameDef] has a dreamy perfect voice. People are involuntarily attracted to [PAWN_objective].</PTB10tlzy.degreeDatas.0.description>
+  <PTB11mgsc.degreeDatas.0.label>&lt;color=#66ccff&gt;Killer body&lt;/color&gt;</PTB11mgsc.degreeDatas.0.label>
+  <PTB11mgsc.degreeDatas.0.description>[PAWN_nameDef]'s body is deadly tempting. People are involuntarily attracted to [PAWN_objective].</PTB11mgsc.degreeDatas.0.description>
+  <PTB12yjs.degreeDatas.0.label>&lt;color=#66ccff&gt;Chemist&lt;/color&gt;</PTB12yjs.degreeDatas.0.label>
+  <PTB12yjs.degreeDatas.0.description>[PAWN_nameDef] is very good at researching and making medicine.</PTB12yjs.degreeDatas.0.description>
+  <PTB13dc.degreeDatas.0.label>&lt;color=#66ccff&gt;Chef&lt;/color&gt;</PTB13dc.degreeDatas.0.label>
+  <PTB13dc.degreeDatas.0.description>[PAWN_nameDef] is very good at slaughtering and cooking.</PTB13dc.degreeDatas.0.description>
+  <PTB14gcs.degreeDatas.0.label>&lt;color=#66ccff&gt;Engineer&lt;/color&gt;</PTB14gcs.degreeDatas.0.label>
+  <PTB14gcs.degreeDatas.0.description>[PAWN_nameDef] is very good at building and making.</PTB14gcs.degreeDatas.0.description>
+  <PTB15ktj.degreeDatas.0.label>&lt;color=#66ccff&gt;Explorer&lt;/color&gt;</PTB15ktj.degreeDatas.0.label>
+  <PTB15ktj.degreeDatas.0.description>[PAWN_nameDef] is very good at digging and researching. [PAWN_pronoun] doesn't mind eating on the ground or living in darkness.</PTB15ktj.degreeDatas.0.description>
+  <PTB16ymls.degreeDatas.0.label>&lt;color=#66ccff&gt;Nomadic hunter&lt;/color&gt;</PTB16ymls.degreeDatas.0.label>
+  <PTB16ymls.degreeDatas.0.description>[PAWN_nameDef] is very good at hunting and taming animals. [PAWN_pronoun] doesn't mind living in the wild. [PAWN_pronoun]'ll be confidence if asked to carry a ranged weapon.</PTB16ymls.degreeDatas.0.description>
+  <PTB17xss.degreeDatas.0.label>&lt;color=#66ccff&gt;Tamer&lt;/color&gt;</PTB17xss.degreeDatas.0.label>
+  <PTB17xss.degreeDatas.0.description>[PAWN_nameDef] is very good at taming and training animals. </PTB17xss.degreeDatas.0.description>
+  <PTB18ydjj.degreeDatas.0.label>&lt;color=#66ccff&gt;Sportsmaster&lt;/color&gt;</PTB18ydjj.degreeDatas.0.label>
+  <PTB18ydjj.degreeDatas.0.description>[PAWN_nameDef] has great athleticism. [PAWN_pronoun] is very popular.</PTB18ydjj.degreeDatas.0.description>
+  <PTB19ox.degreeDatas.0.label>&lt;color=#66ccff&gt;Idol&lt;/color&gt;</PTB19ox.degreeDatas.0.label>
+  <PTB19ox.degreeDatas.0.description>[PAWN_nameDef] has a great artistic talent. [PAWN_pronoun] is very popular.</PTB19ox.degreeDatas.0.description>
+  <PTB20js.degreeDatas.0.label>&lt;color=#66ccff&gt;Priest&lt;/color&gt;</PTB20js.degreeDatas.0.label>
+  <PTB20js.degreeDatas.0.description>[PAWN_nameDef] is a believer in God. [PAWN_pronoun] helps others with words and treatments.</PTB20js.degreeDatas.0.description>
+  <PTB21sm.degreeDatas.0.label>&lt;color=#66ccff&gt;Shaman&lt;/color&gt;</PTB21sm.degreeDatas.0.label>
+  <PTB21sm.degreeDatas.0.description>[PAWN_nameDef] is a believer in nature. [PAWN_pronoun] helps others with words and treatments. [PAWN_pronoun] doesn't mind living in the wild.</PTB21sm.degreeDatas.0.description>
+  <PTB22ck.degreeDatas.0.label>&lt;color=#66ccff&gt;Assassin&lt;/color&gt;</PTB22ck.degreeDatas.0.label>
+  <PTB22ck.degreeDatas.0.description>[PAWN_nameDef] is an agile and dangerous killer. [PAWN_pronoun] was trained to adapt to different harsh conditions. [PAWN_pronoun] gets a mood bonus if awake at night (23h-6h). [PAWN_pronoun] doesn't mind living in darkness.</PTB22ck.degreeDatas.0.description>
+  <PTB23gzs.degreeDatas.0.label>&lt;color=#66ccff&gt;Executioner&lt;/color&gt;</PTB23gzs.degreeDatas.0.label>
+  <PTB23gzs.degreeDatas.0.description>[PAWN_nameDef] is a strong and dangerous killer. [PAWN_pronoun] is ruthless.</PTB23gzs.degreeDatas.0.description>
+  <PTB24tls.degreeDatas.0.label>&lt;color=#66ccff&gt;Channeler&lt;/color&gt;</PTB24tls.degreeDatas.0.label>
+  <PTB24tls.degreeDatas.0.description>[PAWN_nameDef] is very good at psychics.</PTB24tls.degreeDatas.0.description>
+  <PTB25wx.degreeDatas.0.label>&lt;color=#66ccff&gt;Martial arts&lt;/color&gt;</PTB25wx.degreeDatas.0.label>
+  <PTB25wx.degreeDatas.0.description>[PAWN_nameDef] is a chivalrous martial artist. [PAWN_pronoun] is also very good at psychics.</PTB25wx.degreeDatas.0.description>
+  <PTB26gzsr.degreeDatas.0.label>&lt;color=#66ccff&gt;Noble merchant&lt;/color&gt;</PTB26gzsr.degreeDatas.0.label>
+  <PTB26gzsr.degreeDatas.0.description>[PAWN_nameDef] is an good businessman with a noble background. [PAWN_pronoun] is very good at bargaining with [PAWN_possessive] identity.</PTB26gzsr.degreeDatas.0.description>
+  <PTB27qhr.degreeDatas.0.label>&lt;color=#66ccff&gt;Clone&lt;/color&gt;</PTB27qhr.degreeDatas.0.label>
+  <PTB27qhr.degreeDatas.0.description>[PAWN_nameDef] is a modified clone. [PAWN_possessive] combat ability was strengthened, but [PAWN_possessive] psyche is unstable.</PTB27qhr.degreeDatas.0.description>
+  <!-- 高强度特性 advance traits -->
+  <PTC01jzds.degreeDatas.0.label>&lt;color=#cc33cc&gt;Architect&lt;/color&gt;</PTC01jzds.degreeDatas.0.label>
+  <PTC01jzds.degreeDatas.0.description>[PAWN_nameDef] is an excellent architect. [PAWN_pronoun] is known for [PAWN_possessive] outstanding architectural works.</PTC01jzds.degreeDatas.0.description>
+  <PTC02wjj.degreeDatas.0.label>&lt;color=#cc33cc&gt;Drilling expert&lt;/color&gt;</PTC02wjj.degreeDatas.0.label>
+  <PTC02wjj.degreeDatas.0.description>[PAWN_nameDef] is an expert in mining. [PAWN_pronoun] doesn't mind eating on the ground or living in darkness.</PTC02wjj.degreeDatas.0.description>
+  <PTC03cs.degreeDatas.0.label>&lt;color=#cc33cc&gt;Master chef&lt;/color&gt;</PTC03cs.degreeDatas.0.label>
+  <PTC03cs.degreeDatas.0.description>[PAWN_nameDef] is a top chef. People love [PAWN_possessive] cooking.</PTC03cs.degreeDatas.0.description>
+  <PTC04smcbz.degreeDatas.0.label>&lt;color=#cc33cc&gt;Sower of life&lt;/color&gt;</PTC04smcbz.degreeDatas.0.label>
+  <PTC04smcbz.degreeDatas.0.description>[PAWN_nameDef] can turn barren land into a paradise of flowers and trees. [PAWN_pronoun] knows how to be good use of the gift from plants. [PAWN_pronoun] adapts to different harsh conditions.</PTC04smcbz.degreeDatas.0.description>
+  <PTC05sw.degreeDatas.0.label>&lt;color=#cc33cc&gt;King of beasts&lt;/color&gt;</PTC05sw.degreeDatas.0.label>
+  <PTC05sw.degreeDatas.0.description>[PAWN_nameDef] is an excellent wild animal trainer. All animals will follow [PAWN_objective]. [PAWN_pronoun] adapts to different harsh conditions.</PTC05sw.degreeDatas.0.description>
+  <PTC06jj.degreeDatas.0.label>&lt;color=#cc33cc&gt;Consummate craftsman&lt;/color&gt;</PTC06jj.degreeDatas.0.label>
+  <PTC06jj.degreeDatas.0.description>[PAWN_nameDef] is a brilliant craftsmen. [PAWN_pronoun] is skilled in sewing clothes and making weapons. [PAWN_pronoun] doesn't mind staying indoors for a long time.</PTC06jj.degreeDatas.0.description>
+  <PTC07yl.degreeDatas.0.label>&lt;color=#cc33cc&gt;Professional doctor&lt;/color&gt;</PTC07yl.degreeDatas.0.label>
+  <PTC07yl.degreeDatas.0.description>[PAWN_nameDef] is a medical expert。[PAWN_pronoun] will keep calm beside the corpse.</PTC07yl.degreeDatas.0.description>
+  <PTC08sk.degreeDatas.0.label>&lt;color=#cc33cc&gt;Lobbyist&lt;/color&gt;</PTC08sk.degreeDatas.0.label>
+  <PTC08sk.degreeDatas.0.description>[PAWN_nameDef] is adept at lobbying others. [PAWN_possessive] superb conversation skills are admirable.</PTC08sk.degreeDatas.0.description>
+  <PTC09tc.degreeDatas.0.label>&lt;color=#cc33cc&gt;Genius&lt;/color&gt;</PTC09tc.degreeDatas.0.label>
+  <PTC09tc.degreeDatas.0.description>Learning and research are hard for most people, except for [PAWN_nameDef]. [PAWN_pronoun] really enjoys it. [PAWN_pronoun] doesn't mind staying indoors for a long time.</PTC09tc.degreeDatas.0.description>
+  <PTC10cgs.degreeDatas.0.label>&lt;color=#CC33CC&gt;Speeding&lt;/color&gt;</PTC10cgs.degreeDatas.0.label>
+  <PTC10cgs.degreeDatas.0.description>[PAWN_nameDef]'s speed is quick as lightning.</PTC10cgs.degreeDatas.0.description>
+  <PTC11bdbq.degreeDatas.0.label>&lt;color=#CC33CC&gt;Peerless immunity&lt;/color&gt;</PTC11bdbq.degreeDatas.0.label>
+  <PTC11bdbq.degreeDatas.0.description>[PAWN_nameDef] has an uncommon powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill most people. Toxic dust can't stop [PAWN_objective] either.</PTC11bdbq.degreeDatas.0.description>
+  <PTC12jhsr.degreeDatas.0.label>&lt;color=#cc33cc&gt;Arms dealer&lt;/color&gt;</PTC12jhsr.degreeDatas.0.label>
+  <PTC12jhsr.degreeDatas.0.description>As a well-known arms dealer, [PAWN_nameDef] is extremely good at using [PAWN_possessive] goods.</PTC12jhsr.degreeDatas.0.description>
+  <PTC13cjz.degreeDatas.0.label>&lt;color=#cc33cc&gt;Punisher&lt;/color&gt;</PTC13cjz.degreeDatas.0.label>
+  <PTC13cjz.degreeDatas.0.description>[PAWN_nameDef] was a professional soldier. [PAWN_pronoun] has excellent combat skills and often appears on the battlefield as a trump card.</PTC13cjz.degreeDatas.0.description>
+  <PTC14qy.degreeDatas.0.label>&lt;color=#cc33cc&gt;Super luck&lt;/color&gt;</PTC14qy.degreeDatas.0.label>
+  <PTC14qy.degreeDatas.0.description>[PAWN_nameDef] is an unbeatable lucky one. It's hard to imagine what accident [PAWN_pronoun] will have.</PTC14qy.degreeDatas.0.description>
+  <PTC15zj.degreeDatas.0.label>&lt;color=#cc33cc&gt;Bishop&lt;/color&gt;</PTC15zj.degreeDatas.0.label>
+  <PTC15zj.degreeDatas.0.description>[PAWN_nameDef] is a respected senior priest. [PAWN_pronoun] helps others with words and treatments.</PTC15zj.degreeDatas.0.description>
+  <PTC16dmfs.degreeDatas.0.label>&lt;color=#cc33cc&gt;Archmage&lt;/color&gt;</PTC16dmfs.degreeDatas.0.label>
+  <PTC16dmfs.degreeDatas.0.description>[PAWN_nameDef] is an excellent psychic user. [PAWN_pronoun] is also good at learning and research.</PTC16dmfs.degreeDatas.0.description>
+  <PTC17xrl.degreeDatas.0.label>&lt;color=#cc33cc&gt;New type&lt;/color&gt;</PTC17xrl.degreeDatas.0.label>
+  <PTC17xrl.degreeDatas.0.description>[PAWN_nameDef] has long lived on a space colony off the planet. [PAWN_pronoun] has keen senses and unknown psychic powers.</PTC17xrl.degreeDatas.0.description>
+  <!-- 中性或负面特性 neutral or negative traits -->
+  <PTZ01dmg.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Bad fortune&lt;/color&gt;</PTZ01dmg.degreeDatas.0.label>
+  <PTZ01dmg.degreeDatas.0.description>[PAWN_nameDef] is the unlucky one. The bad thing come in succession.</PTZ01dmg.degreeDatas.0.description>
+  <PTZ02bd.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Silly&lt;/color&gt;</PTZ02bd.degreeDatas.0.label>
+  <PTZ02bd.degreeDatas.0.description>[PAWN_nameDef] is stupid, [PAWN_pronoun] always mess things up. [PAWN_pronoun] doesn't mind any unfriendly words.</PTZ02bd.degreeDatas.0.description>
+  <PTZ03rx.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Capricious&lt;/color&gt;</PTZ03rx.degreeDatas.0.label>
+  <PTZ03rx.degreeDatas.0.description>[PAWN_nameDef] is not easy to get along with. [PAWN_pronoun] often loses [PAWN_possessive] temper.</PTZ03rx.degreeDatas.0.description>
+  <PTZ04tsz.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Somnolence&lt;/color&gt;</PTZ04tsz.degreeDatas.0.label>
+  <PTZ04tsz.degreeDatas.0.description>[PAWN_nameDef] always sleepy. [PAWN_pronoun] spends more time staying on bed. [PAWN_pronoun] doesn't mind sleeping disturbed.</PTZ04tsz.degreeDatas.0.description>
+  <PTZ05ydt.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Gull&lt;/color&gt;</PTZ05ydt.degreeDatas.0.label>
+  <PTZ05ydt.degreeDatas.0.description>[PAWN_nameDef] is easily deceived. Traders like to do business with [PAWN_objective].</PTZ05ydt.degreeDatas.0.description>
+  <PTZ06rgfl.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Dual personality&lt;/color&gt;</PTZ06rgfl.degreeDatas.0.label>
+  <PTZ06rgfl.degreeDatas.0.description>[PAWN_nameDef] looks friendly and hardworking. But there seemed to be another personality in [PAWN_objective].</PTZ06rgfl.degreeDatas.0.description>
+  <PTZ07lt.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Slovenly&lt;/color&gt;</PTZ07lt.degreeDatas.0.label>
+  <PTZ07lt.degreeDatas.0.description>[PAWN_nameDef] is a slovenly and untidy person. People don't like [PAWN_objective].</PTZ07lt.degreeDatas.0.description>
+  <PTZ08ls.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Miser&lt;/color&gt;</PTZ08ls.degreeDatas.0.label>
+  <PTZ08ls.degreeDatas.0.description>[PAWN_nameDef] is a shrewd miser. People don't like [PAWN_objective].</PTZ08ls.degreeDatas.0.description>
+  <PTZ09kw.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Hubris&lt;/color&gt;</PTZ09kw.degreeDatas.0.label>
+  <PTZ09kw.degreeDatas.0.description>[PAWN_nameDef] is arrogant and [PAWN_pronoun] look down on others. [PAWN_pronoun] often speaks insultingly. People don't like [PAWN_objective].</PTZ09kw.degreeDatas.0.description>
+  <PTZ10mg.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Muggle&lt;/color&gt;</PTZ10mg.degreeDatas.0.label>
+  <PTZ10mg.degreeDatas.0.description>[PAWN_nameDef] doesn't have any psychic talent.</PTZ10mg.degreeDatas.0.description>
+  <PTZ11ybz.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Claustrophobia&lt;/color&gt;</PTZ11ybz.degreeDatas.0.label>
+  <PTZ11ybz.degreeDatas.0.description>[PAWN_nameDef] doesn't like to stay indoors. [PAWN_pronoun] was afraid of closed spaces.</PTZ11ybz.degreeDatas.0.description>
+  <PTZ12bzdl.degreeDatas.0.label>&lt;color=#CDCDCD&gt;cross-dressing&lt;/color&gt;</PTZ12bzdl.degreeDatas.0.label>
+  <PTZ12bzdl.degreeDatas.0.description>[PAWN_nameDef] love the clothes of the opposite sex. Wearing these clothes made [PAWN_objective] happy.</PTZ12bzdl.degreeDatas.0.description>
+  <!-- 萌特性 moe traits -->
+  <PTD01bj.degreeDatas.0.label>&lt;color=#ff99ff&gt;Yandere&lt;/color&gt;</PTD01bj.degreeDatas.0.label>
+  <PTD01bj.degreeDatas.0.description>[PAWN_nameDef] is unstable and moody. [PAWN_pronoun] will vent [PAWN_possessive] emotions in an unimaginable way. [PAWN_pronoun] is full of deadly temptation.</PTD01bj.degreeDatas.0.description>
+  <PTD02sw.degreeDatas.0.label>&lt;color=#ff99ff&gt;Mukuchi&lt;/color&gt;</PTD02sw.degreeDatas.0.label>
+  <PTD02sw.degreeDatas.0.description>[PAWN_nameDef] was silent and it was hard to guess [PAWN_possessive] thoughts. [PAWN_pronoun] always stays calm. [PAWN_pronoun] looks different in the crowd.</PTD02sw.degreeDatas.0.description>
+  <PTD03yq.degreeDatas.0.label>&lt;color=#ff99ff&gt;Genkisa&lt;/color&gt;</PTD03yq.degreeDatas.0.label>
+  <PTD03yq.degreeDatas.0.description>[PAWN_nameDef] always looks great with a big smile. People are unconsciously inspired by [PAWN_possessive] vitality.</PTD03yq.degreeDatas.0.description>
+  <PTD04aj.degreeDatas.0.label>&lt;color=#ff99ff&gt;Tsundere&lt;/color&gt;</PTD04aj.degreeDatas.0.label>
+  <PTD04aj.degreeDatas.0.description>[PAWN_nameDef] looked inaccessible and even inexplicably lost [PAWN_possessive] temper. But unexpectedly, [PAWN_pronoun] was a warmhearted person with incredible charm.</PTD04aj.degreeDatas.0.description>
+  <PTD05fh.degreeDatas.0.label>&lt;color=#ff99ff&gt;Harakuro&lt;/color&gt;</PTD05fh.degreeDatas.0.label>
+  <PTD05fh.degreeDatas.0.description>[PAWN_nameDef] is friendly, amiable, and capable, but [PAWN_pronoun] often played tricks on others. [PAWN_pronoun] seems to enjoy doing it. In short, [PAWN_pronoun] is elusive.</PTD05fh.degreeDatas.0.description>
+  <PTD06ds.degreeDatas.0.label>&lt;color=#ff99ff&gt;Dokuzetu&lt;/color&gt;</PTD06ds.degreeDatas.0.label>
+  <PTD06ds.degreeDatas.0.description>[PAWN_nameDef] always hits the nail on the head. [PAWN_pronoun] often pointed out the shortcomings without mercy and made others speechless and battered. It made her unexpectedly popular.</PTD06ds.degreeDatas.0.description>
+  <!-- 搞事基础特性 Gaoshi base traits -->
+  <PTE01aydzn.degreeDatas.0.label>&lt;color=#F08080&gt;Ayi's guide&lt;/color&gt;</PTE01aydzn.degreeDatas.0.label>
+  <PTE01aydzn.degreeDatas.0.description>[PAWN_nameDef] got a guide accidentally. [PAWN_pronoun] learned the knowledge of cooking and cosmetology from this book. But things are unsatisfactory.</PTE01aydzn.degreeDatas.0.description>
+  <PTE02mdxqm.degreeDatas.0.label>&lt;color=#F08080&gt;Min's tips&lt;/color&gt;</PTE02mdxqm.degreeDatas.0.label>
+  <PTE02mdxqm.degreeDatas.0.description>[PAWN_nameDef] has learned the skills of word of mouth about art, dress and life.Since then, [PAWN_pronoun] is no longer concerned about daily chores.</PTE02mdxqm.degreeDatas.0.description>
+  <PTE03csdsc.degreeDatas.0.label>&lt;color=#F08080&gt;Cass's handbook&lt;/color&gt;</PTE03csdsc.degreeDatas.0.label>
+  <PTE03csdsc.degreeDatas.0.description>[PAWN_nameDef] learned technical and combat knowledge from the handbook that was obtained by chance.After losing to the squirrel in battle many times, [PAWN_pronoun] believes that [PAWN_possessive] understanding is not enough.</PTE03csdsc.degreeDatas.0.description>
+  <PTE04aksndgw.degreeDatas.0.label>&lt;color=#F08080&gt;Oxana's thoughts&lt;/color&gt;</PTE04aksndgw.degreeDatas.0.label>
+  <PTE04aksndgw.degreeDatas.0.description>As the core of training, [PAWN_nameDef] tried [PAWN_possessive] best to understand the feelings of fighting and love. Then [PAWN_pronoun] is lost in betrayal and forgiveness.</PTE04aksndgw.degreeDatas.0.description>
+  <PTE05kwdxd.degreeDatas.0.label>&lt;color=#F08080&gt;Kevin's ideas&lt;/color&gt;</PTE05kwdxd.degreeDatas.0.label>
+  <PTE05kwdxd.degreeDatas.0.description>From the precious note, [PAWN_nameDef] learned how to survive in harsh environments. But [PAWN_pronoun] occasionally feels a little malicious.</PTE05kwdxd.degreeDatas.0.description>
+  <PTE06wlkjjm.degreeDatas.0.label>&lt;color=#F08080&gt;F.T. pariah&lt;/color&gt;</PTE06wlkjjm.degreeDatas.0.label>
+  <PTE06wlkjjm.degreeDatas.0.description>[PAWN_nameDef] is one of the ordinary employees who can be seen everywhere in the future technology company. These people must work overtime and be sacrificed at will, until the new law appears. Employees including [PAWN_objective] had a feverish worship for the chairman.</PTE06wlkjjm.degreeDatas.0.description>
+  <PTE07wlkjcm.degreeDatas.0.label>&lt;color=#F08080&gt;F.T. adviser&lt;/color&gt;</PTE07wlkjcm.degreeDatas.0.label>
+  <PTE07wlkjcm.degreeDatas.0.description>[PAWN_nameDef] is one of the advisers in the future technology company. [PAWN_possessive] job is to offer advice to the chairman. They often work overtime to speed up their research. Employees including [PAWN_objective] had a feverish worship for the chairman.</PTE07wlkjcm.degreeDatas.0.description>
+  <PTE08wlkjdsz.degreeDatas.0.label>&lt;color=#F08080&gt;F.T. chairman&lt;/color&gt;</PTE08wlkjdsz.degreeDatas.0.label>
+  <PTE08wlkjdsz.degreeDatas.0.description>[PAWN_nameDef] is one of the chairman in the future technology company.Like other predecessors, [PAWN_pronoun] is capable and stressed.[PAWN_pronoun] was adored by crazily, but no one could understand [PAWN_possessive] heart.</PTE08wlkjdsz.degreeDatas.0.description>
+  <PTE09gdxwlb.degreeDatas.0.label>&lt;color=#F08080&gt;Lonely Bar owner&lt;/color&gt;</PTE09gdxwlb.degreeDatas.0.label>
+  <PTE09gdxwlb.degreeDatas.0.description>Lonely bar is an ordinary pub in the wilderness. [PAWN_nameDef] is the owner of it. [PAWN_pronoun] often helps passing victims. But no one knows [PAWN_possessive] details.</PTE09gdxwlb.degreeDatas.0.description>
+  <!-- 搞事高级特性 Gaoshi advance traits -->
+  <PTF01hy.degreeDatas.0.label>&lt;color=#FF3030&gt;Red moon&lt;/color&gt;</PTF01hy.degreeDatas.0.label>
+  <PTF01hy.degreeDatas.0.description>This is the title of a legendary hero who has been active in this world. [PAWN_nameDef] can get this title, indicating that [PAWN_possessive] long-range combat skills are superb and trustworthy.</PTF01hy.degreeDatas.0.description>
+  <PTF02tyqs.degreeDatas.0.label>&lt;color=#FF3030&gt;Warrior of the sun&lt;/color&gt;</PTF02tyqs.degreeDatas.0.label>
+  <PTF02tyqs.degreeDatas.0.description>[PAWN_nameDef] said that [PAWN_pronoun] is an adherent of the Lord of Sunlight. [PAWN_pronoun] travel in time to seek [PAWN_possessive] very own sun.[PAWN_pronoun] always has humility and faith. But [PAWN_pronoun] didn't realize that [PAWN_pronoun] had been regarded as a dazzling sun because of [PAWN_possessive] kindness to others.</PTF02tyqs.degreeDatas.0.description>
+  <PTF03mrqw.degreeDatas.0.label>&lt;color=#FF3030&gt;Doomsday boxer&lt;/color&gt;</PTF03mrqw.degreeDatas.0.label>
+  <PTF03mrqw.degreeDatas.0.description>This is the title of a legendary hero who was once active in another world. [PAWN_nameDef] can get this title, indicating that [PAWN_possessive] fighting skills are superb and trustworthy.</PTF03mrqw.degreeDatas.0.description>
+  <PTF04skjs.degreeDatas.0.label>&lt;color=#FF3030&gt;Swordmaster of Squin&lt;/color&gt;</PTF04skjs.degreeDatas.0.label>
+  <PTF04skjs.degreeDatas.0.description>This is the title of legendary guardian who was once active in another world. [PAWN_nameDef] can get this title, indicating that [PAWN_possessive] sword skills are superb and trustworthy.</PTF04skjs.degreeDatas.0.description>
+  <!-- 订制特性 Custom traits -->
+  <PTS01yz.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Diligent fighter&lt;/i&gt;&lt;/color&gt;</PTS01yz.degreeDatas.0.label>
+  <PTS01yz.degreeDatas.0.description>[PAWN_nameDef] is an all-powerful person. [PAWN_pronoun] can cope with work and fight at the same time. [PAWN_pronoun] occasionally loses [PAWN_possessive] temper, but on the whole [PAWN_pronoun] is a popular one.</PTS01yz.degreeDatas.0.description>
+  <PTS02ss.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Ranged reaper&lt;/i&gt;&lt;/color&gt;</PTS02ss.degreeDatas.0.label>
+  <PTS02ss.degreeDatas.0.description>[PAWN_nameDef] is a horrible shooter. [PAWN_pronoun] is proficient in all the details of the battle. In [PAWN_possessive] eyes, there is no difference in targeting the individual, the army or the country. [PAWN_pronoun] tightened the enemy's throat in ridicule, like a mad and deadly weapon.</PTS02ss.degreeDatas.0.description>
+  <PTS03tslx.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Born leader&lt;/i&gt;&lt;/color&gt;</PTS03tslx.degreeDatas.0.label>
+  <PTS03tslx.degreeDatas.0.description>[PAWN_nameDef] is the core of the team. Everyone will be attracted by [PAWN_possessive] talent, creativity, optimism and the eternal enthusiasm. When [PAWN_pronoun] became a leader, everyone was hopeful.</PTS03tslx.degreeDatas.0.description>
+  <PTS04zrzz.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Child of nature&lt;/i&gt;&lt;/color&gt;</PTS04zrzz.degreeDatas.0.label>
+  <PTS04zrzz.degreeDatas.0.description>Compared with the shining grandparents, fragile [PAWN_nameDef] was a nobody. But [PAWN_pronoun] found [PAWN_possessive] own world. That is, the vast nature.</PTS04zrzz.degreeDatas.0.description>
+  <PTS05jf.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;Whirlwind&lt;/i&gt;&lt;/color&gt;</PTS05jf.degreeDatas.0.label>
+  <PTS05jf.degreeDatas.0.description>[PAWN_nameDef] has an extraordinary speed. People can hardly find [PAWN_possessive] trace. Speed is [PAWN_possessive] strength and weapon. [PAWN_pronoun] can use speed to accomplish the missions that seems impossible.</PTS05jf.degreeDatas.0.description>
+  <PTS06fkzs.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;The Prophet&lt;/i&gt;&lt;/color&gt;</PTS06fkzs.degreeDatas.0.label>
+  <PTS06fkzs.degreeDatas.0.description>As the prestigious prophet in the world, [PAWN_nameDef] is in control of the future. [PAWN_pronoun] is self-willed, but there is no way to cover [PAWN_possessive] power. All that people need to do is pay homage and accept [PAWN_possessive] guidance.</PTS06fkzs.degreeDatas.0.description>
+  <PTS07ds.degreeDatas.0.label>&lt;color=#FFCC66&gt;&lt;i&gt;The Master&lt;/i&gt;&lt;/color&gt;</PTS07ds.degreeDatas.0.label>
+  <PTS07ds.degreeDatas.0.description>[PAWN_nameDef] is a respected master. [PAWN_possessive] psychic skills have reached its peak.</PTS07ds.degreeDatas.0.description>
+</LanguageData>

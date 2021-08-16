@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 低强度特性 base traits -->
+  <LingTA01haxz.degreeDatas.0.label>&lt;color=#33ff00&gt;Watchman&lt;/color&gt;</LingTA01haxz.degreeDatas.0.label>
+  <LingTA01haxz.degreeDatas.0.description>[PAWN_nameDef] prefers to be up during the night. [PAWN_pronoun] gets a mood bonus if awake at night (23h-6h). [PAWN_pronoun] doesn't mind living in darkness.</LingTA01haxz.degreeDatas.0.description>
+  <LingTA02jzlc.degreeDatas.0.label>&lt;color=#33ff00&gt;Invaluable&lt;/color&gt;</LingTA02jzlc.degreeDatas.0.label>
+  <LingTA02jzlc.degreeDatas.0.description>For some unkown reason, [PAWN_nameDef] has become a hot commodity and very expensive.</LingTA02jzlc.degreeDatas.0.description>
+  <!-- 中强度特性 medium traits -->
+  <LingTB01lth.degreeDatas.0.label>&lt;color=#66ccff&gt;Lose quality&lt;/color&gt;</LingTB01lth.degreeDatas.0.label>
+  <LingTB01lth.degreeDatas.0.description>[PAWN_nameDef] lost [PAWN_possessive] weight in an accident. [PAWN_pronoun] hardly needs food, but [PAWN_pronoun] still will get hurt or sick.</LingTB01lth.degreeDatas.0.description>
+  <!-- 负面特性 negative traits -->
+  <LingTZ01dmyz.degreeDatas.0.label>&lt;color=#CDCDCD&gt;Low Immunity&lt;/color&gt;</LingTZ01dmyz.degreeDatas.0.label>
+  <LingTZ01dmyz.degreeDatas.0.description>[PAWN_nameDef] has congenital immunodeficiency. So it's difficult for [PAWN_objective] to fight with diseases.</LingTZ01dmyz.degreeDatas.0.description>
+</LanguageData>

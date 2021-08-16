@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- PTD01bj social interactions -->
+  <InteractionDef>
+    <defName>PTD01bjChitchat</defName>
+    <label>Yandere chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD01bj</workerClass>
+    <symbol>Things/Symbols/Yandere</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD01bjChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] the fun of slaughtering a [gamePTD01bj] with [RECIPIENT_nameDef].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] how to cook [subjectPTD01bj].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] showed a strong interest in melee weapons when [RECIPIENT_nameDef] and [INITIATOR_pronoun] were talking about [TalkTopicLight].</li>
+        <li>talkedabout(p=4)-&gt;chatted about</li>
+        <li>talkedabout-&gt;shared a word about</li>
+        <li>talkedabout-&gt;spoke about</li>
+        <li>talkedabout-&gt;gabbed about</li>
+        <li>talkedabout-&gt;talked about</li>
+        <li>talkedabout-&gt;joked about</li>
+        <li>talkedabout-&gt;quipped about</li>
+        <li>gamePTD01bj(p=3)-&gt;traitor</li>
+        <li>gamePTD01bj-&gt;love rat</li>
+        <li>gamePTD01bj-&gt;heartless person</li>
+        <li>gamePTD01bj-&gt;pirate</li>
+        <li>gamePTD01bj-&gt;raider</li>
+        <li>gamePTD01bj-&gt;mistress</li>
+        <li>subjectPTD01bj(p=4)-&gt;the [Animal]</li>
+        <li>subjectPTD01bj-&gt;the genuine Chinese food</li>
+        <li>subjectPTD01bj-&gt;the perfect turkey</li>
+        <li>subjectPTD01bj-&gt;the breakfast</li>
+        <li>subjectPTD01bj-&gt;the dinner for lover</li>
+        <li>subjectPTD01bj-&gt;with the campfire</li>
+        <li>subjectPTD01bj-&gt;a [Enemy]</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTD02sw social interactions -->
+  <InteractionDef>
+    <defName>PTD02swChitchat</defName>
+    <label>Mukuchi chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD02sw</workerClass>
+    <symbol>Things/Symbols/Mukuchi</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD02swChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[RECIPIENT_nameDef] has got the peace of mind beside [INITIATOR_nameDef].</li>
+        <li>r_logentry(p=3)-&gt;[RECIPIENT_nameDef] tried to talk about [TalkTopicLight]. [INITIATOR_nameDef] seemed to listen quietly without speaking.</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTD03yq social interactions -->
+  <InteractionDef>
+    <defName>PTD03yqChitchat</defName>
+    <label>Genkisa chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD03yq</workerClass>
+    <symbol>Things/Symbols/Genkisa</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD03yqChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [helloPTD03yq] to [RECIPIENT_nameDef] with a big smile.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+        <li>talkedabout(p=2)-&gt;were happy to talk about</li>
+        <li>talkedabout-&gt;shared a word about</li>
+        <li>talkedabout-&gt;joked about</li>
+        <li>helloPTD03yq(p=2)-&gt;said hello</li>
+        <li>helloPTD03yq-&gt;said a word</li>
+        <li>helloPTD03yq-&gt;told a joke about [TalkTopicLight]</li>
+        <li>helloPTD03yq-&gt;exchanged ideas about [TalkTopicLight]</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTD04aj social interactions -->
+  <InteractionDef>
+    <defName>PTD04ajChitchat</defName>
+    <label>Tsundere chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD04aj</workerClass>
+    <symbol>Things/Symbols/Tsundere</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD04ajChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] made [INITIATOR_possessive] own opinions on [TalkTopicLight] and ignored [RECIPIENT_nameDef].</li>
+        <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] had the same view of [gamePTD04aj] as [RECIPIENT_nameDef], but [INITIATOR_pronoun] denied it.</li>
+        <li>gamePTD04aj(p=3)-&gt;[TalkTopicLight]</li>
+        <li>gamePTD04aj-&gt;the [NaturalObject]</li>
+        <li>gamePTD04aj-&gt;the [Animal]</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <InteractionDef>
+    <defName>PTD04ajDeepTalk</defName>
+    <label>Tsundere deep talk</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD04ajDT</workerClass>
+    <symbol>Things/Symbols/TsundereB</symbol>
+    <initiatorThought>DeepTalk</initiatorThought>
+    <recipientThought>PTD04ajDeepTalk_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] made [INITIATOR_possessive] own opinions on [TalkTopicHeavy], [RECIPIENT_nameDef] was used to [INITIATOR_objective] and echoed [INITIATOR_possessive] words.</li>
+        <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] had the same view of [gamePTD04aj] as [RECIPIENT_nameDef], but [INITIATOR_pronoun] denied it.</li>
+        <li>gamePTD04aj(p=3)-&gt;[TalkTopicHeavy]</li>
+        <li>gamePTD04aj-&gt;love</li>
+        <li>gamePTD04aj-&gt;lover</li>
+        <li>gamePTD04aj-&gt;romantic</li>
+        <li>gamePTD04aj-&gt;[NaturalObject]</li>
+        <li>gamePTD04aj-&gt;sweetheart</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTD05fh social interactions -->
+  <InteractionDef>
+    <defName>PTD05fhChitchat</defName>
+    <label>Harakuro chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD05fh</workerClass>
+    <symbol>Things/Symbols/Harakuro</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD05fhChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef] with a smile.</li>
+        <li>r_logentry(p=4)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight] in a friendly way.</li>
+        <li>commentedabout-&gt;said something about</li>
+        <li>commentedabout-&gt;said a word about</li>
+        <li>commentedabout-&gt;made a comment about</li>
+        <li>commentedabout-&gt;commented about</li>
+        <li>commentedabout-&gt;told a joke about</li>
+        <li>talkedabout(p=4)-&gt;chatted about</li>
+        <li>talkedabout-&gt;shared a word about</li>
+        <li>talkedabout-&gt;spoke about</li>
+        <li>talkedabout-&gt;gabbed about</li>
+        <li>talkedabout-&gt;talked about</li>
+        <li>talkedabout-&gt;joked about</li>
+        <li>talkedabout-&gt;quipped about</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <InteractionDef>
+    <defName>PTD05fhDeepTalk</defName>
+    <label>Harakuro deep talk</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD05fhDT</workerClass>
+    <symbol>Things/Symbols/HarakuroB</symbol>
+    <initiatorThought>DeepTalk</initiatorThought>
+    <recipientThought>PTD05fhDeepTalk_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[RECIPIENT_nameDef] embarrassed because [RECIPIENT_pronoun] accidentally entered the trap. Then [RECIPIENT_nameDef] saw the smiling face of [INITIATOR_nameDef].</li>
+        <li>r_logentry(p=4)-&gt;The two were [talkingabout] [TalkTopicHeavy]. [INITIATOR_nameDef] suddenly gave a signature smile, and [RECIPIENT_nameDef] felt a cold back.</li>
+        <li>talkingabout(p=4)-&gt;chatting about</li>
+        <li>talkingabout-&gt;sharing a word about</li>
+        <li>talkingabout-&gt;speaking about</li>
+        <li>talkingabout-&gt;gabbing about</li>
+        <li>talkingabout-&gt;talking about</li>
+        <li>talkingabout-&gt;joking about</li>
+        <li>talkingabout-&gt;quipping about</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTD06ds social interactions -->
+  <InteractionDef>
+    <defName>PTD06dsChitchat</defName>
+    <label>Dokuzetu chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD06ds</workerClass>
+    <symbol>Things/Symbols/Dokuzetu</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTD06dsChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] made a sharp opinion on [TalkTopicLight] and ignored [RECIPIENT_nameDef].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gave a sharp comment on [target]'s [subjectPTD06ds], leaving [RECIPIENT_nameDef] speechless.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] despised [RECIPIENT_nameDef]'s view of [TalkTopicLight].</li>
+        <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+        <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>
+        <li>subjectPTD06ds(p=4)-&gt;shortcomings</li>
+        <li>subjectPTD06ds-&gt;weaknesses</li>
+        <li>subjectPTD06ds-&gt;family background</li>
+        <li>subjectPTD06ds-&gt;problem</li>
+        <li>subjectPTD06ds-&gt;figure</li>
+        <li>subjectPTD06ds-&gt;appearance</li>
+        <li>subjectPTD06ds-&gt;pets</li>
+        <li>subjectPTD06ds-&gt;bad habits</li>
+        <li>subjectPTD06ds-&gt;[PersonalCharacteristic]</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <InteractionDef>
+    <defName>PTD06dsDeepTalk</defName>
+    <label>Dokuzetu deep talk</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTD06dsDT</workerClass>
+    <symbol>Things/Symbols/DokuzetuB</symbol>
+    <initiatorThought>DeepTalk</initiatorThought>
+    <recipientThought>PTD06dsDeepTalk_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] made a sharp opinion on [TalkTopicLight], [RECIPIENT_nameDef] was used to [INITIATOR_objective] and echoed [INITIATOR_possessive] words.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gave a sharp and helpful comment on [target]'s [subjectPTD06ds], [RECIPIENT_nameDef] accepted it.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] ignored [RECIPIENT_nameDef]'s view of [TalkTopicLight], but [INITIATOR_pronoun] looked a little happy.</li>
+        <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+        <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>
+        <li>subjectPTD06ds(p=4)-&gt;shortcomings</li>
+        <li>subjectPTD06ds-&gt;weaknesses</li>
+        <li>subjectPTD06ds-&gt;family background</li>
+        <li>subjectPTD06ds-&gt;problem</li>
+        <li>subjectPTD06ds-&gt;figure</li>
+        <li>subjectPTD06ds-&gt;appearance</li>
+        <li>subjectPTD06ds-&gt;pets</li>
+        <li>subjectPTD06ds-&gt;bad habits</li>
+        <li>subjectPTD06ds-&gt;[PersonalCharacteristic]</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTE06wlkjjm social interactions -->
+  <InteractionDef>
+    <defName>PTE06wlkjjmChitchat</defName>
+    <label>future technology pariah chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_ChitChatWLKJ</workerClass>
+    <symbol>Things/Symbols/FTpariah</symbol>
+    <initiatorThought>PTE06wlkjjmChitchat_MemorySocial</initiatorThought>
+    <recipientThought>PTE06wlkjjmChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry(p=12)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subjectPTE06wlkjjm].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] said that [INITIATOR_pronoun] helped a [jobPTE06wlkjjm] [placePTE06wlkjjm], and [RECIPIENT_nameDef] showed a look of admiration.</li>
+        <li>talkedabout(p=4)-&gt;chatted about</li>
+        <li>talkedabout-&gt;shared a word about</li>
+        <li>talkedabout-&gt;spoke about</li>
+        <li>talkedabout-&gt;gabbed about</li>
+        <li>talkedabout-&gt;talked about</li>
+        <li>talkedabout-&gt;joked about</li>
+        <li>talkedabout-&gt;quipped about</li>
+        <li>jobPTE06wlkjjm-&gt;guarder</li>
+        <li>jobPTE06wlkjjm-&gt;guard</li>
+        <li>jobPTE06wlkjjm-&gt;repairman</li>
+        <li>jobPTE06wlkjjm-&gt;chef</li>
+        <li>jobPTE06wlkjjm-&gt;cleaner</li>
+        <li>jobPTE06wlkjjm-&gt;doctor</li>
+        <li>jobPTE06wlkjjm-&gt;technician</li>
+        <li>jobPTE06wlkjjm-&gt;soldier</li>
+        <li>jobPTE06wlkjjm-&gt;manager</li>
+        <li>jobPTE06wlkjjm-&gt;young person</li>
+        <li>jobPTE06wlkjjm-&gt;old person</li>
+        <li>placePTE06wlkjjm-&gt;in the Sun Prison</li>
+        <li>placePTE06wlkjjm-&gt;in the Sun Empire</li>
+        <li>placePTE06wlkjjm-&gt;in the First Fleet of the Sun Empire</li>
+        <li>placePTE06wlkjjm-&gt;in the 7th Fleet of the Sun Empire</li>
+        <li>placePTE06wlkjjm-&gt;of the Sun Empire expedition</li>
+        <li>placePTE06wlkjjm-&gt;in the Future Technology company</li>
+        <li>placePTE06wlkjjm-&gt;at the doomsday camp</li>
+        <li>placePTE06wlkjjm-&gt;of the doomsday camp expedition</li>
+        <li>placePTE06wlkjjm-&gt;at the Future Technology hotpot restaurant</li>
+        <li>placePTE06wlkjjm-&gt;in the Future Technology pirate fleet</li>
+        <li>placePTE06wlkjjm-&gt;at the Future Technology shelter</li>
+        <li>placePTE06wlkjjm-&gt;at the Future Technology colony</li>
+        <li>subjectPTE06wlkjjm-&gt;a dog named KB</li>
+        <li>subjectPTE06wlkjjm-&gt;a dog named Boogie</li>
+        <li>subjectPTE06wlkjjm-&gt;a wolf named Timofei</li>
+        <li>subjectPTE06wlkjjm-&gt;a young lady with a indecent name</li>
+        <li>subjectPTE06wlkjjm-&gt;a one-eyed lady named Cella</li>
+        <li>subjectPTE06wlkjjm-&gt;a disabled surgeon named Toni</li>
+        <li>subjectPTE06wlkjjm-&gt;Yeye,a barkeep with dementia</li>
+        <li>subjectPTE06wlkjjm-&gt;a one-armed healer named Anna</li>
+        <li>subjectPTE06wlkjjm-&gt;a scout named Jocko</li>
+        <li>subjectPTE06wlkjjm-&gt;a person named [namePTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;a person named [nametwPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;a faction named "Professor of the plain"</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman accidentally removed Anna's right foot during spinal surgery</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman issued the last law before the hurricane</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman had to let some people die to keep the shelter</li>
+        <li>subjectPTE06wlkjjm-&gt;a prison break in the Sun Prison</li>
+        <li>subjectPTE06wlkjjm-&gt;a riot in the Sun Prison</li>
+        <li>subjectPTE06wlkjjm-&gt;using the toilet in the cafeteria of the Sun Prison</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman used the big bomb of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman used the shuriken of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman used Backstab of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman threw out the stone of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;the cowl of the spoils</li>
+        <li>subjectPTE06wlkjjm-&gt;[TalkTopicLight]</li>
+        <li>subjectPTE06wlkjjm-&gt;the wonderful sermon</li>
+        <li>subjectPTE06wlkjjm-&gt;the wonderful sermons by the chairman</li>
+        <li>subjectPTE06wlkjjm-&gt;a young lady named Fire Keeper</li>
+        <li>subjectPTE06wlkjjm-&gt;how to cook [foodPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;a paradise named Taiwu Village</li>
+        <li>subjectPTE06wlkjjm-&gt;a legendary woman named Xiang Dangdang</li>
+        <li>subjectPTE06wlkjjm-&gt;a lovely girl named Qidiao Chan, who was the owner of the Shixiang Sect</li>
+        <li>subjectPTE06wlkjjm-&gt;a legendary woman named Xiang Dangdang</li>
+        <li>subjectPTE06wlkjjm-&gt;an ordinary village girl named Ning Shuning</li>
+        <li>subjectPTE06wlkjjm-&gt;a Taiwu Warrior named Lei Dongxuan</li>
+        <li>subjectPTE06wlkjjm-&gt;a young Taiwu Warrior named Yin Ziwen</li>
+        <li>subjectPTE06wlkjjm-&gt;a Shaolin abbot named Jianren Master</li>
+        <li>subjectPTE06wlkjjm-&gt;a Shaolin abbot named Jiandun Master</li>
+        <li>subjectPTE06wlkjjm-&gt;a Shaolin monk named Xinchi</li>
+        <li>subjectPTE06wlkjjm-&gt;a Shaolin traitor named Xinchuang</li>
+        <li>subjectPTE06wlkjjm-&gt;a sword mausoleum named [swordmausoleumPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;a soul named [incarnationPTE06wlkjjm], who was the incarnation of Xiangshu</li>
+        <li>subjectPTE06wlkjjm-&gt;the martial arts called [martialartsPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;the battle between Xiang Dangdang and [incarnationPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;the battle between Qidiao Chan and [incarnationPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;the battle between Yin Ziwen and [incarnationPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;the world-famous battle between Lei Dongxuan and Yiyihou</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the [martialartsPTE06wlkjjm] while fighting [incarnationPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Lei Dongxuan used Immortal Blood Soul while fighting Yiyihou</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan gave the [giftPTE06wlkjjm] as a gift to Ning Shuning and received the [giftPTE06wlkjjm] as a gift from her</li>
+        <li>subjectPTE06wlkjjm-&gt;the world-famous battle between Lei Dongxuan and Yiyihou</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used Wisdom King's Pyroblast of justice in the battle with Shufang, but failed and died</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang asked the creator (game author) before she died, and finally knew that the martial art was not installed</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang was rescued by Ning Shuning in Taiwu Village and be friends with her</li>
+        <li>subjectPTE06wlkjjm-&gt;that how bald Dangdang was wearing the Magpie Beak hairpin</li>
+        <li>subjectPTE06wlkjjm-&gt;the relationship between Dangdang and many Shaolin monks</li>
+        <li>subjectPTE06wlkjjm-&gt;the relationship between Dangdang and many Shaolin monks. Later generations called her Shaolin Bus</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang reborn and her reincarnation was Yong Junxia</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang gave the book of Shaolin Liuhe cudgel play to Jianren Master</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang learned a lot of Shaolin martial arts from Jiandun Master</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang's appearance was like a male but very attractive</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang is almost everyone's dream lover, even if her appearance is like a man</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang kidnapped young Qidiao Chan with despicable means</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang made Chan very sad with despicable means, such as ordering her to carry something heavy</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang used despicable means to learn martial arts from Chan, such as feeding her with [foodPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xinchi treated the wounds of Dangdang with the Zijin Black Pills</li>
+        <li>subjectPTE06wlkjjm-&gt;that island master Long Qin gave her slave Xuan Lvluo to Xiang Dangdang</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang asked island master Long Qin for cooking</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang wanted to kidnap Long Qin, but she gave up the plan because her strength was not as good as her opponent</li>
+        <li>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] and [nametwPTE06wlkjjm] took a duel in arts about [skillPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang fell in love with Sangjiewangdui, who was already a husband</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang defeated Basang and forced her to work in the brothel while getting her husband Sangjiewangdui</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang was upset because Sangjiewangdui didn't have sex with her</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang fell in love with Chan's younger brother Qidiao Dun</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang married Chan's younger brother Qidiao Dun</li>
+        <li>subjectPTE06wlkjjm-&gt;that Tu Liangmeng went to Fulong forum to study cooking at Dangdang's request</li>
+        <li>subjectPTE06wlkjjm-&gt;that The [foodPTE06wlkjjm] cooked by Dangdang was very delicious, and the neighbor's child cried in order to eat it</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang was pregnant because of Dun's love</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun during her pregnancy</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang gave birth to a boy named Qidiao Xiangshu</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang gave birth to a girl named Qidiao Mengnan</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang forced Xinchuang to take the poison and let him go</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xinchuang was treated as a Shaolin traitor because someone wanted to get his weapon</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang married Qidiao Dun. It is said that "乾坤浩浩黑白乱, 天地昭昭正邪分, 妖女祸世舞苍穹, 一日夫妻百日恩"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang swindled other people's martial arts with her beauty and food, then she took the food back and used it again</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Xiangshu was the reincarnation of Jianren Master and the child of Dangdang</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the Wisdom King's Pyroblast of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang used the poison of justice in the duel</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun in the forest</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang made love with Dun, and a group of monks watched beside them</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang bought the [giftPTE06wlkjjm] from the Wuhu merchants</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang took Qidiao Chan's body before she died</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan was well versed in cooking, who had Dangdang's memory</li>
+        <li>subjectPTE06wlkjjm-&gt;that Jiandun Master's reincarnation is called Gu Yuankui</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang made love with Ji Feiyi. The girls were intertwined</li>
+        <li>subjectPTE06wlkjjm-&gt;that Basang was very sad because of several miscarriages, which led her to be controlled by Xiangshu</li>
+        <li>subjectPTE06wlkjjm-&gt;that Xiang Dangdang defeated Basang, who was controlled by Xiangshu</li>
+        <li>subjectPTE06wlkjjm-&gt;that Sangjiewangdui married his mistress and abandoned his ex-wife Basang</li>
+        <li>subjectPTE06wlkjjm-&gt;that Laba refused Sangjiewangdui's proposal</li>
+        <li>subjectPTE06wlkjjm-&gt;that Basang was forced by Xiang Dangdang to work in the brothel</li>
+        <li>subjectPTE06wlkjjm-&gt;that Ning Shuning saved Xiang Dangdang in Taiwu Village when she was a girl</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning's relationships didn't go well because of her ordinary appearance</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang told Shuning about the sinister society</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang bought a mule for Shuning</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang sent Shuning to Shaolin Temple to study. In fact, Dangdang planned to upgrade her to the abbot</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning gave up the identity of the monk and rejoined the team of Dangdang.</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang bought the [giftPTE06wlkjjm] for Shuning</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan bought the [giftPTE06wlkjjm] for Shuning</li>
+        <li>subjectPTE06wlkjjm-&gt;that Ning Shuning married her favorite Lou Zhilai</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning was pregnant shortly after she got married</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning gave birth to a boy named Lou Chuanying</li>
+        <li>subjectPTE06wlkjjm-&gt;that Ning Shuning was married to Lou Zhilai, who was eighteen years younger than her</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning and Chan were the best friends</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning and Feiyi were the best friends</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning took the secret medicine and extended her life</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning and Chan took a duel in arts about [skillPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan was always around Ning Shuning and finally cured her poisoning. Later generations commented "身前身后事茫茫, 欲话因缘恐断肠, 吴越山川寻己遍, 却回烟棹上瞿塘"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan used to be a kind and innocent girl</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan was madly courted by her mom, but she turned a blind eye</li>
+        <li>subjectPTE06wlkjjm-&gt;that Ji Feiyi had a big crash on Qidiao Chan, who was Chan's mother</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan’s martial arts potential is extremely high</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yu Shijun committed suicide by accepting Qidiao Chan's entrustment</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yu Shijun was the Jieqing Gate's boss</li>
+        <li>subjectPTE06wlkjjm-&gt;that people in the Jieqing Gate were very dedicated in assassination</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan worked in the brothel</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan gave all the money to her brother</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan was robbed by her brother Dun and lost the [giftPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan sent the [giftPTE06wlkjjm] to her brother Dun</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan and her mom were the best friends</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan missed her dead father and went to his grave to worship</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan was taken away by Xiang Dangdang and lost her memory</li>
+        <li>subjectPTE06wlkjjm-&gt;that Chan became a cunning and ruthless woman after she had the memory of Dangdang</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan severely injured Lou Zhilai's wife because of jealousy</li>
+        <li>subjectPTE06wlkjjm-&gt;that Bai Ping died after being injured by Qidiao Chan, and her husband Lou Zhilai was heartbroken</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yin Mingjiao was killed by the killer of Jieqing Gate. They were hired by Qidiao Chan</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan severely injured Yin Mingjiao's son</li>
+        <li>subjectPTE06wlkjjm-&gt;that the young Yin Ziwen was the leader of Xuehou Sect after his father died</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan defeated Shufang</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan swindled other people's martial arts with [foodPTE06wlkjjm], then she took the food back and used it again</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan was deliberately controlled by Xiangshu in order to let the successors learn advanced martial arts</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan was already proficient in how to be controlled by Xiangshu</li>
+        <li>subjectPTE06wlkjjm-&gt;that Lei Dongxuan accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</li>
+        <li>subjectPTE06wlkjjm-&gt;that Mao Cuihua accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</li>
+        <li>subjectPTE06wlkjjm-&gt;that Lei Dongxuan was a rich businessmann</li>
+        <li>subjectPTE06wlkjjm-&gt;that Lei Dongxuan learned the advanced martial arts called Immortal Blood Soul</li>
+        <li>subjectPTE06wlkjjm-&gt;that Lei Dongxuan was seriously injured by Yiyihou, but still insisted on fighting</li>
+        <li>subjectPTE06wlkjjm-&gt;that Lei Dongxuan died after defeating Yiyihou. The man at the time made a poem to praise him: "无功无名驻凡尘, 临终托付不死身, 骨碎肉腐徒十日, 此生唯报知音人"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Cao Ruojin was the leader of Kongsang Sect and her daughter was Yong Junxia</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yong Junxia accepted the [foodPTE06wlkjjm] from Qidiao Chan and joined her caravan</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Dun married Yin Ziwen's teacher</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Dun was the leader of Xuehou Sect after Yin Ziwen's death</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan kidnapped young Yin Ziwen with despicable means</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan made Yin Ziwen very sad with despicable means, such as ordering him to carry something heavy</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yin Ziwen was a peerless genius</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yin Ziwen learned the advanced martial arts called Whitewater Immortal Technique</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yin Ziwen was seriously injured by Weiqi, but still insisted on fighting</li>
+        <li>subjectPTE06wlkjjm-&gt;that Yin Ziwen died after defeating Weiqi. The man at the time made a poem to praise him: "尹徇师令, 身膏齐斧, 人之云亡, 贞节克举"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan’s caravan returned to Taiwu Village after defeating Weiqi</li>
+        <li>subjectPTE06wlkjjm-&gt;that everyone liked cricketfight</li>
+        <li>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] took a lot of effort to catch a cricket named [cricketPTE06wlkjjm]</li>
+        <li>subjectPTE06wlkjjm-&gt;that [nametwPTE06wlkjjm] won the game of cricketfight</li>
+        <li>subjectPTE06wlkjjm-&gt;that Qidiao Chan’s family lived peacefully in Taiwu Village. People in the world said: "扶余剑柄掌中擎, 志破相枢四方行, 善恶好歹皆历尽, 一朝又闻蛐蛐鸣"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Junxia caught a cricket named Stupid. It is said that "三十几年腥风血雨, 化作庐间织娘一声"</li>
+        <li>subjectPTE06wlkjjm-&gt;that Dangdang learned many other martial arts from the Shaolin abbot. Then she believed that Shaolin was a martial arts library</li>
+        <li>subjectPTE06wlkjjm-&gt;that Shuning’s poisoning had healed when Chan’s caravan arrived on Wuxian Sect</li>
+        <li>subjectPTE06wlkjjm-&gt;that the leader of Baihua Valley rescued Yin Ziwen, who was about to die</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Fenghuangjian</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Monvyi</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Fuxietie</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Guishenxia</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Fenshenlian</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Rongchenyin</li>
+        <li>swordmausoleumPTE06wlkjjm-&gt;Xielongpo</li>
+        <li>incarnationPTE06wlkjjm-&gt;Jinhuang</li>
+        <li>incarnationPTE06wlkjjm-&gt;Monv</li>
+        <li>incarnationPTE06wlkjjm-&gt;Dayueyaochang</li>
+        <li>incarnationPTE06wlkjjm-&gt;Shufang</li>
+        <li>incarnationPTE06wlkjjm-&gt;Yiyihou</li>
+        <li>incarnationPTE06wlkjjm-&gt;Yixiang</li>
+        <li>incarnationPTE06wlkjjm-&gt;Weiqi</li>
+        <li>incarnationPTE06wlkjjm-&gt;sis Dangdang</li>
+        <li>martialartsPTE06wlkjjm-&gt;Grandfather long fist</li>
+        <li>martialartsPTE06wlkjjm-&gt;Shaolin Liuhe cudgel play</li>
+        <li>martialartsPTE06wlkjjm-&gt;Shaolin Yinyang cudgel play</li>
+        <li>martialartsPTE06wlkjjm-&gt;Evil spear play</li>
+        <li>martialartsPTE06wlkjjm-&gt;the Universe spear play</li>
+        <li>martialartsPTE06wlkjjm-&gt;Internal Anatomy</li>
+        <li>martialartsPTE06wlkjjm-&gt;Illusion</li>
+        <li>martialartsPTE06wlkjjm-&gt;Queen's powerful Kung Fu</li>
+        <li>martialartsPTE06wlkjjm-&gt;Thousand Pounder</li>
+        <li>martialartsPTE06wlkjjm-&gt;Invulnerability</li>
+        <li>martialartsPTE06wlkjjm-&gt;Fly Through Air</li>
+        <li>martialartsPTE06wlkjjm-&gt;Jingang broadsword play</li>
+        <li>martialartsPTE06wlkjjm-&gt;the broadsword play of Nine Bulls and Two Tigers</li>
+        <li>martialartsPTE06wlkjjm-&gt;Armor Lock</li>
+        <li>martialartsPTE06wlkjjm-&gt;Wisdom King's Pyroblast</li>
+        <li>martialartsPTE06wlkjjm-&gt;All Creatures Shocking spear play</li>
+        <li>martialartsPTE06wlkjjm-&gt;Eight Steps for Sunlight</li>
+        <li>martialartsPTE06wlkjjm-&gt;the Beginning Return</li>
+        <li>martialartsPTE06wlkjjm-&gt;Immortal Blood Soul</li>
+        <li>martialartsPTE06wlkjjm-&gt;Whitewater Immortal Technique</li>
+        <li>martialartsPTE06wlkjjm-&gt;Leap of the Clouds</li>
+        <li>giftPTE06wlkjjm-&gt;woods</li>
+        <li>giftPTE06wlkjjm-&gt;foods</li>
+        <li>giftPTE06wlkjjm-&gt;herbs</li>
+        <li>giftPTE06wlkjjm-&gt;jewels</li>
+        <li>giftPTE06wlkjjm-&gt;chocolate</li>
+        <li>giftPTE06wlkjjm-&gt;candies</li>
+        <li>giftPTE06wlkjjm-&gt;firecrackers</li>
+        <li>giftPTE06wlkjjm-&gt;flowers</li>
+        <li>giftPTE06wlkjjm-&gt;[Animal]</li>
+        <li>giftPTE06wlkjjm-&gt;[Vegetable]</li>
+        <li>giftPTE06wlkjjm-&gt;[foodPTE06wlkjjm]</li>
+        <li>giftPTE06wlkjjm-&gt;[Apparel]</li>
+        <li>giftPTE06wlkjjm-&gt;beautiful skirt</li>
+        <li>giftPTE06wlkjjm-&gt;seasonal skirt</li>
+        <li>giftPTE06wlkjjm-&gt;beautiful dress</li>
+        <li>giftPTE06wlkjjm-&gt;seasonal dress</li>
+        <li>giftPTE06wlkjjm-&gt;jade bracelet</li>
+        <li>giftPTE06wlkjjm-&gt;jade hairpin</li>
+        <li>giftPTE06wlkjjm-&gt;hasma</li>
+        <li>foodPTE06wlkjjm(p=2)-&gt;Egg Fried Rice</li>
+        <li>foodPTE06wlkjjm-&gt;Cold Rabbit Meat</li>
+        <li>foodPTE06wlkjjm-&gt;Plain Noodles</li>
+        <li>foodPTE06wlkjjm-&gt;Four Color Steamed Bread</li>
+        <li>foodPTE06wlkjjm-&gt;Spicy-hot Rabbit</li>
+        <li>foodPTE06wlkjjm-&gt;Yangzhou Fried Rice</li>
+        <li>foodPTE06wlkjjm-&gt;Lotus-Leaf-Like Pancake</li>
+        <li>foodPTE06wlkjjm(p=2)-&gt;Special Spicy Fish</li>
+        <li>foodPTE06wlkjjm(p=3)-&gt;Yolkless Egg</li>
+        <li>foodPTE06wlkjjm(p=2)-&gt;Shadow Play Meat</li>
+        <li>foodPTE06wlkjjm-&gt;Royal Crisp Fish</li>
+        <li>foodPTE06wlkjjm(p=2)-&gt;Oyako Spring Cocoon</li>
+        <li>foodPTE06wlkjjm-&gt;Roast Duck</li>
+        <li>foodPTE06wlkjjm-&gt;Special Stewed Mutton</li>
+        <li>foodPTE06wlkjjm(p=0.2)-&gt;Universe Best Delicacy</li>
+        <li>skillPTE06wlkjjm-&gt;buddhism</li>
+        <li>skillPTE06wlkjjm-&gt;mathematics</li>
+        <li>skillPTE06wlkjjm(p=2)-&gt;cooking</li>
+        <li>skillPTE06wlkjjm-&gt;music</li>
+        <li>skillPTE06wlkjjm-&gt;identifying</li>
+        <li>skillPTE06wlkjjm-&gt;medicine</li>
+        <li>skillPTE06wlkjjm-&gt;astronomy</li>
+        <li>skillPTE06wlkjjm-&gt;etiquette</li>
+        <li>cricketPTE06wlkjjm-&gt;Stupid</li>
+        <li>cricketPTE06wlkjjm-&gt;Weaver</li>
+        <li>cricketPTE06wlkjjm-&gt;Jade Tail</li>
+        <li>cricketPTE06wlkjjm-&gt;Cyan Beggar Dress</li>
+        <li>cricketPTE06wlkjjm-&gt;Red Head</li>
+        <li>cricketPTE06wlkjjm-&gt;Lavender Black Gold Wing</li>
+        <li>cricketPTE06wlkjjm-&gt;White Wing</li>
+        <li>cricketPTE06wlkjjm-&gt;White Tooth</li>
+        <li>cricketPTE06wlkjjm-&gt;Violet Head</li>
+        <li>cricketPTE06wlkjjm-&gt;Three Tails</li>
+        <li>cricketPTE06wlkjjm-&gt;Katydid</li>
+        <li>namePTE06wlkjjm-&gt;Cass's dad</li>
+        <li>namePTE06wlkjjm-&gt;Edward</li>
+        <li>namePTE06wlkjjm-&gt;Laura</li>
+        <li>namePTE06wlkjjm-&gt;Thomas</li>
+        <li>nametwPTE06wlkjjm(p=2)-&gt;Xiang Dangdang</li>
+        <li>nametwPTE06wlkjjm-&gt;Ning Shuning</li>
+        <li>nametwPTE06wlkjjm-&gt;Lou Zhilai</li>
+        <li>nametwPTE06wlkjjm-&gt;Yong Junxia</li>
+        <li>nametwPTE06wlkjjm-&gt;Ji Feiyi</li>
+        <li>nametwPTE06wlkjjm(p=2)-&gt;Qidiao Chan</li>
+        <li>nametwPTE06wlkjjm-&gt;Qidiao Dun</li>
+        <li>nametwPTE06wlkjjm-&gt;Basang</li>
+        <li>nametwPTE06wlkjjm-&gt;Xinchi</li>
+        <li>nametwPTE06wlkjjm-&gt;Xinhui</li>
+        <li>nametwPTE06wlkjjm-&gt;Yin Ziwen</li>
+        <li>nametwPTE06wlkjjm-&gt;Tu Liangmeng</li>
+        <li>r_logentry-&gt;Both [INITIATOR_nameDef] and [RECIPIENT_nameDef] agreed that cricketfight was the best pastime after working overtime. Then they talked about [TalkTopicLight].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gave the [giftPTE06wlkjjm] as a gift to [RECIPIENT_nameDef].</li>
+        <li>subjectPTE06wlkjjm-&gt;the afternoon tea menus of the British nobility</li>
+        <li>subjectPTE06wlkjjm-&gt;that the chairman repaired the toilet of villa 113</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTF02tyqs social interactions -->
+  <InteractionDef>
+    <defName>PTF02tyqsChitchat</defName>
+    <label>Warrior of the sun chitchat</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_PTF02tyqs</workerClass>
+    <symbol>Things/Symbols/SunWarrior</symbol>
+    <initiatorThought>Chitchat</initiatorThought>
+    <recipientThought>PTF02tyqsChitchat_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight] in a friendly way.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] helped [RECIPIENT_nameDef] out, then they [talkedabout] [TalkTopicLight].</li>
+        <li>talkedabout(p=4)-&gt;chatted about</li>
+        <li>talkedabout-&gt;shared a word about</li>
+        <li>talkedabout-&gt;spoke about</li>
+        <li>talkedabout-&gt;gabbed about</li>
+        <li>talkedabout-&gt;talked about</li>
+        <li>talkedabout-&gt;joked about</li>
+        <li>talkedabout-&gt;quipped about</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <!-- PTS03tslx social interactions -->
+  <InteractionDef>
+    <defName>PTS03tslxDeepTalk</defName>
+    <label>Born Leader deep talk</label>
+    <workerClass>MorePracticalTraits.InteractionWorker_BornLeaderDT</workerClass>
+    <symbol>Things/Symbols/BornLeader</symbol>
+    <initiatorThought>DeepTalk</initiatorThought>
+    <recipientThought>PTS03tslxDeepTalk_MemorySocial</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gave a decisive comment on [RECIPIENT_nameDef]'s [subjectPTS03tslx]. [RECIPIENT_nameDef] took a tumble.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] came to cheer [RECIPIENT_nameDef] on, then they [talkedabout] [TalkTopicHeavy].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] used [examplePTS03tslx] as an example to help [RECIPIENT_nameDef] get [RECIPIENT_possessive] confidence back.</li>
+        <li>subjectPTS03tslx(p=3)-&gt;shortcomings</li>
+        <li>subjectPTS03tslx-&gt;weaknesses</li>
+        <li>subjectPTS03tslx-&gt;problem</li>
+        <li>subjectPTS03tslx-&gt;bad habits</li>
+        <li>subjectPTS03tslx-&gt;[PersonalCharacteristic]</li>
+        <li>talkedabout-&gt;communicated thoughts about</li>
+        <li>talkedabout-&gt;exchanged thoughts about</li>
+        <li>talkedabout-&gt;exchanged ideas about</li>
+        <li>talkedabout-&gt;shared views on</li>
+        <li>talkedabout-&gt;shared beliefs on</li>
+        <li>talkedabout-&gt;discussed the topic of</li>
+        <li>talkedabout-&gt;had a heartfelt conversation about</li>
+        <li>talkedabout-&gt;talked quietly about</li>
+        <li>talkedabout-&gt;talked deeply about</li>
+        <li>talkedabout-&gt;connected on the topic of</li>
+        <li>examplePTS03tslx(p=4)-&gt;[TalkTopicHeavy]</li>
+        <li>examplePTS03tslx-&gt;the home star</li>
+        <li>examplePTS03tslx-&gt;the [TreeType] tree</li>
+        <li>examplePTS03tslx-&gt;the [NaturalObject]</li>
+        <li>examplePTS03tslx-&gt;the [TerrainFeature]</li>
+        <li>examplePTS03tslx-&gt;the typical deeds</li>
+        <li>examplePTS03tslx-&gt;[INITIATOR_possessive] own experience</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+</Defs>
