@@ -5,7 +5,7 @@
 Update of BOXrsxx, Vaniat, LingLuos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1568700181
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
@@ -23,13 +23,13 @@ The mod adds some practical traits to the game. Different colors indicate the st
 
 
 - gray -- These traits are neutral or negative.
-- green -- These traits have some gain effects and the strength is comparable to &quot;fast walker&quot;.
-- blue -- These traits have some good gain effects and the strength is comparable to &quot;hard worker&quot;.
-- violet -- These traits have some excellent gain effects so that they have a great advantage in a certain field. The strength is comparable to &quot;industrious&quot;.
-- pink -- Moe traits. These traits have some unique social effects. The strength is comparable to &quot;hard worker&quot;.
-- light red -- The traits of &quot;Gaoshi&quot;. These traits come from game videos made by an intriguing(irritating...) Chinese anchor. The strength is comparable to &quot;hard worker&quot;.
-- red -- The advanced traits of &quot;Gaoshi&quot;. These traits come from game videos made by an intriguing(irritating...) Chinese anchor. The strength is comparable to &quot;industrious&quot;.
-- golden -- Custom traits. These traits make your character unique. You almost only get the traits with &quot;EdB Prepare Carefully&quot;.
+- green -- These traits have some gain effects and the strength is comparable to "fast walker".
+- blue -- These traits have some good gain effects and the strength is comparable to "hard worker".
+- violet -- These traits have some excellent gain effects so that they have a great advantage in a certain field. The strength is comparable to "industrious".
+- pink -- Moe traits. These traits have some unique social effects. The strength is comparable to "hard worker".
+- light red -- The traits of "Gaoshi". These traits come from game videos made by an intriguing(irritating...) Chinese anchor. The strength is comparable to "hard worker".
+- red -- The advanced traits of "Gaoshi". These traits come from game videos made by an intriguing(irritating...) Chinese anchor. The strength is comparable to "industrious".
+- golden -- Custom traits. These traits make your character unique. You almost only get the traits with "EdB Prepare Carefully".
 
 
 
@@ -52,10 +52,10 @@ The following is an introduction to Gaoshprovided by Ryusa. Thanks.
 
 Gaoshi is one of the pawns named by Laoju Wang, a famous video game streamer in China. He clipped total 10 video about Rimworld playthrough. Following link is the first episode (in Chinese language, of cause. ). 
 https://www.bilibili.com/video/av6630152 
-At the end of this video set, Gaoshi and his fellows were all dead due to Wang&apos;s poor gameplay management (but I think that&apos;s he pretend to do this for a more dramatic watching experiences for us). 
+At the end of this video set, Gaoshi and his fellows were all dead due to Wang's poor gameplay management (but I think that's he pretend to do this for a more dramatic watching experiences for us). 
 R.I.P. Gaoshi.
 
-By the way Gaoshi (搞事) in Chinese means (do something that beyond someone&apos;s ablities to) seek death.
+By the way Gaoshi (搞事) in Chinese means (do something that beyond someone's ablities to) seek death.
 
 
 # Thanks
@@ -80,6 +80,7 @@ V1.1
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
